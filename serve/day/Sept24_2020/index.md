@@ -93,6 +93,8 @@ Here are some of the experiments I ran, let me know if you like any of these bet
 
 I did more thinking on this and for now I am shelving the idea. Instead I will just use git and GitHub Actions. However this seems super overkill. But I think it should work okay. 
 
+CERTBOT IS DOPE: <https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-with-let-s-encrypt-on-ubuntu-18-04>
+
 
 ## Tomorrow
 
