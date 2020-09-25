@@ -1,0 +1,238 @@
+@-webkit-keyframes STAR-MOVE {
+  from {
+    background-position: 100% 100%
+  }
+  to { 
+    background-position: 100% 0%
+  }
+}
+
+body {
+  background-color: #7fe;
+  background-color: #7ef;
+  background-color: #f7e;
+  background-color: #fe7;
+  background-color: #e7f;
+  background-color: #ef7;
+  margin: 0;
+}
+
+#tsparticles {
+  position: absolute;
+  width: 99%;
+  height: 99%;
+  z-index: 100;
+}
+
+.container {
+  width: 760px;
+  margin: 0 auto;
+  background-color: #ef7;
+}
+
+.data-container {
+  border-style: solid;
+  border-radius: 1.13em;
+  /*border-color: #7fe;*/
+  border-color: #7ef;
+  margin: 3em;
+  z-index: 1000;
+}
+
+h1 {
+  font-size: 4em;
+  text-align: center;
+  color: #e7f;
+  z-index: 1000;
+  margin-block-start: 0;
+  padding-top: 2em;
+}
+
+#background {
+	background: url('https://api.iconify.design/twemoji:burrito.svg') repeat 10% 10%; 
+  background-size: 2%;
+  position: absolute;
+	top: 0; left: 0; right: 0; bottom: 0;
+	z-index: 100;
+	
+	-webkit-animation-name: STAR-MOVE;
+	-webkit-animation-duration: 200s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+}
+
+#midground {
+	background: url(../images/midground.png) repeat 20% 20%;
+	position: absolute;
+	top: 0; left: 0; right: 0; bottom: 0;
+	z-index: 200;
+	
+	-webkit-animation-name: STAR-MOVE;
+	-webkit-animation-duration: 150s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+}
+
+#foreground {
+	background: url(../images/foreground.png) repeat 35% 35%;
+	position: absolute;
+	top: 0; left: 0; right: 0; bottom: 0;
+	z-index: 300;
+	
+	-webkit-animation-name: STAR-MOVE;
+	-webkit-animation-duration: 100s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+}
+
+/* Emoji declerations*/
+.emoji{
+font-size: 30px;
+left: -5%;
+position: absolute;
+animation-timing-function: linear; 
+}
+.s{
+--scale: 1;
+animation: emoji 150s infinite;
+animation-timing-function: linear; 
+}
+.m{
+--scale: 2;
+animation: emoji 20s infinite;
+animation-timing-function: linear; 
+}
+.l{
+--scale: 4;
+animation: emoji 40s infinite;
+animation-timing-function: linear; 
+}
+/* Big */
+.l-1{
+--width:5vw;
+animation-delay: 1s;
+}
+.l-2{
+--width:20vw;  
+animation-delay: 2s;
+}
+.l-3{
+--width:5vw;
+animation-delay: 3s;
+}
+.l-4{
+--width:10vw;
+animation-delay: 5s;
+}
+.l-5{
+--width:5vw;
+animation-delay: 7s;
+}
+.l-6{
+--width:50vw;
+animation-delay: 11s;
+}
+.l-7{
+--width:5vw;
+animation-delay: 13s;
+}
+.l-8{
+--width:10vw;
+animation-delay: 17s;
+}
+
+/* medium */
+.m-1{
+--width:15vw;
+animation-delay: 1.3s;
+}
+.m-2{
+--width:5vw;
+animation-delay: 1.7s;
+
+}
+.m-3{
+--width:15vw;
+animation-delay: 3.2s;
+
+}
+.m-4{
+--width:20vw;
+animation-delay: 4s;
+}
+.m-5{
+--width:15vw;
+animation-delay: 6s;
+}
+.m-6{
+--width:5vw;
+animation-delay: 8s;
+}
+
+/* small */
+.s-1{
+--width: 75vw;
+animation-delay: 2s;
+}
+.s-2{
+--width: 5vw;
+animation-delay: 9s;
+}
+.s-3{
+--width: 0vw;
+animation-delay: 1.5s;
+}
+.s-4{
+--width: 5vw;
+animation-delay: 4.5s;
+}
+.s-5{
+--width: 10vw;
+animation-delay: 8.5s;
+}
+.s-6{
+--width: 8vw;
+animation-delay: 5.5s;
+}
+.s-7{
+--width: 12vw;
+animation-delay: 1.5s;
+}
+.s-8{
+--width: 25vw;
+animation-delay: 0.5s;
+}
+.s-9{
+--width: 2vw;
+animation-delay: 1.25s;
+}
+.s-10{
+--width: 9vw;
+animation-delay: 4.25s;
+}
+.s-11{
+--width: 20vw;
+animation-delay: 9.25s;
+}
+.s-12{
+--width: 10vw;
+animation-delay: 1.77s;
+}
+
+/* Emoji animations */
+@keyframes emoji {
+0%   { transform: translateY(0vh) scale(var(--scale)) translateX(var(--width));}
+100% { transform: translateY(99vh) scale(var(--scale)) translateX(var(--width));}
+}
+
+
+.animate{
+display: flex;
+justify-content: center;
+}
+
+p {
+text-align: center;
+font-size: 30px;
+margin: 20px 0 20px 0;
+}
