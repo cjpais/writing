@@ -45,6 +45,10 @@ Here are some of the experiments I ran, let me know if you like any of these bet
 * **[Manually Animated CSS](manual_css.html)** (based on: <https://github.com/AdamXweb/FlyinEmoji/>)
 * **[Naive Javascript](naive_js.html)** (customized code based on: <https://codepen.io/robertheiser/pen/NXrqXa>)
 
+## Artifacts
+
+##### [Notes](notes.pdf)
+
 ##### tsParticle Config
 ```
  {                                                                                                                      
