@@ -127,7 +127,7 @@ I really enjoyed this podcast. I didn't know much about Mike Tyson really, other
 			* Editing bullet lists doesn't behave how I want in MacDown
 			* I can't drag and drop files and be sane
 				* Per day for a daily all the supporting files go there.
-			* I have to manually export HTML -> git push -> git pull
+			* I have to manually export HTML -> git push -> git pull -> update HTML
 				* maybe do this all in the UI basically
 					* For now just keep in git because why not
 			* Really would want to be able to collapse bullet points, sections, everything really
