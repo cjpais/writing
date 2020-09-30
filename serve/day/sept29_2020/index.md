@@ -5,6 +5,9 @@
 * Bike Miramar Lake
 * Read 2 Ch's *Understanding Comics* - Scott McCloud
 * Financials
+* Climb
+* Financials + Scriping
+* Cooked dinner and watched debate
 
 ## Financials
 
@@ -63,7 +66,7 @@ While refactoring more things I realized that it might be good to separate all t
 
 Hmmm so even that is going to need more thinking. I do not want to over-abstract right now. I can think of a few ways but we just need to start writing the code. For now I have just set up the structs that will ultimately be sent out in the GraphQL queries.
 
-#### [Notes]()
+#### [Notes](notes.pdf)
 
 ## Speeding up Daily Generation
 
@@ -141,3 +144,31 @@ query GetPlaidInstitutions {
   }
 }
 ```
+
+## Tomorrow
+
+Man after watching that debate I am not even sure what I want to do tomorrow. I almost want to go through the whole thing again and pick out what I thought was good and bad on both sides. What I agree and disagree with in whole. Something in simple language. I guess we'll see. I do still want to get transaction data into the DB (even if not Capital One, well, perhaps I will do that too. But plaid can go ahead for now). 
+
+I also want to work more on the Supreme Court case writing too. 
+
+Quick list of some things I could do:
+
+* Go through the Debate carefully. Write down points with timestamps.
+	* Write a tool that can get timestamps out more easily? Agh need to do this anyway.
+* Write draft of *Burwell v. Hobby Lobby*
+* Get transaction data into the system
+* Capital One headless login
+* Apple Card import (via app?)
+* More work on how to put documents together in a resonable way that can easily be expressed on the web
+	* Even if it is more chaotic than now. I don't always think linearly
+* Get notes from Blog club into the Google Doc
+* Continue to work on Digital Tools I Wish Existed Figma (with jon)
+
+Okay so tomorrow:
+
+* Meditate (around 7:30/7:45)
+* Read (until about 8:30ish)
+* Take care of notes from blog club
+* Start on independent review of the debate. 
+	* Taking out the chaos because it's fluff and not informative
+* Write draft of *Burwell v. Hobby Lobby*
