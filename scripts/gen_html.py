@@ -24,7 +24,7 @@ out_fn = os.path.splitext(in_fn)[0] + ".html"
 with open(in_fn, 'r') as in_f:
     for line in in_f:
         if "#" in line:
-            title = '"' + remove_html(line.split("#")[-1].strip()) + '"'
+            title = remove_html(line.split("#")[-1].strip())
             break
 
 # generate raw HTML from markdown

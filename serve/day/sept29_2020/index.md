@@ -116,8 +116,11 @@ Anyway this helps to alleviate the pain between 1 & 2. This is great. The number
 
 Okay so now that we have this html we want to make sure the webserver gets it. (i guess i could host on github, but whatever for now we will do this. maybe later move to github just so other people can deploy easier. at least this is a good local webserver 😋. some of the reason I am not sure about moving it to github is that I might not use git forever. right now it is convienient, but not sure if that's really what I want.)
 
-To do this I am going to use [git hooks](https://githooks.com/). When I `git commit` something I am going to send a ping to the webserver to tell it to pull down the latest commit.
+To do this I am going to use [git hooks](https://githooks.com/). When I `git push` something I am going to send a ping to the webserver to tell it to pull down the latest commit. 
 
+This took me a bit longer than I expected. Basically wasn't even sure how the git hook gets ran. After a little bit of digging it's quite clear. It runs from `.git/hooks`. There are a variety of hooks listed [here](https://githooks.com/). Basically what you do is name a file the same name as the hook. Make sure it's executable and git will try to execute it. I ran into a problem with my SHEBANG for python.. After fixing that it ran without issue.
+
+Now when I `git push` the webserver will be updated in 30sec. Again there were probably tons of approaches to do this, but it was fun to play with some git hooks, even if not super portable (ie .git folder stays only on the local)
 
 
 ## Questions

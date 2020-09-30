@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="../../static/main.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-    <title>"Tuesday September 29^th^, 2020"</title>
+    <title>Tuesday September 29^th^, 2020</title>
   </head>
 
   <body class="container">
@@ -84,7 +84,9 @@ done</code></pre>
 <p>Anyway this helps to alleviate the pain between 1 &amp; 2. This is great. The number of <a href="https://cdn.theatlantic.com/thumbor/KPisRFSKxm2kRRbtiobDJWgKq8M=/0x217:3358x2106/720x405/media/img/upload/wire/2014/08/26/AP101018137899/original.jpg">button clicks was too damn high</a></p>
 <h4>Fixing pain between commit (on local) and pull (on webserver)</h4>
 <p>Okay so now that we have this html we want to make sure the webserver gets it. (i guess i could host on github, but whatever for now we will do this. maybe later move to github just so other people can deploy easier. at least this is a good local webserver 😋. some of the reason I am not sure about moving it to github is that I might not use git forever. right now it is convienient, but not sure if that’s really what I want.)</p>
-<p>To do this I am going to use <a href="https://githooks.com/">git hooks</a>. When I <code>git commit</code> something I am going to send a ping to the webserver to tell it to pull down the latest commit.</p>
+<p>To do this I am going to use <a href="https://githooks.com/">git hooks</a>. When I <code>git push</code> something I am going to send a ping to the webserver to tell it to pull down the latest commit.</p>
+<p>This took me a bit longer than I expected. Basically wasn’t even sure how the git hook gets ran. After a little bit of digging it’s quite clear. It runs from <code>.git/hooks</code>. There are a variety of hooks listed <a href="https://githooks.com/">here</a>. Basically what you do is name a file the same name as the hook. Make sure it’s executable and git will try to execute it. I ran into a problem with my SHEBANG for python.. After fixing that it ran without issue.</p>
+<p>Now when I <code>git push</code> the webserver will be updated in 30sec. Again there were probably tons of approaches to do this, but it was fun to play with some git hooks, even if not super portable (ie .git folder stays only on the local)</p>
 <h2>Questions</h2>
 <h3>Is it possible to have a spreadsheet view of a GraphQL DB?</h3>
 <p>What I mean is it would be pretty convienient to have some times. Then apply formulas directly on top. But also have it linked to all my other data. Even for some data input this would be suuuuuper nice. Like right now I have to manually input a bunch of data for my investments.</p>
