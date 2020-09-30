@@ -53,6 +53,8 @@ So over 4 hours still logged in. This is good, but need to catch any failures.
 
 7 hours and still in...
 
+Okay finally I got logged out, right around 8 hours it seems. I think because of this I will try to log in headlessly then use the cookie. This also will give me more control so I don't have to constantly ping the server. Anyway this was a fun experiment.
+
 ### Refactor
 
 The refactor into a `CapitalOne` client was super smooth. Stupid easy and makes the code readable.
