@@ -6,8 +6,6 @@
 * Read 2 Ch's *Understanding Comics* - Scott McCloud
 * Financials
 
-## *Understanding Comics*
-
 ## Financials
 
 ### Script Troubles
