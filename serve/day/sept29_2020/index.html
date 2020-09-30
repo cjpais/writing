@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../../static/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>"Tuesday September 29^th^, 2020"</title>
+  </head>
+
+  <body class="container">
+    <h1>Tuesday September 29<sup>th</sup>, 2020</h1>
+<h2>Summary</h2>
+<ul>
+<li>Bike Miramar Lake</li>
+<li>Read 2 Ch’s <em>Understanding Comics</em> - Scott McCloud</li>
+<li>Financials</li>
+</ul>
+<h2><em>Understanding Comics</em></h2>
+<h2>Financials</h2>
+<h3>Script Troubles</h3>
+<p>So I left my script running over night and unfortunately I got logged out at some point. Bummed about this. I think there might be a cookie rotation they do to really ensure. I might have to respond properly to these requests to update the cookie I have stored. May need to dig deeper into the login flow instead of trying to hijack an existing session.</p>
+<p>Digging through the Capital One Login I see a few things. It looks like when the form is submitted they generate an encrypted username and password. There is also another Base64 encoded payload with some fakable params. I am not sure all the things they are generating in that.</p>
+<p>I dug through the code just a little bit and saw some public keys that looked like they are used to encrypt the username and password, however it didn’t look super deterministic. It seems there might be some other injection there to help rotate the encryption or something.. I am really not sure here. I notice they are also generating JS which gets sent to the client, I’m wondering if this has something to do with it.</p>
+<h4>Public Keys</h4>
+<pre><code>-----BEGIN PUBLIC KEY-----
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzIRgyU/g0W9Xiuv1ZUU8
+8y/msQmyjTB4jaCDW5g6CxMQuiyavpPNpcqm3X2Cu6JV3XnvpzOplI0CmTHr3Wwz
+HRtwc0xFiDUu5hqcI9bXlcI1wMpUqDemCOg4ya7v03ONFEqErXNuvPFebQ5bwTds
+sOv619TNjP/oxUGrVXIHl7B8ai9o6/w2IF+OF/a3UpVCIjiqVSqizQXu/xdsSsqw
+N+mBCR2vBGeJzabCJNmUE284/f15R08KWCyAr0QF1r8ih1MwqOVjFrcmoevWS09v
+1y9tAB6ksnmL1511mewxpa3J6Nn9u4KvBYtfkwopy42HOlQvMEmJBBtleKYkE5u8
+sQIDAQAB
+-----END PUBLIC KEY-----</code></pre>
+<pre><code>-----BEGIN PUBLIC KEY-----
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiwcxZqZy5tgQiWuI6e0r
+zoBelUXEuxtNLeCqFChS4peivGH0IP+QDnp2tOKQ2dA3sT8qu5YdOXhOc5RXC1Kq
+P/Bbhvk0/R4m5UgPtq8YQcpbrC39GLyIWSEpGgDq7adjBa3cDoQdtkG3AfYVP6rK
+FpKpMZZi0/MzUf+FMLnydqDez2pHAXzZTefq4OaUukBiKum764z7hEtNmxHQd4LN
+hxcz6CHDlPyuWRYkDQt6S1iPCFnT0VZTjaEFTyUIMFDFFT1FhBVW+D9CIaLu/WAC
+Az4QKEilsYZGOn7+vMhozKz2yzVFzRQI/r+WvnBzVFaY4BbbJd37dFzggpsUf+ze
+9wIDAQAB
+-----END PUBLIC KEY-----</code></pre>
+<p>For now I am going to let another experiment run (logging what cookies it wants me to set). In the meantime will start to refactor and see what I can do.</p>
+<p>Also if I do try to go for this login method I will probably do this with a headless browser or something, then hijack the cookie and use it.</p>
+<p>So over 4 hours still logged in. This is good, but need to catch any failures.</p>
+<p>7 hours and still in…</p>
+<h3>Refactor</h3>
+<p>The refactor into a <code>CapitalOne</code> client was super smooth. Stupid easy and makes the code readable.</p>
+<p>While refactoring more things I realized that it might be good to separate all this into a library. I think I will call this <code>hyperverse</code>. This is something that will need more thought, so I am continuing to work on the existing code base then decide how it should be split later.</p>
+<p>Hmmm so even that is going to need more thinking. I do not want to over-abstract right now. I can think of a few ways but we just need to start writing the code. For now I have just set up the structs that will ultimately be sent out in the GraphQL queries.</p>
+<h4><a href="">Notes</a></h4>
+<h2>Speeding up Daily Generation</h2>
+<p>Yesterday I had a lot of problems with generating this page. Well mostly that it was really slow and painful. Today I am starting to write some SW which should ease the pain before I start figuring out really what I want.</p>
+<h3>Issues with the old workflow</h3>
+<p>Previously the workflow was</p>
+<ol type="1">
+<li>Write .md</li>
+<li>Generate .html
+<ul>
+<li>Don’t forget to include CSS/Container styling</li>
+</ul></li>
+<li>Git commit (on local)</li>
+<li>Git pull (on webserver)</li>
+</ol>
+<p>We basically want to automate all these steps except 3. 3 is basically me ‘publishing’ so I am fine to keep this manual. I might later automate this, but for now I will keep it under my control. (the automation would be on save go <code>git commit</code>)</p>
+<h3>Automation Time!</h3>
+<h4>Fixing pain between markdown and html</h4>
+<p>First thing is when I save a .md file to trigger html generation so I don’t have to think. I normally would do this with <code>inotifywatch</code> on linux, but I write on my Mac. Looks like there is a similar tool called <code>fswatch</code>. I will use this instead</p>
+<p><code>brew install fswatch</code></p>
+<p>After installation I needed to think about what I want the trigger to be. I am thinking any .md file which is modified.</p>
+<p>This ended up being a bit more of a pain than I expected. <code>fswatch</code> doesn’t quite behave as I would expect it to. Specifically <code>-i</code> &amp; <code>-I</code> is for inclusive regex. However by default EVERYTHING(!!) is included. This means you filter out everything with <code>-e .*</code> then include back what you want with <code>-i *.md</code></p>
+<p>Ultimately my command/script ended up as:</p>
+<pre><code>fswatch -xnr -e &quot;.*&quot; -i &quot;.md&quot; ../serve/day | while read file event; do
+  python3 gen_html.py $file
+done</code></pre>
+<p>Basically what this does is look for any <code>.md</code> files that have changed in the dir <code>../serve/day</code> recursively. If a file has changed, then <code>gen_html.py</code> will be ran with the filename.</p>
+<p><code>gen_html.py</code> is a little script that does a few things</p>
+<ol type="1">
+<li>Gets the <code>title</code> of the markdown file</li>
+<li>Generates html using <code>pandoc</code></li>
+<li>Inserts this generated html into a template</li>
+<li>Writes out the final html output</li>
+</ol>
+<p>lol this is basically dead simple static site generation</p>
+<p>Anyway this helps to alleviate the pain between 1 &amp; 2. This is great. The number of <a href="https://cdn.theatlantic.com/thumbor/KPisRFSKxm2kRRbtiobDJWgKq8M=/0x217:3358x2106/720x405/media/img/upload/wire/2014/08/26/AP101018137899/original.jpg">button clicks was too damn high</a></p>
+<h4>Fixing pain between commit (on local) and pull (on webserver)</h4>
+<p>Okay so now that we have this html we want to make sure the webserver gets it. (i guess i could host on github, but whatever for now we will do this. maybe later move to github just so other people can deploy easier. at least this is a good local webserver 😋. some of the reason I am not sure about moving it to github is that I might not use git forever. right now it is convienient, but not sure if that’s really what I want.)</p>
+<p>To do this I am going to use <a href="https://githooks.com/">git hooks</a>. When I <code>git commit</code> something I am going to send a ping to the webserver to tell it to pull down the latest commit.</p>
+<h2>Questions</h2>
+<h3>Is it possible to have a spreadsheet view of a GraphQL DB?</h3>
+<p>What I mean is it would be pretty convienient to have some times. Then apply formulas directly on top. But also have it linked to all my other data. Even for some data input this would be suuuuuper nice. Like right now I have to manually input a bunch of data for my investments.</p>
+<pre><code>query GetPlaidInstitutions {
+  financial_institutions(where: {financial_plaid_items: {id: {_is_null: false}}}) {
+    id
+    logo
+    name
+    plaid_insitution_id
+  }
+}</code></pre>
+
+  </body>
+
+</html>
