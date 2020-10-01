@@ -1,9 +1,8 @@
 # Open Source Markdown Editors
 
 Here are some Open Source Markdown Editors which you can build on top of. 
-I've done my best to summarize their features. They are in no particular order.
 
-You can also check <https://www.markdownguide.org/>
+You can also check <https://www.markdownguide.org/> for a comprehensive list of all editors even if not open source.
 
 ## General Feature Comparison
 

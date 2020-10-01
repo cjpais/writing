@@ -20,11 +20,34 @@ html {
 
 @media only screen and (min-width:760px) {
   .container {
-    max-width: 700px;
+    max-width: 760px;
   }
 }
 
 img {
   max-width: 100%;
   max-height: 100%;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  display: block;
+  overflow-x: scroll;
+}
+
+thead {
+  background-color: darkolivegreen;
+}
+
+td, th, table {
+  border: 1px solid #888;
+}
+
+tr:nth-child(even) {
+  background-color: #bac6a4;
+}
+
+tbody > tr:hover {
+  background-color: #e1d1a8;
 }
