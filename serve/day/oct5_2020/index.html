@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../../static/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Monday October 5th, 2020</title>
+  </head>
+
+  <body class="container">
+    <h1>Monday October 5th, 2020</h1>
+<h2>AAAAAAA</h2>
+<p>This morning was rough. Really beat from the <a href="https://daily.cjpais.com/day/oct2_2020/https://daily.cjpais.com/day/oct2_2020/">weekend</a>. Went for a bike ride with Alex (swam together in HS) which was good. He kicked my ass, was going fast, but was nice to chat with him. Had some nice conversation and very respectful. Cool to see where he’s at and would love to try and help him in any way if I can. Will definitely need to reach back out and certainly go for some more rides.</p>
+<p>After this ride I definitely needed some more motivation. I wasn’t quite sure what, but I was listening to <a href="https://www.youtube.com/watch?v=BIk1zUy8ehU">Lex Fridman and Michael Malice</a> and there is some fascinating discussion about the meaning of Anarchy here. Definitely a podcast I want to come back to and think more on. Lex so far (im about an hour through) is doing a fantastic job playing “Angel’s Advocate” and taking Democracy’s “side”.</p>
+<p>However even this wasn’t enough to really get me going.</p>
+<p>Time to pick up a book! Austin (<a href="https://twitter.com/AustinTakeda">Twitter</a>, <a href="https://www.youtube.com/channel/UCcgdt0edaWlKEpUwPtXCrhg">YouTube</a>) recommended this book a while back and I finally picked it up (after finishing some other AMAZING books). Definitely some good inspiration here, had to stop and write</p>
+<h2><em>Tribes</em> - Seth Godin</h2>
+<h3>FEAR</h3>
+<p>Okay so there was two “chapters” that made me stop. <em>The F Word</em> as Seth calls it and <em>Thinking Your Way Out of the Fear</em>. He acknowledges that fear is HARD. It is one of those survival things we have stuck in us. However I think in today’s society we have too much fear and I certainly do. There is very little on a day to day basis that will harm me. In fact rarely ever is it the case. The mind just goes to the worst case scenario. Anyhow this topic itself resonated, but also what Seth talks about in terms of leadership.</p>
+<blockquote>
+<p>It’s the story of success, of drive, <em><strong>of doing something that matters</strong></em>. It’s an intellectual story about what the world (or your industry or your project) needs and how your insight can help make a difference.</p>
+</blockquote>
+<p>I am not sure how to communicate this effectively, which is one of the main reasons I quit my job. Trying to understand how I can communicate myself more effectively. But in a sentence. Data ownership and expression in a way that can help connect us deeper with other people and engage in meaningful discussions. To connect “tribes”. I don’t think this communicates anything yet, which is why I am trying to build. I see in my head how all this data can be put to use, how I can attribute people effectively. Give back to the people that have helped me in any way.</p>
+<h4>more on fear</h4>
+<p>Fear is one of those things I am highly aware of and actively try to put myself in situations that make me fearful (and actively trying to do better even at this). This weekend was definitely an exploration in that. Well went lobster diving at 10pm with some friends. The most awesome thing was that we were all terrified about this. Something about being in the ocean with just a couple lights at night is freaky. Getting in the water was no less so, but it wasn’t a fear that consumes you. Eventually you just learn to be as comfortable as possible. It was awesome. Am I still scared of doing that again? Absolutely. But it won’t be as bad this next time.</p>
+<p>I guess this is also why I like climbing and lead climbing (and hopefully some trad too). The pressure of knowing you can fall 5/10/20/30 feet is terrifying but exhilarating. I am also not a big fan of heights, but this is all just mindset. Both of these things I am overcoming and it’s evident in my climbing. It is still scary, but regardless. More practice and the fear will subside.</p>
+<h4>currently fear</h4>
+<p>I mean there are a lot of things I currently fear. But one of the biggest ones for me is meeting new people. I am not sure why because every time I meet someone it’s always good. I have done a lot of thinking about this. It seems like it’s down to wanting to be liked and coming off as kind. That’s all. That’s what I try to aim for in my life and not sure I always live up. But anyhow. Lots of work to do here, talk to more people and continue to enjoy the beauty of life.</p>
+<h2>Exploration of VSCode Plugin Architecture</h2>
+<p>Okay VSCode is a huge codebase. I am trying to understand how they made their extension architecture. To me it is not clear yet, but I am looking to have something robust and not so hacked up like I have now. I want this before I really start moving on as it is already a pain to look at and I know it can be done much better.</p>
+<p>I would like to have something relatively similar. Basically a giant package repo, where .js is already ‘compiled’ and this can be added dynamically. I am expecting it however to interact with the DOM, however I think we are going to have a DOM manager or something. Maybe a workspace will implement something like SwiftUI to actually build a page. I am not sure yet. Fortunately this should be relatively tweakable.</p>
+<h3>Some resources:</h3>
+<ul>
+<li><a href="https://programmer.help/blogs/disclosure-of-vscode-technology.html">https://programmer.help/blogs/disclosure-of-vscode-technology.html</a></li>
+<li><a href="https://stackoverflow.com/questions/60697207/architecture-for-an-extensible-electron-app">https://stackoverflow.com/questions/60697207/architecture-for-an-extensible-electron-app</a></li>
+<li><a href="https://code.visualstudio.com/api/working-with-extensions/bundling-extension">https://code.visualstudio.com/api/working-with-extensions/bundling-extension</a>
+<ul>
+<li><blockquote>
+<p><code>// vscode extensions run in a Node.js-context</code></p>
+</blockquote>
+<ul>
+<li>does this mean they spawn node js process then use ipc to communicate with main?</li>
+</ul></li>
+</ul></li>
+<li><a href="https://code.visualstudio.com/api/get-started/extension-anatomy">https://code.visualstudio.com/api/get-started/extension-anatomy</a>
+<ul>
+<li><p>Activation Events… basically there is an <code>activate()</code> call that is mandatory. This func will be called when one of these events is triggered.</p></li>
+<li><p>more…</p></li>
+</ul></li>
+</ul>
+<h4><a href="https://www.youtube.com/watch?v=Tw8l0WzQxmY">History of VSCode</a></h4>
+<ul>
+<li>Bad extensions can hurt a platform (eclipse)</li>
+<li>Must protect the core tool (VSCode) from misbehaving extensions (6:10)</li>
+<li>Importance of a “designed API”. Extensions run in a separate process and communicate over RPC
+<ul>
+<li>Entire API is controlled from the VSCode side.</li>
+<li>Abstracted away from the internals.</li>
+<li>Don’t see any of the internals when building an extensions.</li>
+</ul></li>
+<li>Everything can be done on desktop app and also web
+<ul>
+<li><p>This is essential as I will be publishing these. Does it get rendered out and served (static) or dynamic via node?</p></li>
+</ul></li>
+</ul>
+<h2>other things id like</h2>
+<ul>
+<li>package manager. you have one package manager, however the repos can be many
+<ul>
+<li>can directly pull from github if you like (this might require compile step however)</li>
+<li>say can have primary repo, but then add secondary (user/private) repos</li>
+</ul></li>
+<li>extensibility, basically have extensions that don’t have a hard dependency on another extension
+<ul>
+<li>this would mean they are publishing their data.</li>
+</ul></li>
+</ul>
+<h2>main concerns</h2>
+<p>I think there are two main things to separate out. Basically providing an interface which allows rendering of the HTML content. (perhaps this is a function that gets executed with data? can this be done with react and vue?). Beyond just the plain HTML data I want to be able to have an underlying representation that can be shared with other modules. However they can request this information on the fly. Basically be able to inspect the types of data another component is using to render it’s HTML. This is mainly to write connectors that are easily exposed.</p>
+<p>These are some big problems and ones that will need a lot more exploration. I think for today I am okay saying this is done.</p>
+<p>The next steps are to webpack individual modules so they can be loaded on the fly.</p>
+<h2>tomorrow</h2>
+<p>I am thinking about taking a little break from code, maybe go run to the park in the morning with my backpack some coffee. Write more about RBG.</p>
+<p>Maybe wednesday is looking more like using the ‘daily’ workspace to actually go and publish something. Currently just have it hardcode the directory. It should create the right day if it doesn’t exist then open the file into the correct parts (will need to think how I want to create components, especially if they are going to get added on the fly.. this might be something later down the line. really a text component should be composed of a lot of different things. you might write in one giant doc, but you can decompose it into many. this might be the way forward initially.)</p>
+<p>lol maybe i will also look at atom’s architecture as well</p>
+
+  </body>
+
+</html>
