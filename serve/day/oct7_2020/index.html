@@ -9,6 +9,48 @@
 
   <body class="container">
     <h1>Wednesday October 7, 2020</h1>
+<h2>Upspin</h2>
+<p>Okay fuck it after watching a few videos I’m going to try to use upspin again. It looks kind of dead at this point but I still love the idea behind it. A ‘global namespace’</p>
+<h3>Installing and Setting Upspin Up</h3>
+<h4>1. Getting Upspin User</h4>
+<p>Install upspin</p>
+<pre><code>go get upspin.io/cmd/...
+go get augie.upspin.io/cmd/upspin-ui</code></pre>
+<p>Launch upspin-ui</p>
+<p>Run <code>upspin-ui</code></p>
+<p>Register email. Make sure store private key safely.</p>
+<h4>2. Deploy Upspin Server</h4>
+<p>I am setting up my own server. This will be the store and directory servers.</p>
+<p>Run <code>upspin setupdomain -domain=&lt;yourdomain&gt;</code></p>
+<p>This will create keys. You will also need to add a TXT record to the domain you own</p>
+<p>You also want to make sure you add an A record for <code>upspin.&lt;yourdomain&gt;</code> which points to your store/dir servers.</p>
+<p>Make sure you download upspin cmd line tools again on your server</p>
+<p><code>go get upspin.io/cmd/...</code></p>
+<p>I run multiple servers on the server I will be running upspin so I need to change the defaults. It will try to serve on port 80 and 443. I want to serve on ports not exposed outwardly, then use <code>nginx</code> to expose.</p>
+<p>Added <code>upspin.conf</code> to my <code>/etc/nginx/sites-available</code> dir and symlinked it to <code>/etc/nginx/sites-enabled</code></p>
+<p>Create upspin user on server</p>
+<pre><code>server# useradd -m upspin
+server# su upspin
+server% cd $HOME
+server% mkdir .ssh
+server% chmod 0700 .ssh
+server% cat &gt; .ssh/authorized_keys
+(Paste your SSH public key here and type Control-D and Enter)
+server% chmod 0600 .ssh/authorized_keys
+server% mkdir -p upspin/letsencrypt</code></pre>
+<p>On local machine build <code>upspinserver</code> then scp to remote</p>
+<pre><code>local$ GOOS=linux GOARCH=amd64 go build -o $HOME/upspinserver upspin.io/cmd/upspinserver
+local$ scp upspinserver upspin@&lt;your server&gt;:upspinserver</code></pre>
+<p>Since upspin is being served behind a reverse proxy I am doing</p>
+<p><code>./upspinserver -insecure -http :port</code></p>
+<p>I am not sure this is the best thing to do. However I am serving still via https.</p>
+<p>Finally actually set up the server</p>
+<p><code>upspin setupserver -domain=cjpais.com -host=upspin.cjpais.com</code></p>
+<h3>Resources</h3>
+<p>Reading and watching about <a href="https://upspin.io/">upspin</a> to refresh myself.</p>
+<h4><a href="https://www.youtube.com/watch?v=ixjV6zoIXfQ">“State of Upspin”</a></h4>
+<p>Mostly going over the basics of how Upspin works. A good introduction in general. Very short.</p>
+<h4><a href="https://www.youtube.com/watch?v=ENLWEfi0Tkg">Rob Pike’s Overview</a></h4>
 
   </body>
 
