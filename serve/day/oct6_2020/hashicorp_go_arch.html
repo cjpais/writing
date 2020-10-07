@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../../static/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>[Hashicorp Go Plugin Architecture](https://www.youtube.com/watch?v=SRvm3zQQc1Q)</title>
+  </head>
+
+  <body class="container">
+    <h1><a href="https://www.youtube.com/watch?v=SRvm3zQQc1Q">Hashicorp Go Plugin Architecture</a></h1>
+<ul>
+<li>See: <a href="https://github.com/hashicorp/go-plugin">https://github.com/hashicorp/go-plugin</a></li>
+<li>Want multiprocess architecture to have stability</li>
+<li>Should be as easy as implementing an interface</li>
+<li>No weird building</li>
+<li>Use rpc to communicate between processes.</li>
+<li>“host” and “plugin” names, probably use this in general</li>
+<li><strong>v1</strong>
+<ul>
+<li>launch plugin
+<ul>
+<li>host tells plugin which ports it can use</li>
+<li>host starts subproccess</li>
+<li>waits for tcp
+<ul>
+<li>notes that stdout/stderr are only guaranteed streams (what bout sockets?)
+<ul>
+<li>i dont know anything about them</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li>talk between the systems
+<ul>
+<li>plugin outputs address over stdout</li>
+<li>host see it and tries to connect
+<ul>
+<li>after the first connection established the plugin closes its listener so no one else can connect</li>
+</ul></li>
+</ul></li>
+<li>establish rpc connection
+<ul>
+<li>use stdlib <code>net/rpc</code></li>
+</ul></li>
+<li>data streams
+<ul>
+<li>cant stream data over rpc</li>
+<li>basically creates new tcp connection then to <code>io.Reader</code>
+<ul>
+<li>need to come back 17:00</li>
+</ul></li>
+</ul></li>
+<li>misc
+<ul>
+<li>basically rpc is nice because it doesnt really mean any dependency</li>
+<li>can just implement interface and now boom you have a communication channel</li>
+<li>dont need to understand what is going on underneath</li>
+<li>can establish more rpc channels if needed
+<ul>
+<li>host broadcasts where to connect for the plugin then the plugin goes and talks</li>
+<li>creates data stream etc…</li>
+</ul></li>
+<li>uses stdout/stderr as control and log channels</li>
+</ul></li>
+</ul></li>
+<li><strong>v2</strong>
+<ul>
+<li>address problem in v1
+<ul>
+<li>basically opening ports was an issue (firewalls fucked you up)
+<ul>
+<li>send full address instead of just port</li>
+<li>use unix domain socket instead of tcp (if you can <em>cough</em> windows.. ok fine wsl)</li>
+</ul></li>
+<li>how to allow for interfaces to change
+<ul>
+<li>protocol versioning
+<ul>
+<li>if protocol doesn’t match host then make error</li>
+<li>can even change phys layer (wire)</li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><strong>v3</strong>
+<ul>
+<li>issues with v2
+<ul>
+<li>new connections are being created all the time, but closed relatively fast
+<ul>
+<li>people was running out of file handles in userspace</li>
+</ul></li>
+<li>multiplexed connections (on tcp?)
+<ul>
+<li>single connection between host and plugins, all communications on top (multiplex on top)
+<ul>
+<li>random weird thought, we multiplex a lot OTA (over the air), can similar things be done ‘on the wire’
+<ul>
+<li>maybe something stupid like having a ‘file’ where ‘lines’ of the file are actually independent data streams. and you can control the ‘bandwidth’ dynamically</li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><strong>v4</strong>
+<ul>
+<li>issues with v3
+<ul>
+<li>muxconn crashes randomly hahahahahaha
+<ul>
+<li>replaced by Yamux</li>
+</ul></li>
+<li>also needed
+<ul>
+<li>one plugin host to serve multiple instances of itself
+<ul>
+<li>initial connection is a dispenser
+<ul>
+<li>host would ask plugin to dispense an instance of a plugin
+<ul>
+<li>ex: aws plugin, but different regions and different configs independently</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li>installation of plugins could be easier
+<ul>
+<li>“plugin auto discovery”
+<ul>
+<li>Look in home dir, binary dir, curr dir</li>
+<li>if matched ‘glob’ then try to execute, if can communicate then set it up</li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><strong>v5</strong>
+<ul>
+<li>issues with v4
+<ul>
+<li>tty not preserved
+<ul>
+<li>launch plugin with file handle (not quite there with this part, i dont know enough)</li>
+<li>creates a multiplexed stream for stdout and stderr</li>
+</ul></li>
+<li>stdout and stderr couldn’t be used because it was hijacked to establish connection</li>
+<li>lots of plugins were shipped in the release, so releases were huge
+<ul>
+<li>plugin flattening
+<ul>
+<li>didnt quite get this</li>
+</ul></li>
+<li>ship one binary, but subcommands would go get binary??</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><strong>v6</strong>
+<ul>
+<li>needs moving forward
+<ul>
+<li>crypto secure plugins
+<ul>
+<li>vault sounds cool
+<ul>
+<li>didnt support plugins due to attack surface</li>
+</ul></li>
+<li><em>sign binaries</em></li>
+<li>very small window where binary can be ‘swapped’
+<ul>
+<li>read everything into memory then verify signature and write to secure location</li>
+</ul></li>
+<li>could encrypt all the data through (via tls), but since going through unix socket it implies root access</li>
+</ul></li>
+<li>user versioning
+<ul>
+<li>basically look at node</li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+
+  </body>
+
+</html>

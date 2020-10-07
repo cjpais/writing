@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../../static/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Tuesday October 6th 2020</title>
+  </head>
+
+  <body class="container">
+    <h1>Tuesday October 6th 2020</h1>
+<p>Gonna be a busy day already.. Had to take care of a few things this morning related to insurance.</p>
+<p>Discussing the Supreme Court with Bay after lunch, then climb at 2. <sub><sub>Maybe lobster diving after.</sub></sub> Then call with Weiwei. If not lobster diving after the climb then <sub><sub>maybe</sub></sub> at night.</p>
+<p>Was nice talking and catching up with Bay. Lot’s of things going on. Man she is writing on an extremely hard topic. I am very interested to see where it goes. Basically is about how do you restructure the Supreme Court to take the politics out of it!!! This is a huge topic and very interested to see how it progresses.</p>
+<p>Climb was sick as always. I met Terry, who is also friends with Chris (an older trad climber who also shapes surfboards!?). Stoked on this. Hopefully go climbing outside soon.</p>
+<h2>Plugin Architecture</h2>
+<p>Trying to look into plugin architectures in general now. I think I was diving too far off the deep end trying to grasp what VSCode is doing.</p>
+<p>So far:</p>
+<h3>References</h3>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=_p7-BWCNzzc">Patterns in Go</a>
+<ul>
+<li>Go’s <code>pkg/plugin</code></li>
+<li>RPC
+<ul>
+<li>benefit is multithreaded</li>
+</ul></li>
+</ul></li>
+<li><a href="https://medium.com/omarelgabrys-blog/plug-in-architecture-dec207291800">Data Pipelines (with plugins)</a>
+<ul>
+<li>Biggest things for me were. Store, Process, Consume. These are generally the 3 pieces of a core app. Need to think about each of these in context.</li>
+</ul></li>
+<li><a href="https://stackoverflow.com/questions/10763006/plugin-architecture-in-web-apps-examples-or-code-snippets">Plugin Architecture in Web Apps</a></li>
+<li><a href="https://stackoverflow.com/questions/2768104/how-to-create-a-flexible-plug-in-architecture">Create Flexible Plugin Architecture</a>
+<ul>
+<li><blockquote>
+<p>One effective way to make your application extensible is to expose its internals as a scripting language</p>
+</blockquote>
+<ul>
+<li>See emacs</li>
+</ul></li>
+</ul></li>
+<li><a href="https://trac.edgewall.org/wiki/TracDev/ComponentArchitecture">“Component Architecture”</a></li>
+<li><a href="http://www.iwriteiam.nl/PlugInPattern.html">The Plugin Pattern</a></li>
+<li><a href="http://www.eclipse.org/articles/Article-Plug-in-architecture/plugin_architecture.html">Eclipse Plugin Architecture</a></li>
+</ul>
+<h4><a href="hashicorp_go_arch.html">Hashicorp Go Arch</a></h4>
+<p>I took notes on <a href="https://www.youtube.com/watch?v=SRvm3zQQc1Q">this youtube video</a>. It so far provided a great description of plugin arch using Golang, but ideally can be used for a lot of different languages</p>
+<h5>Sidenode:</h5>
+<p><a href="https://www.youtube.com/watch?v=PAAkCSZUG1c">Go Proverbs</a>. some nice things about go</p>
+<ul>
+<li>the interfaces are quite small in general
+<ul>
+<li>can reimplement them yourself and this is SOOOOO nice</li>
+<li>build components that can be shared</li>
+</ul></li>
+<li>use 0 values if you can</li>
+<li>don’t use empty interface <code>interface{}</code> if you don’t need to, dont need it as much as you think.</li>
+</ul>
+<h3>Patterns</h3>
+<ul>
+<li>Microkernel</li>
+<li>Loose Coupling</li>
+<li>Hollywood Principle</li>
+<li>Memento Pattern</li>
+<li>Dependency Injection</li>
+<li>Observer Pattern</li>
+<li>Mediator Pattern</li>
+<li>Strategy Pattern</li>
+</ul>
+<h3>Other notes for moving forward</h3>
+<p>So far RPC seems like the best thing to me. I will need to go and review about RPC. Definitely have used it before when implementing a <a href="https://github.com/kkuo42/CSE223B-FinalProject">distributed system</a> for school.</p>
+<p>Might want to establish ‘channels’… maybe similar to 5G. This can also be thought of as messaging interface. Wonder how much this kind of arch can be used as well.</p>
+<ul>
+<li>broadcast channel [pbch] (host -&gt; <em>) (</em> -&gt; * ????)</li>
+<li>control channel [pdcch]</li>
+<li>data channel [pdsch]</li>
+<li>log channel [none]</li>
+</ul>
+<h3>TODO READING (TOMORROW)</h3>
+<ul>
+<li>CodeMirror/ProseMirror</li>
+<li><a href="https://github.com/hashicorp/go-plugin">Hashicorp Plugin</a></li>
+<li>Microkernel pattern</li>
+</ul>
+
+  </body>
+
+</html>
