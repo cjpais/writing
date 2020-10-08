@@ -137,3 +137,8 @@ Probably dedicate some time to also going over hashicorp plugin again, really ju
 
 I also would very much like to contribute to Athens
 Other things on my mind of course are podcast transcription
+
+OH TWO NEW THINGS
+
+* Be able to live stream this (aka am I typing? am I connected to this session?)
+* Put audio in markdown? Would like to be able to embed video and audio throughout the day. Need an easy way to capture it and import.
