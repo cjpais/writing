@@ -91,6 +91,12 @@ is I really want some static code in a ProseMirror terminal (python, c, etc) and
 directly with other things on the page. There should be a common interface to be able to do this
 irrespective of the language. How? Not sure.
 
+Also multiple ways to publish (via server, github, etc, etc)
+
+Some of the question is how do you make a generic feed for all kinds of data and make it meaningful
+across time and space (domains). I don't quite know what I am saying here, so probably needs a little 
+more thought.
+
 There is also the question of how does text look? How can a page be reduced? If I have this
 workspace how is a function applied to it to actually output HTML or something that someone else
 can see? Hmmmmmmmmmmmmmmmmmmmmmmmmmm
