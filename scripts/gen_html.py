@@ -33,11 +33,9 @@ print(cmd)
 result = subprocess.run(cmd, shell=True, stdout=subprocess.PIPE).stdout.decode("utf-8")
 
 # insert raw HTML into a template
-template = jinja_env.get_template("daily_template.template")
+template = jinja_env.get_template("base.template")
 output_html = template.render({"content": result, "title": title})
 
 # write out final HTML
 with open(out_fn, 'wb') as out_f:
     out_f.write(output_html.encode("utf-8"))
-
-#os.system(cmd)

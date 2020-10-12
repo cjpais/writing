@@ -1,0 +1,23 @@
+# Daily Writings
+
+## [Latest Day](day/{{latest.url}})
+
+{% if this_week|length > 0 %}
+## This Week
+
+{% for day in this_week %}
+* [{{day.name}}](day/{{day.url}})
+{% endfor %}
+{% endif %}
+
+## Previous Days
+
+{% for year in years %}
+## {{year.name}}
+
+{% for month in year.months %}
+{% for day in month.days %}
+* [{{day.name}}](day/{{day.url}})
+{% endfor %}
+{% endfor %}
+{% endfor %}

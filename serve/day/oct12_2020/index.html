@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../../static/main.css">
+    <link rel="stylesheet" href="static/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Monday October 12th, 2020</title>
+  </head>
+
+  <body class="container">
+    <h1>Monday October 12th, 2020</h1>
+<h2>Weekend</h2>
+<p>Holy crap in a hat what a weekend. An absolute blast but also suuuuper tiring. But hey gotta keep going.</p>
+<h3>Friday Night</h3>
+<ul>
+<li>🍻 Got beers with Yeabs. Some great conversation</li>
+<li>🍻 Went to Fink’s house.
+<ul>
+<li>Had another beer</li>
+<li>🐓 They have chickens</li>
+<li>Met Shep there</li>
+<li>Talked with Gilchrist about Prop22 (he’s a driver too and poli sci dude)</li>
+<li>Etc</li>
+</ul></li>
+</ul>
+<h3>Saturday</h3>
+<p>A LOT. To summarize:</p>
+<ul>
+<li>🌅 8am wake</li>
+<li>🏎 Watch f1 quali</li>
+<li>🧗 Climb with Tatiana 11:15-&gt;12:45</li>
+<li>🍽 Eat lunch at climbing gym</li>
+<li>🧗 Go to <code>undisclosed location</code> (outside) to climb 2-5:45</li>
+<li>🍷 Go to Bay’s place, have dinner some wine, play Catan</li>
+<li>🦞 Go dive for lobsties 8:30-9:30ish
+<ul>
+<li>With Paul, Michael, Julia</li>
+<li>Go to Michael/Julia’s place to cook <a href="crab.jpeg">the crab</a>. was delish</li>
+</ul></li>
+<li>🛌 Drive home around midnight</li>
+</ul>
+<h3>Sunday</h3>
+<ul>
+<li>🏎 Watch f1 race.
+<ul>
+<li>😢 Lando with mechanical problems</li>
+</ul></li>
+<li>🚴🏽‍♂️ 10am bike ride with Cole -&gt; 12:30</li>
+<li>🧗 Climb 1:30-3 with Neha and Katie</li>
+<li>Watched <a href="https://www.amazon.com/Valley-Uprising-Peter-Sarsgaard/dp/B01M3UPOWI">Valley Uprising</a></li>
+<li>Went to Costco (need to make burritos again)</li>
+<li>Went to REI (needed a locking biner and better chalk)</li>
+<li>Watched <a href="https://www.amazon.com/Meru-Conrad-Anker/dp/B07NVXTGN7">Meru</a></li>
+<li>Bedtime!</li>
+</ul>
+<h2>Today</h2>
+<p>We keep going.</p>
+<p>🌊🏊 Went for an ocean swim with Katie</p>
+<p>I am thinking about a relatively long day today, but don’t know how that will end up working out. I need to cook at least one meal today. I am planning on working more on the Vim plugin today. Hopefully can get some more basics working. Really have no idea what I am doing.</p>
+<p>Maybe I will write some script that builds an index page? I am really thinking about doing this.</p>
+<p>Need to be able to link multiple things with different ‘reasons’ behind them. One link is so obviously not sufficient.</p>
+<p>Also really wanting something to keep track of people better. Have written this before as well but might try to integrate it here, however maybe not served… Hmm not sure how I want to do this because I would like to keep some of this data private and some of it public. Need to think how this might be done.</p>
+<h3>Quick NLP Research</h3>
+<p>Basically taking note of Spacy and NLTK. Will want to do Named Entity Recognition (NER) in the future. However for today would like to break down .md into a tree (so you can make a block reference to anything in the tree (or graph)). Anyway.</p>
+<h3>Parsing .md into a tree</h3>
+<p>I mean all I really want is to break things down into concrete block down to the sentence level while respecting headers.</p>
+<p><a href="https://www.unifiedjs.com">Unified</a> looks to have some utilities that should span this nicely. However I am not sure I want to dive into this quite yet. It will be desperately needed. I am thinking about this mainly in the context of people. I want to be able to write about people and attach people to people, but only have some of it be public. That means being able to have very granular controls. I want to think about this more so the tabs are going to get closed now.</p>
+<h3>Brain</h3>
+<p>my brain is spinning (thanks coffee), but okay here are the main things to think about</p>
+<ul>
+<li>People
+<ul>
+<li>.md &gt; tree. need this ability in ui too.</li>
+<li>What is the DB backing? This is an odd thing to have in a DB, but need to be able to cross ref.
+<ul>
+<li>I think this raises a larger question. What all even goes into a DB?
+<ul>
+<li>schema.org?</li>
+</ul></li>
+<li>Need to move to GraphDB
+<ul>
+<li>Neo4J?</li>
+<li>DGraph?</li>
+<li>Grakn</li>
+<li>How do you design an interoperable graph db? Has to be extremely generic…</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li>Index</li>
+</ul>
+<h3>Index</h3>
+<p>First question is when to generate the index? For now it doesn’t really matter. I think I am just going to add it to my current watch script. Basically that means any time a file is changed the index will be regenerated. This is so much overhead but whatever</p>
+<p>Would like to add artifacts directly in as well, but we will see.</p>
+<p>Okay so after taking some time to write the code I am a bit annoyed. Mostly at myself for writing a hacky script. After this I am really finding out that I need a MUCH better way to work with this data how I want. I really am not sure how not to use a DB at this point. I mean of course it is possible without, but there are many semantics from a DB that would be so helpful here. So the question then is how to have a DB that works on an AST and links bidirectionally.</p>
+<p>This is a much bigger question and will need more thought. I don’t really know exactly what this means yet.</p>
+<p>For now the <a href="https://www.daily.cjpais.com">index</a> will do.</p>
+
+  </body>
+
+</html>
