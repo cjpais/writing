@@ -186,8 +186,10 @@ overall really great.
 
 ## Tomorrow
 
-Man we have a lot, but there is always a lot and that's a good thing. 
+Man we have a lot, but there is always a lot and that's a good thing. Just gonna keep
+it simple however because I'm going to read now
 
-10 min RBG
-Quantum Country
-JMT
+* 10 min RBG
+* Quantum Country
+* How to switch between markdown and broken up view (outline)
+* JMT
