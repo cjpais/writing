@@ -23,6 +23,7 @@ A LOT. To summarize:
 * 🧗 Climb with Tatiana 11:15->12:45
 * 🍽 Eat lunch at climbing gym
 * 🧗 Go to `undisclosed location` (outside) to climb 2-5:45
+  * Met Sam? Israel, Trevor, Will, Flora, Masha, Jason for the first time
 * 🍷 Go to Bay's place, have dinner some wine, play Catan
 * 🦞 Go dive for lobsties 8:30-9:30ish
   * With Paul, Michael, Julia
@@ -44,7 +45,8 @@ A LOT. To summarize:
 
 We keep going. 
 
-🌊🏊 Went for an ocean swim with Katie 
+🌊🏊 Went for an ocean swim with Katie at 6am. From the Marine Room to the Scripps
+Pier. Then a nice walk back with her.
 
 I am thinking about a relatively long day today, but don't know how
 that will end up working out. I need to cook at least one meal today. I am planning
@@ -115,3 +117,77 @@ what this means yet.
 
 For now the [index](https://www.daily.cjpais.com) will do.
 
+### Music Industry
+
+I mean Spotify is great and all but i feel like I am screwing artists. Also I really
+wouldn't mind owning music again. Just wondering a little bit how possible it would
+be to have ownership of music again. What does owning music look like? I mean
+in general what does digital ownership look like?
+
+Not sure if this is any different really, but could you essentially run a service for 
+artists which allows them an easy way to distribute their music (by running servers),
+but they can directly get paid for the album or song. Back to the iTunes model. I guess
+the question is why did that model fail in the streaming era (well I guess a lot more
+choice). But I am trying to think how you preserve choice as we have it now as well as 
+provide a better service to artists. This is so not clear. 
+
+Really I just want a distributed system where I can make micropayments to artists and
+have it be transparent. They can set the price really. I wonder too what alternative
+forms of radio would be created. I mean if one person bought the music do they have the
+rights to rebroadcast it? I mean I can technically broadcast my spotify feed on the 
+radio but I'm sure I would have someone knocking at my door eventually.
+
+Wait this would actually be hilarious. I wonder if I could set up a radio station from my house which I could tune into from my car. That would be so good. I don't think 
+there are any legal bands for me to do this though. I mean could do illegally but lol.
+
+Basically there is a lot more thought to come, but is on the mind for sure.
+
+### More research on .md AST
+
+I think I've found a good set of libraries (and plugins + MOAR RESEARCH) to use for AST
+generation and parsing. I think there is a lot to be done here to use it in a
+meaningful way as well as with something to work with it efficiently 
+(i think this will be the major challenge)
+
+This is [unifiedjs](https://unifiedjs.com/). Specifically using remark and retext. I
+really would like to explore retext more. I really like the fact that it is a 
+'collective'. Love this idea and need more of it. Hope I can help to contribute to it
+
+Not sure what I am going to do yet, but definitely need to play with it
+
+### Life
+
+Got dinner and a couple of beers with Katie. Lots of great conversation, but really
+there is a lot more to say. 
+
+Maybe I can share a few things. Ummmm her quantum physics? homework was fucking
+gnarly as shit. Would definitely like to learn more just to understand and have
+conversations. This would also be great to share with Adam S. Really would like to
+start to review Quantum Country again
+
+After discussing Prop22 with her I think my vote is drifting towards no. 
+That is especially in the context of of uber/lyft aiming for self driving cars.
+Is it better to support people now, and have them be reliant on these jobs when
+they are obviously going to be taken away in the future? I think this is a hard
+question but the reality is (as she pointed out) that people were able to survive
+part time before these apps and they will be able to survive going forwards. 
+Hopefully it will give the opportunity to people who do want to drive full time
+to get proper benefits. I still think this is a hard decision regardless, but I am
+starting to feel the vote drift towards no, which was aligned with my gut reaction.
+Will still have to think more about it.
+
+Going to try to dedicate 10min a day to RBG reading regardless of if I really want to
+do it. Sometimes it just has to be done.
+
+Of course the JMT as well, will have to really aim for this and prep for it.
+
+Umm yeah lots more, but want to be a little careful how much to share.... But yeah
+overall really great.
+
+## Tomorrow
+
+Man we have a lot, but there is always a lot and that's a good thing. 
+
+10 min RBG
+Quantum Country
+JMT

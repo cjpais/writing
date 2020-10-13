@@ -1,6 +1,6 @@
 # Daily Writings
 
-## [Latest Day](day/{{latest.url}})
+## [Latest](day/{{latest.url}})
 
 {% if this_week|length > 0 %}
 ## This Week
@@ -10,12 +10,13 @@
 {% endfor %}
 {% endif %}
 
-## Previous Days
+---
 
 {% for year in years %}
 ## {{year.name}}
 
 {% for month in year.months %}
+#### {{month.name}}
 {% for day in month.days %}
 * [{{day.name}}](day/{{day.url}})
 {% endfor %}

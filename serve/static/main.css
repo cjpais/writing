@@ -11,7 +11,7 @@ html {
   -webkit-text-size-adjust: 100%;
   line-height: 1.5;
   font-size: 18px;
-  background-color: #f0ebde;
+  background-color: #f4f1eb;
   word-wrap: break-word;
 }
 
@@ -28,6 +28,15 @@ code {
   grid-template-columns: 1fr min(65ch, 100%) 1fr;
   max-width: 95%;
   margin: 0 auto;
+}
+
+hr {
+  border: 0;
+  clear:both;
+  display:block;
+  width: 100%;               
+  background-color:#000000;
+  height: 1px;
 }
 
 .container > * {
