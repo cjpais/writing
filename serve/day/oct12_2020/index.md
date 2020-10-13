@@ -200,3 +200,4 @@ it simple however because I'm going to read now
 * Quantum Country
 * How to switch between markdown and broken up view (outline)
 * JMT
+* Add 'latest' page directly so link doesn't change lol
