@@ -184,6 +184,13 @@ Of course the JMT as well, will have to really aim for this and prep for it.
 Umm yeah lots more, but want to be a little careful how much to share.... But yeah
 overall really great.
 
+Apparently it's time to explore and be free. I'm down as fuck. Gotta jump in. Can't
+worry too much about the impact I can have now. That doesn't matter, just got to
+do some useless stuff to be happy, but I know I will continue to work and read and
+learn in the background regardless. That's cool too.
+
+Home base
+
 ## Tomorrow
 
 Man we have a lot, but there is always a lot and that's a good thing. Just gonna keep
