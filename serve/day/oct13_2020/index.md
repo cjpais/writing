@@ -7,7 +7,7 @@
 ## Apple Event
 
 Yeah so I definitely wanted to watch this. Was looking for a few things.
-* 5G (using Qualcomm SDX55/60 [not SD845] chips, which run my code)
+* 5G (using Qualcomm SDX55) chips, which run some code I wrote)
   * I believe it is the SDX55 but not 100% at this time.
 * iPhone 12 mini
 * 120Hz Display
