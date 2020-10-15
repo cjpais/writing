@@ -52,18 +52,51 @@ Homepod mini.
 
 iPhone Mini vs iPhone Pro. 
 
-Selling some of my QC stock. I am planning on selling 17 at $135 as mentioned yesterday. I hold in total 259. This is about 7% of my holdings. I discussed a little bit the rationale here. I am not sure about QC in the long term. I mean it seems like they are in a fantastic (and monopolistic) spot at the moment. But there are a few concerns I have. T
+Selling some of my QC stock. I am planning on selling 17 at $135 as mentioned yesterday. I hold in total 259. This is about 7% of my holdings. I discussed a little bit the rationale here. I am not sure about QC in the long term. I mean it seems like they are in a fantastic (and monopolistic) spot at the moment. But there are a few concerns I have. 
 
-he first is that Apple will not be sticking with Qualcomm indefinitely. They are trying to build their modem division ([look at their jobs page](https://jobs.apple.com/en-us/search?search=5g&sort=relevance&location=united-states-USA)). Given the success of their CPU division and the fact they took Intel's I'd bet they will do well. This means that Qualcomm will lose a good amount of $$$ when Apple goes to their in-house solution. A lot of people in QC think that Apple won't be able to pull this off due to the complexity of a modem. But I am less convinced. It is very complex, but as humans we understand these things pretty well. The nr spec is an insanity nightmare hellzone because of the ambiguity, but regardless I think they can pull this off. 
+The first is that Apple will not be sticking with Qualcomm indefinitely. They are trying to build their modem division ([look at their jobs page](https://jobs.apple.com/en-us/search?search=5g&sort=relevance&location=united-states-USA)). Given the success of their CPU division and the fact they took Intel's I'd bet they will do well. This means that Qualcomm will lose a good amount of $$$ when Apple goes to their in-house solution. A lot of people in QC think that Apple won't be able to pull this off due to the complexity of a modem. But I am less convinced. It is very complex, but as humans we understand these things pretty well. The nr spec is an insanity nightmare hellzone because of the ambiguity, but regardless I think they can pull this off. 
 
 The second thing is that I don't know why we are not selling SW upgrades for modems. This would allow for us to keep our devices much longer and still benefit from improved speeds if we want. From what I've seen in the SW I believe this is 1000000% possible and would be an amazing change for the industry, the environment, and potentially for people too. There of course are some hardware reasons why this is not always possible. But regardless after seeing the power of [SDR's](https://en.wikipedia.org/wiki/Software-defined_radio), I wonder how we can simplify the stack with SW instead of HW where it is not needed. 
 
-Perhaps I wasn't in the industry long enough to really be accurate here. I do understand why we need HW. But from what I have seen the HW is quite software upgradable. Open Source modem HW anyone?
+Perhaps I wasn't in the industry long enough to really be accurate here. I do understand why we need HW. But from what I have seen the HW is quite software upgradable. Open Source modem HW anyone? And perhaps what I was saying is not quite clear yet, I think I had a good train of thought with Austin, but it needs to be clarified more. Anyway.
 
 If you are interested in making software upgradable modems, let me know. I'd be interested to work with you. I think there is a huge potential to innovate in this space and completely wipe out Qualcomm. There is also so much more that we can do with radios that are just not exposed to the OS right now. Just a little shift in this could have massive impacts in the industry I believe. This is one industry that could definitely be done more responsibly and look deeper into the future. 
 
+## Lunch
+
+![lunch](lunch.jpeg)
+
+Needed to make some food. Something real simple. Some chicken, salt, pepper. With roasted brussel sprouts (garlic powder, olive oil, salt, pepper, cayenne, smoked paprika) and tomatoes. Simple and delicious. Literally was licking my plate clean afterwards. Maybe I was just hungry.
+
 ## RBG
 
-## Save -> Commit -> Push publishing
+Gotta do that 10 minutes :)
 
-Doing this in a script allows me to ensure the server can pull down the new content as well.
+Went over "general applicability" which was an extra statement in RFRA which I didn't understand.
+Seems to be laws that do not necessarily target First Amendment Rights, but can be applied in that context. They are "generally applicable" as they can apply in many contexts outside of this as well.
+
+Also tried to summarize the case. I need to work on the phrasing of it. Not sure to phrase from Burwell (HHS) or Hobby Lobby side.
+Need to pay close attention to what the lay is actually stating here as well.
+
+## do you even climb bro?
+
+Fuck yeah more climbing. A bike ride before climbing is the best warm up. Also it is the best warm down. I feel so good after.
+I FLEW home. Track standed through every light like it was nothing. lol.
+
+Climbing was really good today too. 10b flash, 11a flash, 12a flash, 11c flash, 9 flash. Easy peasy. Mira Mesa sets easier for sure.
+That 12a was not a 12a, must've been 11c or d. 
+
+ANYWAY WAS SIIIIIIIIIIIIIIIIICK
+
+### :) HIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII :)
+
+wicked fun climb
+
+![hi](hi.jpeg)
+
+## TBD
+
+### Save -> Commit -> Push publishing
+
+Basically I don't want to think about ever committing something to the repo. That is all. Need to modify the script.
+This has some added benefits as well.
