@@ -107,7 +107,11 @@ I have a lot of notes, but it is quite difficult to capture some of the things, 
 Yeah I am too lazy to commit my work manually. So now on save:
 * generate html from md
 * generate index from all html
-* copy today to https://daily.cjpais.com/today.html
+* copy today's note to https://daily.cjpais.com/today.html
+* `git add *`
+* `git commit -m random_emoji()`
+* `git push origin master`
+* ping webserver to update
 
 ## Podcast Controls
 
