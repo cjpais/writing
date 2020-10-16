@@ -115,6 +115,12 @@ Yeah I am too lazy to commit my work manually. So now on save:
 
 This means as soon as I start writing in the morning updates will start to be published. Great. Now I don't have to think at all.
 
+Part of this is in response to Jon's latest patch notes with a ["tighter publishing feedback loop"](https://jborichevskiy.com/posts/patch-notes-v10/#patch-notes-six-months-in). For me this takes just a little bit out of it. It's not per character, however. I do get live previews already.
+
+This video is showing my setup
+
+<video controls><source autoplay="false" src="" type="audio/mpeg"></video>
+
 ## Podcast Controls
 
 Going forward there MUST be controls to seek the podcast (or have clips of it) where I bookmarked. For now this is okay, but I am not happy, and the site is too static to handle this currently. This will be another reason to move to `Reflect`
