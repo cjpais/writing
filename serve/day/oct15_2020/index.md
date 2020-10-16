@@ -104,7 +104,10 @@ I have a lot of notes, but it is quite difficult to capture some of the things, 
 
 ## Continuous publishing
 
-Yeah I am too lazy to commit my work manually. Every time I save the html is generated then is published. 
+Yeah I am too lazy to commit my work manually. So now on save:
+* generate html from md
+* generate index from all html
+* copy today to https://daily.cjpais.com/today.html
 
 ## Podcast Controls
 
