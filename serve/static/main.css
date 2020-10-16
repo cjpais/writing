@@ -98,3 +98,7 @@ tr:nth-child(even) {
 tbody > tr:hover {
   background-color: #e1d1a8;
 }
+
+audio {
+  width: 100%;
+}
