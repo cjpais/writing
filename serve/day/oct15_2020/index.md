@@ -102,6 +102,10 @@ I have a lot of notes, but it is quite difficult to capture some of the things, 
       * Trust Based Play
   * Potentially discuss "Ch: 9 n-Dimensional Spaces" in Hamming's book?
 
+## Continuous publishing
+
+Yeah I am too lazy to commit my work manually. Every time I save now the html is generated then is published. 
+
 ## Podcast Controls
 
 Going forward there MUST be controls to seek the podcast (or have clips of it) where I bookmarked. For now this is okay, but I am not happy, and the site is too static to handle this currently. This will be another reason to move to `Reflect`
