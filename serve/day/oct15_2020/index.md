@@ -111,7 +111,7 @@ Yeah I am too lazy to commit my work manually. So now on save:
 * `git add *`
 * `git commit -m random_emoji()`
 * `git push origin master`
-* ping webserver to update
+* ping web-server to update
 
 This means as soon as I start writing in the morning updates will start to be published. Great. Now I don't have to think at all.
 
