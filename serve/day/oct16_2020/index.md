@@ -10,8 +10,6 @@ Took about an hour to write on *Burwell v. Hobby Lobby*. Made some good progress
 
 Another great podcast. Really fun to listen to and some interesting insight. Would like to come back to this podcast
 
-
-
 ## Thinking about Writing
 
 I'm realizing a few things about writing. So right now I have two separate places that I write. I use them for different purposes. This is alright but not great.
