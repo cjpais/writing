@@ -104,7 +104,7 @@ I have a lot of notes, but it is quite difficult to capture some of the things, 
 
 ## Continuous publishing
 
-Yeah I am too lazy to commit my work manually. Every time I save now the html is generated then is published. 
+Yeah I am too lazy to commit my work manually. Every time I save the html is generated then is published. 
 
 ## Podcast Controls
 
