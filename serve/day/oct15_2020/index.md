@@ -119,7 +119,7 @@ Part of this is in response to Jon's latest patch notes with a ["tighter publish
 
 This video is showing my setup
 
-<video controls><source autoplay="false" src="" type="audio/mpeg"></video>
+<video controls><source autoplay="false" src="" type="video/mp4"></video>
 
 ## Podcast Controls
 
