@@ -4,7 +4,7 @@
 
 Apparently Naval is like a big thing or something, but I don't know much about him at all. Whatever. Regardless had a lot of interesting things to say and appreciated this conversation between him and Tim.
 
-<audio name="media"><source autoplay="false" src="https://content.production.cdn.art19.com/validation=1602871532,b1691de3-2dec-5003-83d9-6264bf9e5a8e,DeN3OGs8pRotq0msBxCZmpRbFM4/episodes/3a822b04-2b5b-4eaf-8c82-66d18c2e05a9/31b464ba5cbe0f62f7f8bff5ade6c2449bd7a8c8f6fa7925c11ce251150bec6c7d984427fbfe7f8c22d59cb54b006ee35b2eb5e50a139773c3267dc49efe72ac/TheTimFerrissShow_Naval%20Ravikant.mp3" type="audio/mpeg"></audio>
+<audio controls><source autoplay="false" src="https://content.production.cdn.art19.com/validation=1602871532,b1691de3-2dec-5003-83d9-6264bf9e5a8e,DeN3OGs8pRotq0msBxCZmpRbFM4/episodes/3a822b04-2b5b-4eaf-8c82-66d18c2e05a9/31b464ba5cbe0f62f7f8bff5ade6c2449bd7a8c8f6fa7925c11ce251150bec6c7d984427fbfe7f8c22d59cb54b006ee35b2eb5e50a139773c3267dc49efe72ac/TheTimFerrissShow_Naval%20Ravikant.mp3" type="audio/mpeg"></audio>
 
 <a href="https://podcasts.apple.com/podcast/id863897795"><img src="https://overcast.fm/img/badge-apple.svg"></a>
 <a href="https://pca.st/itunes/863897795"><img src="https://overcast.fm/img/badge-pocketcasts.svg"></a>
