@@ -100,3 +100,5 @@ wicked fun climb
 
 Basically I don't want to think about ever committing something to the repo. That is all. Need to modify the script.
 This has some added benefits as well.
+
+### Update index to include monday, tues... for the current week

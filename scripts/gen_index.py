@@ -1,4 +1,5 @@
 from datetime import datetime, timedelta
+from shutil import copyfile
 import os
 import bisect
 import commonmark
@@ -29,10 +30,11 @@ DAY_NAME_FORMAT = "%B %d, %Y"
 
 class Day:
 
-  def __init__(self, date, url):
+  def __init__(self, date, url, path):
     self.date = date
     self.name = date.strftime(DAY_NAME_FORMAT).replace(" 0", " ")
     self.url = url
+    self.path = path
 
     print
 
@@ -103,9 +105,10 @@ def get_all_days():
       if key in raw_day:
         break
     
+    path = day_dir + "/" + raw_day
     year = int(raw_day.split("_")[-1])
     day = int(raw_day.split("_")[0].replace(key, ""))
-    bisect.insort(days, (Day(datetime(year, month, day), raw_day)))
+    bisect.insort(days, (Day(datetime(year, month, day), raw_day, path)))
   
   return days
 
@@ -140,7 +143,8 @@ def get_days_past(all_days, this_week):
 if __name__ == "__main__":
   days = get_all_days()
   latest = days[-1]
-  print(days)
+  copyfile(latest.path + "/index.html", "../serve/today.html")
+  #print(days)
   this_week = get_this_weeks_days(days[:-1])
 
   # get all of the days that are not in this week and return the years
@@ -151,7 +155,7 @@ if __name__ == "__main__":
   template = jinja_env.get_template("index.template")
   output_md = template.render({"latest": latest, "this_week": this_week, "years": years})
 
-  print(output_md)
+  #print(output_md)
 
   html = commonmark.commonmark(output_md)
 
