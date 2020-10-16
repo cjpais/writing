@@ -116,7 +116,7 @@ Yeah I am too lazy to commit my work manually. So now on save:
 This means as soon as I start writing in the morning updates will start to be published. Great. Now I don't have to think at all.
 
 Part of this is in response to Jon's latest patch notes with a ["tighter publishing feedback loop"](https://jborichevskiy.com/posts/patch-notes-v10/#patch-notes-six-months-in).
-This system takes some effort out. While it's not per character, I do get live previews already since I edit in VSCode.
+This system takes some effort out. While it's not per character, I do get live previews since I edit in VSCode.
 
 ## Podcast Controls
 
