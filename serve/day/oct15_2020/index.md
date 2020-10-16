@@ -113,6 +113,8 @@ Yeah I am too lazy to commit my work manually. So now on save:
 * `git push origin master`
 * ping webserver to update
 
+This means as soon as I start writing in the morning updates will start to be published. Great. Now I don't have to think at all.
+
 ## Podcast Controls
 
 Going forward there MUST be controls to seek the podcast (or have clips of it) where I bookmarked. For now this is okay, but I am not happy, and the site is too static to handle this currently. This will be another reason to move to `Reflect`
