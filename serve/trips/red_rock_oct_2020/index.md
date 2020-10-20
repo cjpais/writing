@@ -31,3 +31,15 @@ So much belaying :)
 * What's Eating You (Spicy 5.10a) - Lead. Hung @ First Bolt (Crux). Set.
 * [Baseboy](https://www.mountainproject.com/route/105944432/baseboy) - (5.10+) - Top Rope. Rested (hung) at traverse section.
 * 2x [Elbows of Mac and Ronnie](https://www.mountainproject.com/route/105944680/elbows-of-mac-and-ronnie) (5.11b) - Lots of fall at the crux. Aided over it. Rest was easy. Time to project the crux. Cleaned
+
+## Photos
+
+![](climbing.jpeg)
+![](doggo.jpeg)
+![](everyone.jpeg)
+![](fuck_yea.jpeg)
+![](fun.jpeg)
+![](me.jpeg)
+![](morning_hanging.jpeg)
+![](whiiiiip.jpeg)
+![](yooooo.jpeg)
