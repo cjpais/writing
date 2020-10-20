@@ -1,4 +1,4 @@
-# Friday October 16th 2020
+# Friday October 16th, 2020
 
 A nice slow morning. Meditation and just cleaning the house. 
 
