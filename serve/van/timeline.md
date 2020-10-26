@@ -8,6 +8,7 @@ Goal is to have the van built and being lived in by March 1st 2020.
 These are in rough order but not decided
 
 * [ ] 3D Model Van Interiors
+* [ ] Decide what will go in the van
 * [ ] Pick a van
   * Dodge/Mercedes Sprinter
   * RAM ProMaster
