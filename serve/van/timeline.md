@@ -8,15 +8,7 @@ Target cost \$25,000 max cost \$30,000
 
 ### Garage Space
 
-* Climbing Gear
-* Bike(s)
-* Surfboard?
-
 ### Power
-
-* Number of solar panels (and wattage)
-* Battery Amperage
-* Cost estimate
 
 ## Oct 28th, 2020 - 3D Model Basic Interiors
 
