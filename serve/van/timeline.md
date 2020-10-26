@@ -1,6 +1,12 @@
 # Van Timeline
 
-## Oct 27th, 2020 - Collect Living Requirements (Max and Min)
+## Oct 27th, 2020 - Collect Living and Garage Requirements (Max and Min)
+
+## Oct 28th, 2020 - 3D Model Basic Interiors
+
+For multiple wheelbases, approximate (boxy) models of the interiors
+
+## Oct 29th, 2020 - 
 
 ## Dec 1st, 2020 - Buy Van
 
