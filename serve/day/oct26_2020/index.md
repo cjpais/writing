@@ -6,8 +6,8 @@ _TON_ of writing in my journal however.
 
 A few notable things are happening that I'm willing to share.
 
-* I am going to buy a van and live in it.
-* I am shifting focus from note-taking/tools-for-thought to climbing
+* I am going to buy a van and live in it
+* I am shifting focus from note-taking/tools-for-thought to building climbing focused apps/tools
 * I am climbing El Cap in 2021
 
 Because of all this going on I may be sharing and interacting less on a daily basis 
