@@ -15,11 +15,11 @@ Buy the van and begin work. Be living in a cheaper place. That means Nov should 
 
 These are in rough order but not decided
 
-* [ ] Decide what will go in the van
-* [ ] Pick a van
+* Decide what will go in the van
+* Pick a van
   * Dodge/Mercedes Sprinter
   * RAM ProMaster
   * Ford Transit
-* [ ] test
-* [ ] test
-* [ ] test
+* test
+* test
+* test
