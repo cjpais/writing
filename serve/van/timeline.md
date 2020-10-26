@@ -1,6 +1,10 @@
 # Van Timeline
 
-## Oct 27th, 2020 - Collect Living and Garage Requirements (Max and Min)
+## Oct 27th, 2020 - Collect Requirements (Max and Min)
+
+### Living Space
+
+### Garage Space
 
 ## Oct 28th, 2020 - 3D Model Basic Interiors
 
