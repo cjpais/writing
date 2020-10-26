@@ -3,7 +3,7 @@
 ## March 1st, 2020
 Goal is to have the van built and being lived in by March 1st 2020. 
 
-## Steps to get there
+## TODO's without timeline yet
 
 These are in rough order but not decided
 
