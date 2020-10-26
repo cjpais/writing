@@ -22,7 +22,10 @@ Target cost \$25,000 max cost \$30,000
 
 For multiple wheelbases, approximate (boxy) models of the interiors
 
-## Oct 29th, 2020 - 
+## Oct 31st, 2020 - Determine which van
+
+I am between 3, but mainly 2. The Mercedes Sprinter and the Ford Transit. Leaning slightly towards
+the Transit at the moment. Need more research. 
 
 ## Dec 1st, 2020 - Buy Van
 
