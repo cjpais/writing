@@ -1,6 +1,6 @@
 # Van Timeline
 
-Target cost $25,000 max cost $30,000
+Target cost \$25,000 max cost \$30,000
 
 ## Oct 27th, 2020 - Collect Requirements (Max and Min)
 
