@@ -11,6 +11,7 @@ Target cost \$25,000 max cost \$30,000
 ### Power
 
 * 300W Solar
+* anytime i save it git push
 
 ## Oct 28th, 2020 - 3D Model Basic Interiors
 
