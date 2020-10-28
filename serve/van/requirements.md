@@ -57,6 +57,10 @@ All the things that need to fit (ideally)
 * Kitchen Scissors
 * Can opener
 
+### Eating Space
+
+* Need a place to eat, and also sit while eating
+
 ### Misc
 
 * Bookshelf
@@ -79,7 +83,7 @@ All the things that need to fit (ideally)
 
 * Not sure if I want to do one large tank or multiple smaller tanks.
 * This depends on the shower I think
-* 
+* Inside or out?
 
 ## Garage
 
