@@ -41,6 +41,7 @@
 * https://www.youtube.com/watch?v=4vJmU3b-P4M - Using sink as shower outside, with heater I believe
 * DIY shower entirely - http://www.theroadisourhome.com/2018/06/18/shower-toilet-build-how-to-van-conversion/
   * Marine plywood - https://www.frosthardwood.com/hardwood-softwood-plywood.html
+* https://actsofadventure.com/van-shower/
 
 ## Good DIY Channels
 
