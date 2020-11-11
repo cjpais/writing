@@ -22,6 +22,20 @@
 * https://divineontheroad.com/van-life-cost-breakdown/
 * https://actsofadventure.com/wp-content/uploads/2020/07/Van-Build-Parts-List-v3.pdf
 
+## Wiring Diagram and Info
+
+* https://www.vanlifeoutfitters.com/camper-van-electrical-system-diagram-2020/
+* https://freelyroaming.com/5-levels-of-electrical-systems-for-your-van-life-build-project-which-one-are-you/
+* https://kombilife.com/van-life-electrical-system-guide/
+* https://faroutride.com/electrical-system/
+* https://www.vanlifeoutfitters.com/camper-van-electrical-system-diagram-2020/
+
+Awesome Guide:
+* https://www.youtube.com/watch?v=NImNGe_3TYk
+  * Plus resource https://images.squarespace-cdn.com/content/v1/5f202cb34dc1d664073faa4d/1600362528580-BHLL32X7AET8SFAX6LPE/ke17ZwdGBToddI8pDm48kPTrHXgsMrSIMwe6YW3w1AZ7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0k5fwC0WRNFJBIXiBeNI5fKTrY37saURwPBw8fO2esROAxn-RKSrlQamlL27g22X2A/vanbuild-electricalsystemdiagram.jpg?format=3500w
+* https://drive.google.com/file/d/1HxVOA8gnLmRZTcG7LgHiJ0yYfbBLFAOp/view
+  * https://www.youtube.com/watch?v=4XlWKQAF_Ys
+
 ## Potential Places to buy van from
 
 * Craigslist
