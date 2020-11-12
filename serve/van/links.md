@@ -22,6 +22,11 @@
 * https://divineontheroad.com/van-life-cost-breakdown/
 * https://actsofadventure.com/wp-content/uploads/2020/07/Van-Build-Parts-List-v3.pdf
 
+## Random Electrical
+
+* https://www.victronenergy.com/upload/documents/Wiring-Unlimited-EN.pdf
+* http://assets.bluesea.com/files/resources/reference/20010.pdf
+
 ## Wiring Diagram and Info
 
 * https://www.vanlifeoutfitters.com/camper-van-electrical-system-diagram-2020/
