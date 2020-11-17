@@ -66,6 +66,9 @@ Breaking this down you only need to do two things.
 1. Change the `appID` to be your `TEAM_ID.APP_BUNDLE_ID`
    * My `TEAM_ID = UWFLB4GC25` 
    * My `APP_BUNDLE_ID = com.pais.rockaholic` 
+2. Change the `paths` to be the URL's you want to treat as universal links.
+   * I will be handling all paths starting with `route`
+   * For more information see [Apple's Documentation](https://developer.apple.com/library/archive/documentation/General/Conceptual/AppSearch/UniversalLinks.html) (it's quite good)
 
 The requirements for serving it are as follows:
 
