@@ -24,9 +24,9 @@ in this file, they will be directed into your native experience.
 **Steps to Implement**
 
 1. Add Apple App Site Association (AASA)
+   * Get Team ID
    * Validate AASA 
 2. Add Entitlements to App
-   * Get Team ID
 3. Use onOpenURL to handle Links
 4. Use onContinueUserActivity to handle QR Codes
 5. Handle Routing 
@@ -37,19 +37,49 @@ in this file, they will be directed into your native experience.
 
 ## Adding Apple App Site Association
 
-### Validating AASA
+Before working on the App at all we want to have everything set up for the app to support our 
+Universal Link. The first thing to do is create the `apple-app-site-association` (AASA) and serve it.
 
-There are a few tools you can use to validate your AASA after you have it on your server.
-Even if you validate your AASA you may run into some frustration, but it is a good thing
-to check off your list.
+For example [my AASA](https://digitaldirtbag.xyz/apple-app-site-association) looks like this:
 
-To have a valid AASA you need the following
+```json
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "UWFLB4GC25.com.pais.rockaholic",
+        "paths": ["/route/*"]
+      }
+    ]
+  },
+  "activitycontinuation": {
+    "apps": [
+      "UWFLB4GC25.com.pais.rockaholic"
+    ]
+  }
+}
+```
+
+Breaking this down you only need to do two things.
+
+1. Change the `appID` to be your `TEAM_ID.APP_BUNDLE_ID`
+   * My `TEAM_ID = UWFLB4GC25` 
+   * My `APP_BUNDLE_ID = com.pais.rockaholic` 
+
+The requirements for serving it are as follows:
 
 * Have it named `apple-app-site-association`
 * Have it served over HTTPS
 * Have it served with the `Content-Type` header set to `application/json`
 * Have it be valid JSON
 * Have it served at the root directory or `/.well-known` directory
+
+### Validating AASA
+
+There are a few tools you can use to validate your AASA after you have it on your server.
+Even if you validate your AASA you may run into some frustration, but it is a good thing
+to check off your list.
 
 The [Branch AASA Validator](https://branch.io/resources/aasa-validator/) is the best I found. 
 Just put in your domain and it will check everything for you. You should see all green like the 
@@ -60,9 +90,6 @@ below if it's good!
 
 [Apple has their own validation tool](https://search.developer.apple.com/appsearch-validation-tool), however it doesn't think my App is valid 🤷🏽‍♂️. I wouldn't recommend it. 
 It just added to the confusion of the process.
-
-
-
 
 ### References
 

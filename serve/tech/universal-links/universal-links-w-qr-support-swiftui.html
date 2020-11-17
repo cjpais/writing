@@ -20,12 +20,10 @@
 <ol type="1">
 <li>Add Apple App Site Association (AASA)
 <ul>
+<li>Get Team ID</li>
 <li>Validate AASA</li>
 </ul></li>
-<li>Add Entitlements to App
-<ul>
-<li>Get Team ID</li>
-</ul></li>
+<li>Add Entitlements to App</li>
 <li>Use onOpenURL to handle Links</li>
 <li>Use onContinueUserActivity to handle QR Codes</li>
 <li>Handle Routing</li>
@@ -37,9 +35,33 @@
 </ul></li>
 </ol>
 <h2>Adding Apple App Site Association</h2>
-<h3>Validating AASA</h3>
-<p>There are a few tools you can use to validate your AASA after you have it on your server. Even if you validate your AASA you may run into some frustration, but it is a good thing to check off your list.</p>
-<p>To have a valid AASA you need the following</p>
+<p>Before working on the App at all we want to have everything set up for the app to support our Universal Link. The first thing to do is create the <code>apple-app-site-association</code> (AASA) and serve it.</p>
+<p>For example <a href="https://digitaldirtbag.xyz/apple-app-site-association">my AASA</a> looks like this:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode json"><code class="sourceCode json"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true"></a><span class="fu">{</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true"></a>  <span class="dt">&quot;applinks&quot;</span><span class="fu">:</span> <span class="fu">{</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true"></a>    <span class="dt">&quot;apps&quot;</span><span class="fu">:</span> <span class="ot">[]</span><span class="fu">,</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true"></a>    <span class="dt">&quot;details&quot;</span><span class="fu">:</span> <span class="ot">[</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true"></a>      <span class="fu">{</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true"></a>        <span class="dt">&quot;appID&quot;</span><span class="fu">:</span> <span class="st">&quot;UWFLB4GC25.com.pais.rockaholic&quot;</span><span class="fu">,</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true"></a>        <span class="dt">&quot;paths&quot;</span><span class="fu">:</span> <span class="ot">[</span><span class="st">&quot;/route/*&quot;</span><span class="ot">]</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true"></a>      <span class="fu">}</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true"></a>    <span class="ot">]</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true"></a>  <span class="fu">},</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true"></a>  <span class="dt">&quot;activitycontinuation&quot;</span><span class="fu">:</span> <span class="fu">{</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true"></a>    <span class="dt">&quot;apps&quot;</span><span class="fu">:</span> <span class="ot">[</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true"></a>      <span class="st">&quot;UWFLB4GC25.com.pais.rockaholic&quot;</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true"></a>    <span class="ot">]</span></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true"></a>  <span class="fu">}</span></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true"></a><span class="fu">}</span></span></code></pre></div>
+<p>Breaking this down you only need to do two things.</p>
+<ol type="1">
+<li>Change the <code>appID</code> to be your <code>TEAM_ID.APP_BUNDLE_ID</code>
+<ul>
+<li>My <code>TEAM_ID = UWFLB4GC25</code></li>
+<li>My <code>APP_BUNDLE_ID = com.pais.rockaholic</code></li>
+</ul></li>
+</ol>
+<p>The requirements for serving it are as follows:</p>
 <ul>
 <li>Have it named <code>apple-app-site-association</code></li>
 <li>Have it served over HTTPS</li>
@@ -47,6 +69,8 @@
 <li>Have it be valid JSON</li>
 <li>Have it served at the root directory or <code>/.well-known</code> directory</li>
 </ul>
+<h3>Validating AASA</h3>
+<p>There are a few tools you can use to validate your AASA after you have it on your server. Even if you validate your AASA you may run into some frustration, but it is a good thing to check off your list.</p>
 <p>The <a href="https://branch.io/resources/aasa-validator/">Branch AASA Validator</a> is the best I found. Just put in your domain and it will check everything for you. You should see all green like the below if it’s good!</p>
 <p><img src="aasa_valid.png" /></p>
 <p><a href="https://search.developer.apple.com/appsearch-validation-tool">Apple has their own validation tool</a>, however it doesn’t think my App is valid 🤷🏽‍♂️. I wouldn’t recommend it. It just added to the confusion of the process.</p>
