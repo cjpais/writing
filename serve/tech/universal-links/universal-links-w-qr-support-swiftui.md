@@ -41,7 +41,13 @@ in this file, they will be directed into your native experience.
 
 There are a few tools you can use to validate your AASA after you have it on your server.
 Even if you validate your AASA you may run into some frustration, but it is a good thing
-to check off your list
+to check off your list.
+
+The [Branch AASA Validator](https://branch.io/resources/aasa-validator/) is the best I found.
+
+
+[Apple has their own](https://search.developer.apple.com/appsearch-validation-tool), however it doesn't think my App is valid 🤷🏽‍♂️ so I wouldn't recommend it. 
+It just added to the confusion of the process.
 
 
 
