@@ -15,7 +15,7 @@
 <p>I struggled for a long time to figure out how to implement Universal Links properly. In addition there was very little documentation on how you open into your app from a QR code. This guide serves as a way to implement the base level of Universal Link functionality as well as handling QR codes.</p>
 <h2>Overview</h2>
 <p><a href="https://developer.apple.com/ios/universal-links/">Universal Links</a> allow you to redirect users from a webpage directly into your app’s context. It is applicable only for iOS devices. With Universal Links you can maintain the context the user previously had on the webpage but give them a native experience.</p>
-<p>By adding a specific file (apple-app-site-association) on your webserver, you can support Universal Links relatively easily. When your app is downloaded the user’s device will query your server for this file. Once it’s done this, any time the user visits one of the routes provided in this file, they will be directed into your native experience.</p>
+<p>By adding a specific file (<code>apple-app-site-association</code>) on your webserver, you can support Universal Links relatively easily. When your app is downloaded the user’s device will query your server for this file. Once it’s done this, any time the user visits one of the routes provided in this file, they will be directed into your native experience.</p>
 <p><strong>Steps to Implement</strong></p>
 <ol type="1">
 <li>Add Apple App Site Association (AASA)
@@ -39,9 +39,16 @@
 <h2>Adding Apple App Site Association</h2>
 <h3>Validating AASA</h3>
 <p>There are a few tools you can use to validate your AASA after you have it on your server. Even if you validate your AASA you may run into some frustration, but it is a good thing to check off your list.</p>
+<p>To have a valid AASA you need the following</p>
+<ul>
+<li>Have it named <code>apple-app-site-association</code></li>
+<li>Have it served over HTTPS</li>
+<li>Have it be valid JSON</li>
+<li>Have it served at the root directory or <code>/.well-known</code> directory</li>
+</ul>
 <p>The <a href="https://branch.io/resources/aasa-validator/">Branch AASA Validator</a> is the best I found. Just put in your domain and it will check everything for you. You should see all green like the below if it’s good!</p>
 <p><img src="aasa_valid.png" /></p>
-<p><a href="https://search.developer.apple.com/appsearch-validation-tool">Apple has their own</a>, however it doesn’t think my App is valid 🤷🏽‍♂️ so I wouldn’t recommend it. It just added to the confusion of the process.</p>
+<p><a href="https://search.developer.apple.com/appsearch-validation-tool">Apple has their own validation tool</a>, however it doesn’t think my App is valid 🤷🏽‍♂️. I wouldn’t recommend it. It just added to the confusion of the process.</p>
 <h3>References</h3>
 <p><a href="https://developer.apple.com/library/archive/documentation/General/Conceptual/AppSearch/UniversalLinks.html">Support Universal Links - Apple</a></p>
 
