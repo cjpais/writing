@@ -43,7 +43,11 @@ There are a few tools you can use to validate your AASA after you have it on you
 Even if you validate your AASA you may run into some frustration, but it is a good thing
 to check off your list.
 
-The [Branch AASA Validator](https://branch.io/resources/aasa-validator/) is the best I found.
+The [Branch AASA Validator](https://branch.io/resources/aasa-validator/) is the best I found. 
+Just put in your domain and it will check everything for you. You should see all green like the 
+below if it's good!
+
+![](aasa_valid.png)
 
 
 [Apple has their own](https://search.developer.apple.com/appsearch-validation-tool), however it doesn't think my App is valid 🤷🏽‍♂️ so I wouldn't recommend it. 
