@@ -47,6 +47,7 @@ To have a valid AASA you need the following
 
 * Have it named `apple-app-site-association`
 * Have it served over HTTPS
+* Have it served with the `Content-Type` header set to `application/json`
 * Have it be valid JSON
 * Have it served at the root directory or `/.well-known` directory
 
