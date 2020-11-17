@@ -70,6 +70,9 @@ Breaking this down you only need to do two things.
    * I will be handling all paths starting with `route`
    * For more information see [Apple's Documentation](https://developer.apple.com/library/archive/documentation/General/Conceptual/AppSearch/UniversalLinks.html) (it's quite good)
 
+> Note: `activitycontinuation` may not be necessary here, but according to this blog it was.
+> If you run into trouble with your Universal Links you may want to add this too.
+
 The requirements for serving it are as follows:
 
 * Have it named `apple-app-site-association`
