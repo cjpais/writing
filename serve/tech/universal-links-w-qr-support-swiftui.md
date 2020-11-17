@@ -21,7 +21,6 @@ Universal Links relatively easily. When your app is downloaded the user's device
 your server for this file. Once it's done this, any time the user visits one of the routes provided
 in this file, they will be directed into your native experience.
 
-
 **Steps to Implement**
 
 1. Add Apple App Site Association (AASA)
