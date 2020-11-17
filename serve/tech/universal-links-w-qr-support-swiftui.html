@@ -5,12 +5,34 @@
     <link rel="stylesheet" href="../../static/main.css">
     <link rel="stylesheet" href="static/main.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-    <title>Handling Universal Links (including QR Codes) in SwiftUI</title>
+    <title>Handling Universal Links in SwiftUI</title>
   </head>
 
   <body class="container">
-    <h1>Handling Universal Links (including QR Codes) in SwiftUI</h1>
-<p><em>Last Updated: Nov 2020</em> <em>iOS SDK 14.2</em></p>
+    <h1>Handling Universal Links in SwiftUI</h1>
+<p><em>Last Updated: Nov 2020</em></p>
+<p><em>iOS SDK 14.2</em></p>
+<p>I struggled for a long time to figure out how to implement Universal Links properly. In addition there was very little documentation on how you open into your app from a QR code. This guide serves as a way to implement the base level of Universal Link functionality as well as handling QR codes.</p>
+<h2>Overview</h2>
+<p><a href="https://developer.apple.com/ios/universal-links/">Universal Links</a> allow you to redirect users from a webpage directly into your app’s context. It is applicable only for iOS devices. With Universal Links you can maintain the context the user previously had on the webpage but give them a native experience.</p>
+<p>By adding a specific file (apple-app-site-association) on your webserver, you can support Universal Links relatively easily. When your app is downloaded the user’s device will query your server for this file. Once it’s done this, any time the user visits one of the routes provided in this file, they will be directed into your native experience.</p>
+<p><strong>Steps to Implement</strong></p>
+<ol type="1">
+<li>Add Apple App Site Association (AASA)
+<ul>
+<li>Validate AASA</li>
+</ul></li>
+<li>Add Entitlements to App
+<ul>
+<li>Get Team ID</li>
+</ul></li>
+<li>Use onOpenURL to handle Links</li>
+<li>Use onContinueUserActivity to handle QR Codes</li>
+<li>Handle Routing</li>
+</ol>
+<h2>Adding Apple App Site Association</h2>
+<h3>References</h3>
+<p><a href="https://developer.apple.com/library/archive/documentation/General/Conceptual/AppSearch/UniversalLinks.html">Support Universal Links - Apple</a></p>
 
   </body>
 
