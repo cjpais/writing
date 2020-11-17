@@ -30,8 +30,18 @@ in this file, they will be directed into your native experience.
 3. Use onOpenURL to handle Links
 4. Use onContinueUserActivity to handle QR Codes
 5. Handle Routing 
+6. Testing Universal Links
+   * Notes Link
+   * Web Link
+   * QR Link 
 
 ## Adding Apple App Site Association
+
+### Validating AASA
+
+There are a few tools you can use to validate your AASA after you have it on your server.
+Even if you validate your AASA you may run into some frustration, but it is a good thing
+to check off your list
 
 
 
