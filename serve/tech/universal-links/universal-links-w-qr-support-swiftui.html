@@ -90,10 +90,49 @@
 <p><a href="https://search.developer.apple.com/appsearch-validation-tool">Apple has their own validation tool</a>, however it doesn’t think my App is valid 🤷🏽‍♂️. I wouldn’t recommend it. It just added to the confusion of the process.</p>
 <h2>Add Entitlements to App</h2>
 <h2>Using <code>onOpenURL</code> to handle links</h2>
-<p>This is quite simple.</p>
+<p><code>onOpenURL</code> is a callback which will be called when a user taps a link that matches the specified <code>paths</code> in your AASA. This should happen from a webpage, the notes application, etc. However this will only happen when the link is opened in Safari as far as I can tell. If you want to link from your site say <code>www.example.com</code> to <code>www.example.com/thing_to_handle/5</code> make sure you specify the whole URL path instead of the shorthand <code>/thing_to_handle/5</code>. If you do the shorthand your Universal Link <em>will not</em> open by default.</p>
+<p>In your main <code>App</code> file you will have the <code>body: Scene</code> variable. You will want to handle <code>onOpenURL</code> within this. I’ve done it as my <code>TabView</code> get’s rendered. So far this has worked.</p>
+<pre class="swift"><code>    var body: some Scene {
+        WindowGroup {
+            TabView(selection: $selectedTab) {
+                ExploreView(state: state)
+                    .tag(TabIdentifier.explore)
+                
+                ExploreRoutesView(state: state)
+                    .tag(TabIdentifier.route)
+    
+                AddView()
+                    .tag(TabIdentifier.add)  
+                
+            }.onOpenURL { url in
+                routeURL(url)
+            }
+        }
+    }</code></pre>
+<p>You can see when getting the <code>onOpenURL</code> callback I am calling into a function <code>routeURL</code> which will handle the URL path to get to the same context as the webpage.</p>
 <h2>Using `o</h2>
+<pre class="swift"><code>    var body: some Scene {
+        WindowGroup {
+            TabView(selection: $selectedTab) {
+                ExploreView(state: state)
+                    .tag(TabIdentifier.explore)
+                
+                ExploreRoutesView(state: state)
+                    .tag(TabIdentifier.route)
+    
+                AddView()
+                    .tag(TabIdentifier.add)  
+                
+            }.onOpenURL { url in
+                routeURL(url)
+            }
+            .onContinueUserActivity(NSUserActivityTypeBrowsingWeb, perform: { activity in
+                routeURL(activity.webpageURL!)
+            })
+        }
+    }</code></pre>
 <h2>Handle Routing</h2>
-<p>Best to check out Donny Wals guide on han</p>
+<p>Best to check out <a href="https://www.donnywals.com/handling-deeplinks-in-ios-14-with-onopenurl/">Donny Wals guide</a> on handling Universal Links. He has some great examples on how you can handle routing in your own app. I ended up using a similar approach.</p>
 <h3>References</h3>
 <p><a href="https://developer.apple.com/library/archive/documentation/General/Conceptual/AppSearch/UniversalLinks.html">Support Universal Links - Apple</a></p>
 
