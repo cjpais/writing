@@ -227,4 +227,4 @@ There are *many* finicky things which happen with Universal Links which were not
 If you run into something weird don't hesitate to contact me `cj@cjpais.com`. I'll try to help
 to the best of my ability. 
 
-Cheers - CJ
+🍻 Cheers - CJ
