@@ -76,6 +76,10 @@ img {
   max-height: 100%;
 }
 
+video {
+  height: 480px;
+}
+
 table {
   border-collapse: collapse;
   width: 100%;
