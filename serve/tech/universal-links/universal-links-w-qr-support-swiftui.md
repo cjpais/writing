@@ -126,7 +126,8 @@ This will add a new section for the Associated Domains which then you can add yo
 
 ![](add_domains.png)
 
-After these steps your app should be set up to handle the Universal Link.
+After these steps your app should have the necessary entitlements to handle the Universal Link. 
+The next thing to do is handle it!
 
 You may also need to add the entitlements for you app on [developer.apple.com](developer.apple.com). See [this](https://blog.branch.io/how-to-setup-universal-links-to-deep-link-on-apple-ios/) for more detail
 
