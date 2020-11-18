@@ -112,6 +112,20 @@ It just added to the confusion of the process.
 
 ## <a name="entitlements"></a>Add Entitlements to App
 
+You have to add the "Associated Domains" entitlement for your app to work.
+
+To do this, open your apps `.xcodeproj` file. After this click the `+ Capability` button illustrated below
+
+![](add_cap.png)
+
+This will bring up a window which looks like a big list, filter out this list for Associated Domains
+
+![](add_ass.png)
+
+This will add a new section for the Associated Domains which then you can add your domain to
+
+![](add_domains.png)
+
 ## <a name="open-url"></a>Using `onOpenURL` to handle links
 
 `onOpenURL` is a callback which will be called when a user taps a link that matches the 

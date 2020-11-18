@@ -92,6 +92,13 @@
 <p><img src="aasa_valid.png" /></p>
 <p><a href="https://search.developer.apple.com/appsearch-validation-tool">Apple has their own validation tool</a>, however it doesn’t think my App is valid 🤷🏽‍♂️. I wouldn’t recommend it. It just added to the confusion of the process.</p>
 <h2><a name="entitlements"></a>Add Entitlements to App</h2>
+<p>You have to add the “Associated Domains” entitlement for your app to work.</p>
+<p>To do this, open your apps <code>.xcodeproj</code> file. After this click the <code>+ Capability</code> button illustrated below</p>
+<p><img src="add_cap.png" /></p>
+<p>This will bring up a window which looks like a big list, filter out this list for Associated Domains</p>
+<p><img src="add_ass.png" /></p>
+<p>This will add a new section for the Associated Domains which then you can add your domain to</p>
+<p><img src="add_domains.png" /></p>
 <h2><a name="open-url"></a>Using <code>onOpenURL</code> to handle links</h2>
 <p><code>onOpenURL</code> is a callback which will be called when a user taps a link that matches the specified <code>paths</code> in your AASA. This should happen from a webpage, the notes application, etc. However this will only happen when the link is opened in Safari as far as I can tell. If you want to link from your site say <code>www.example.com</code> to <code>www.example.com/thing_to_handle/5</code> make sure you specify the whole URL path instead of the shorthand <code>/thing_to_handle/5</code>. If you do the shorthand your Universal Link <em>will not</em> open by default.</p>
 <p>In your main <code>App</code> file you will have the <code>body: Scene</code> variable. You will want to handle <code>onOpenURL</code> within this. I’ve done it as my <code>TabView</code> get’s rendered. So far this has worked.</p>
