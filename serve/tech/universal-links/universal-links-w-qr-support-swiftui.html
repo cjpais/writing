@@ -110,7 +110,10 @@
         }
     }</code></pre>
 <p>You can see when getting the <code>onOpenURL</code> callback I am calling into a function <code>routeURL</code> which will handle the URL path to get to the same context as the webpage.</p>
-<h2>Using `o</h2>
+<h2>Using <code>onContinueUserActivity</code></h2>
+<p>If you generated a QR code which points to a URL above, you might notice that the QR code opens your application but does not direct to the right view. In fact it doesn’t call <code>onOpenURL</code> at all. This left me puzzled for a while, but eventually figured out it should be handled by <code>onContinueUserActivity</code> instead. So you can add a similar handler there.</p>
+<p>You will want to use the type <code>NSUserActivityTypeBrowsingWeb</code> to pass to this function. QR Codes will be opened in Safari in the background then directed to your app if that path is handled by your app.</p>
+<p>Unlike <code>onOpenURL</code> you will get an <code>NSUserActivity</code> in the callback. Fortunately it has a very easy way to get the URL from it, and you can handle routing from there.</p>
 <pre class="swift"><code>    var body: some Scene {
         WindowGroup {
             TabView(selection: $selectedTab) {
@@ -133,6 +136,9 @@
     }</code></pre>
 <h2>Handle Routing</h2>
 <p>Best to check out <a href="https://www.donnywals.com/handling-deeplinks-in-ios-14-with-onopenurl/">Donny Wals guide</a> on handling Universal Links. He has some great examples on how you can handle routing in your own app. I ended up using a similar approach.</p>
+<h2>Testing</h2>
+<p>I would test a few things.</p>
+<p>First would be in the Notes app. This seems like the most surefire way to see if you’re on the right path. For me the Universal Link from the Notes app always worked. That is I had a note with the link pasted into it. When I clicked the link it went directly to the app and where I wanted.</p>
 <h3>References</h3>
 <p><a href="https://developer.apple.com/library/archive/documentation/General/Conceptual/AppSearch/UniversalLinks.html">Support Universal Links - Apple</a></p>
 

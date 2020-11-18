@@ -141,7 +141,19 @@ In your main `App` file you will have the `body: Scene` variable. You will want 
 You can see when getting the `onOpenURL` callback I am calling into a function `routeURL` which 
 will handle the URL path to get to the same context as the webpage.
 
-## Using `o
+## Using `onContinueUserActivity`
+
+If you generated a QR code which points to a URL above, you might notice that the QR code
+opens your application but does not direct to the right view. In fact it doesn't call
+`onOpenURL` at all. This left me puzzled for a while, but eventually figured out it should
+be handled by `onContinueUserActivity` instead. So you can add a similar handler there.
+
+You will want to use the type `NSUserActivityTypeBrowsingWeb` to pass to this function.
+QR Codes will be opened in Safari in the background then directed to your app if that
+path is handled by your app.
+
+Unlike `onOpenURL` you will get an `NSUserActivity` in the callback. Fortunately it has
+a very easy way to get the URL from it, and you can handle routing from there. 
 
 ```swift
     var body: some Scene {
@@ -172,6 +184,16 @@ will handle the URL path to get to the same context as the webpage.
 Best to check out [Donny Wals guide](https://www.donnywals.com/handling-deeplinks-in-ios-14-with-onopenurl/) on handling Universal Links. 
 He has some great examples on how
 you can handle routing in your own app. I ended up using a similar approach. 
+
+## Testing
+
+I would test a few things. 
+
+First would be in the Notes app. This seems like the most surefire way to see if you're on the
+right path.
+For me the Universal Link from the Notes app always worked. That is I had a note with the link
+pasted into it. When I clicked the link it went directly to the app and where I wanted.
+
 
 ### References
 
