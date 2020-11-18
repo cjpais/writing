@@ -223,5 +223,6 @@ It should looks something like:
 
 ## Contact
 
-There are some finicky things here which were not covered, if you run into something weird
-don't hesitate to contact me `cj@cjpais.com`
+There are *many* finicky things which happen with Universal Links which were not covered.
+If you run into something weird don't hesitate to contact me `cj@cjpais.com`. I'll try to help
+to the best of my ability
