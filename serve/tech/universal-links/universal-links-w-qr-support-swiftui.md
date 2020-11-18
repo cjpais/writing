@@ -198,6 +198,8 @@ pasted into it. When I clicked the link it went directly to the app and where I 
 
 It should looks something like:
 
+![](from_notes.mp4)
+
 ### Your Website
 
 Second would be to test on your website. Ensure a link on your website will directly open your app.
@@ -208,6 +210,7 @@ link they are probably fine with the app launching.
 
 It should look something like:
 
+![](from_site.mp4)
 
 ### From a QR Code
 
@@ -216,6 +219,7 @@ the URL you want to open in the app.
 
 It should looks something like:
 
+![](from_qr.mp4)
 
 ## References
 
