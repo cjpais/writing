@@ -25,25 +25,27 @@ in this file, they will be directed into your native experience.
 
 **Steps to Implement**
 
-1. Add Apple App Site Association (AASA)
-   * Validate AASA 
-2. Add Entitlements to App
-3. Use `onOpenURL` to handle Links
-4. Use `onContinueUserActivity` to handle QR Codes
-5. Handle Routing 
-6. Testing Universal Links
-   * Notes Link
-   * Web Link
-   * QR Link 
-   * NFC Tags
+1. [Add Apple App Site Association (AASA)](#adding-aasa)
+   * [Create your AASA](#creating-your-aasa) 
+   * [Server your AASA](#serving-your-aasa)
+   * [Validate AASA](#validating-aasa)
+2. [Add Entitlements to App](#entitlements)
+3. [Use `onOpenURL` to handle Links](#open-url)
+4. [Use `onContinueUserActivity` to handle QR Codes](#continue-activity)
+5. [Handle Routing](#routing) 
+6. [Testing Universal Links](#testing)
+   * [Notes Link](#notes)
+   * [Web Link](#website)
+   * [QR Link](#qr) 
+   * [NFC Tags](#nfc)
 
-## Adding Apple App Site Association
+## <a name="adding-aasa"></a>Adding Apple App Site Association
 
 Before working on the App at all we want to have everything set up for the app to support our 
 Universal Link. The first thing to do is create the `apple-app-site-association` (AASA) and 
 serve it. This will allow Apple to know when to open your app.
 
-### Creating your AASA
+### <a name="creating-your-aasa"></a>Creating your AASA
 
 For example [my AASA](https://digitaldirtbag.xyz/apple-app-site-association) looks like this:
 
@@ -80,7 +82,7 @@ Breaking this down you only need to do two things.
 > `activitycontinuation` may not be necessary here, but according to [this blog](https://medium.com/@barsh/my-first-date-with-ios-universal-links-90dfabc88bb8) it was.
 > If you run into trouble with your Universal Links you may want to add this too.
 
-### Serving your AASA
+### <a name="serving-your-aasa"></a>Serving your AASA
 
 Once you have your `apple-app-site-association` created, you will want to add this file 
 to your webserver.
@@ -93,7 +95,7 @@ The requirements for serving it are as follows:
 * Have it be valid JSON
 * Have it served at the root directory or `/.well-known` directory
 
-### Validating AASA
+### <a name="validating-aasa"></a>Validating AASA
 
 There are a few tools you can use to validate your AASA after you have it on your server.
 Even if you validate your AASA you may run into some frustration, but it is a good thing
@@ -108,9 +110,9 @@ below if it's good!
 [Apple has their own validation tool](https://search.developer.apple.com/appsearch-validation-tool), however it doesn't think my App is valid 🤷🏽‍♂️. I wouldn't recommend it. 
 It just added to the confusion of the process.
 
-## Add Entitlements to App
+## <a name="entitlements"></a>Add Entitlements to App
 
-## Using `onOpenURL` to handle links
+## <a name="open-url"></a>Using `onOpenURL` to handle links
 
 `onOpenURL` is a callback which will be called when a user taps a link that matches the 
 specified `paths` in your AASA. This should happen from a webpage, the notes application, etc.
@@ -144,7 +146,7 @@ var body: some Scene {
 You can see when getting the `onOpenURL` callback I am calling into a function `routeURL` which 
 will handle the URL path to get to the same context as the webpage.
 
-## Using `onContinueUserActivity`
+## <a name="continue-activity"></a>Using `onContinueUserActivity`
 
 If you generated a QR code which points to a URL above, you might notice that the QR code
 opens your application but does not direct to the right view. In fact it doesn't call
@@ -182,17 +184,17 @@ var body: some Scene {
 ```
 
 
-## Handle Routing 
+## <a name="routing"></a>Handle Routing 
 
 Best to check out [Donny Wals guide](https://www.donnywals.com/handling-deeplinks-in-ios-14-with-onopenurl/) on handling Universal Links. 
 He has some great examples on how
 you can handle routing in your own app. I ended up using a similar approach. 
 
-## Testing
+## <a name="testing"></a>Testing
 
 I would test a few things. 
 
-### Notes App
+### <a name="notes"></a>Notes App
 
 First would be in the Notes app. This seems like the most surefire way to see if you're on the
 right path.
@@ -203,7 +205,7 @@ It should looks something like:
 
 ![](from_notes.mp4)
 
-### Your Website
+### <a name="website"></a>Your Website
 
 Second would be to test on your website. Ensure a link on your website will directly open your app.
 As mentioned earlier make sure you are using the full URL (https://www.yourdomain.com) path or this won't work. Also if you type
@@ -215,7 +217,7 @@ It should look something like:
 
 ![](from_site.mp4)
 
-### From a QR Code
+### <a name="qr"></a>From a QR Code
 
 Third would be to check the QR code. Open the camera app and point it to a QR Code which encodes
 the URL you want to open in the app.
@@ -224,7 +226,7 @@ It should looks something like:
 
 ![](from_qr.mp4)
 
-### From an NFC Tag
+### <a name="nfc"></a>From an NFC Tag
 
 Finally you may want to check an NFC tag opens your app properly. Note that it may open through
 `onOpenURL` or `onContinueUserActivity`. If the device prompts you to open in Safari it will 
@@ -234,7 +236,7 @@ It should looks something like this:
 
 ![](from_nfc.mp4)
 
-## Contact
+## <a name="contact"></a>Contact
 
 There are *many* finicky things which happen with Universal Links which were not covered.
 If you run into something weird don't hesitate to contact me `cj@cjpais.com`. I'll try to help
