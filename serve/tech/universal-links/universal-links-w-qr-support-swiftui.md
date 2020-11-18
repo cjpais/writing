@@ -126,6 +126,10 @@ This will add a new section for the Associated Domains which then you can add yo
 
 ![](add_domains.png)
 
+After these steps your app should be set up to handle the Universal Link.
+
+You may also need to do something similar for your app on [developer.apple.com](developer.apple.com)... See [this](https://blog.branch.io/how-to-setup-universal-links-to-deep-link-on-apple-ios/)
+
 ## <a name="open-url"></a>Using `onOpenURL` to handle links
 
 `onOpenURL` is a callback which will be called when a user taps a link that matches the 
