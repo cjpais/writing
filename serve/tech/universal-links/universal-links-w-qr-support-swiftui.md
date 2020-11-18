@@ -2,7 +2,7 @@
 
 *Last Updated: Nov 2020*
 
-*iOS SDK 14.2*
+*Using: iOS SDK 14.2*
 
 I struggled for a long time to figure out how to implement Universal Links properly. 
 In addition there was very little documentation on how you open into your app from a QR code. 
@@ -74,7 +74,7 @@ Breaking this down you only need to do two things.
    * I will be handling all paths starting with `route`
    * For more information see [Apple's Documentation](https://developer.apple.com/library/archive/documentation/General/Conceptual/AppSearch/UniversalLinks.html) (it's quite good)
 
-> Note: `activitycontinuation` may not be necessary here, but according to [this blog](https://medium.com/@barsh/my-first-date-with-ios-universal-links-90dfabc88bb8) it was.
+> `activitycontinuation` may not be necessary here, but according to [this blog](https://medium.com/@barsh/my-first-date-with-ios-universal-links-90dfabc88bb8) it was.
 > If you run into trouble with your Universal Links you may want to add this too.
 
 ### Serving your AASA

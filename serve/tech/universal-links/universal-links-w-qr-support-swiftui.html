@@ -11,7 +11,7 @@
   <body class="container">
     <h1>Handling Universal Links in SwiftUI</h1>
 <p><em>Last Updated: Nov 2020</em></p>
-<p><em>iOS SDK 14.2</em></p>
+<p><em>Using: iOS SDK 14.2</em></p>
 <p>I struggled for a long time to figure out how to implement Universal Links properly. In addition there was very little documentation on how you open into your app from a QR code. This guide serves as a way to implement the base level of Universal Link functionality as well as handling QR codes.</p>
 <h2>Overview</h2>
 <p><a href="https://developer.apple.com/ios/universal-links/">Universal Links</a> allow you to redirect users from a webpage directly into your app’s context. It is applicable only for iOS devices. With Universal Links you can maintain the context the user previously had on the webpage but give them a native experience. Often times this is called deep linking.</p>
@@ -71,7 +71,7 @@
 </ul></li>
 </ol>
 <blockquote>
-<p>Note: <code>activitycontinuation</code> may not be necessary here, but according to <a href="https://medium.com/@barsh/my-first-date-with-ios-universal-links-90dfabc88bb8">this blog</a> it was. If you run into trouble with your Universal Links you may want to add this too.</p>
+<p><code>activitycontinuation</code> may not be necessary here, but according to <a href="https://medium.com/@barsh/my-first-date-with-ios-universal-links-90dfabc88bb8">this blog</a> it was. If you run into trouble with your Universal Links you may want to add this too.</p>
 </blockquote>
 <h3>Serving your AASA</h3>
 <p>Once you have your <code>apple-app-site-association</code> created, you will want to add this file to your webserver.</p>
