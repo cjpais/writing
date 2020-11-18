@@ -1,4 +1,4 @@
-# Handling Universal Links in SwiftUI
+# Handling Universal Links via Web, QR, NFC in SwiftUI
 
 *Last Updated: Nov 2020*
 
@@ -35,6 +35,7 @@ in this file, they will be directed into your native experience.
    * Notes Link
    * Web Link
    * QR Link 
+   * NFC Tags
 
 ## Adding Apple App Site Association
 
@@ -225,7 +226,13 @@ It should looks something like:
 
 ### From an NFC Tag
 
+Finally you may want to check an NFC tag opens your app properly. Note that it may open through
+`onOpenURL` or `onContinueUserActivity`. If the device prompts you to open in Safari it will 
+open via `onOpenURL`. Otherwise via `onContinueUserActivity`.
 
+It should looks something like this:
+
+![](from_nfc.mp4)
 
 ## Contact
 

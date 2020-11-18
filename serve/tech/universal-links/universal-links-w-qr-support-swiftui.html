@@ -5,11 +5,11 @@
     <link rel="stylesheet" href="../../static/main.css">
     <link rel="stylesheet" href="static/main.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-    <title>Handling Universal Links in SwiftUI</title>
+    <title>Handling Universal Links via Web, QR, NFC in SwiftUI</title>
   </head>
 
   <body class="container">
-    <h1>Handling Universal Links in SwiftUI</h1>
+    <h1>Handling Universal Links via Web, QR, NFC in SwiftUI</h1>
 <p><em>Last Updated: Nov 2020</em></p>
 <p><em>Using: iOS SDK 14.2</em></p>
 <p>I struggled for a long time to figure out how to implement Universal Links properly. In addition there was very little documentation on how you open into your app from a QR code. Similarly I wanted to handle Universal Links using NFC tags. You basically get this functionality for free once you’ve implemented for QR codes! This guide serves as a way to implement the base level of Universal Link functionality as well as handling QR codes.</p>
@@ -31,6 +31,7 @@
 <li>Notes Link</li>
 <li>Web Link</li>
 <li>QR Link</li>
+<li>NFC Tags</li>
 </ul></li>
 </ol>
 <h2>Adding Apple App Site Association</h2>
@@ -151,6 +152,9 @@
 <p>It should looks something like:</p>
 <p><video src="from_qr.mp4" controls=""><a href="from_qr.mp4">Video</a></video></p>
 <h3>From an NFC Tag</h3>
+<p>Finally you may want to check an NFC tag opens your app properly. Note that it may open through <code>onOpenURL</code> or <code>onContinueUserActivity</code>. If the device prompts you to open in Safari it will open via <code>onOpenURL</code>. Otherwise via <code>onContinueUserActivity</code>.</p>
+<p>It should looks something like this:</p>
+<p><video src="from_nfc.mp4" controls=""><a href="from_nfc.mp4">Video</a></video></p>
 <h2>Contact</h2>
 <p>There are <em>many</em> finicky things which happen with Universal Links which were not covered. If you run into something weird don’t hesitate to contact me <code>cj@cjpais.com</code>. I’ll try to help to the best of my ability.</p>
 <p>🍻 Cheers - CJ</p>
