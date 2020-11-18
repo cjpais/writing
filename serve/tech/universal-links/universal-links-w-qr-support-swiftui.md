@@ -122,23 +122,23 @@ shorthand your Universal Link *will not* open by default.
 In your main `App` file you will have the `body: Scene` variable. You will want to handle `onOpenURL` within this. I've done it as my `TabView` get's rendered. So far this has worked.
 
 ```swift
-    var body: some Scene {
-        WindowGroup {
-            TabView(selection: $selectedTab) {
-                ExploreView(state: state)
-                    .tag(TabIdentifier.explore)
-                
-                ExploreRoutesView(state: state)
-                    .tag(TabIdentifier.route)
-    
-                AddView()
-                    .tag(TabIdentifier.add)  
-                
-            }.onOpenURL { url in
-                routeURL(url)
-            }
-        }
-    }
+var body: some Scene {
+   WindowGroup {
+      TabView(selection: $selectedTab) {
+            ExploreView(state: state)
+               .tag(TabIdentifier.explore)
+            
+            ExploreRoutesView(state: state)
+               .tag(TabIdentifier.route)
+
+            AddView()
+               .tag(TabIdentifier.add)  
+            
+      }.onOpenURL { url in
+            routeURL(url)
+      }
+   }
+}
 ```
 
 You can see when getting the `onOpenURL` callback I am calling into a function `routeURL` which 
@@ -159,26 +159,26 @@ Unlike `onOpenURL` you will get an `NSUserActivity` in the callback. Fortunately
 a very easy way to get the URL from it, and you can handle routing from there. 
 
 ```swift
-    var body: some Scene {
-        WindowGroup {
-            TabView(selection: $selectedTab) {
-                ExploreView(state: state)
-                    .tag(TabIdentifier.explore)
-                
-                ExploreRoutesView(state: state)
-                    .tag(TabIdentifier.route)
-    
-                AddView()
-                    .tag(TabIdentifier.add)  
-                
-            }.onOpenURL { url in
-                routeURL(url)
-            }
-            .onContinueUserActivity(NSUserActivityTypeBrowsingWeb, perform: { activity in
-                routeURL(activity.webpageURL!)
-            })
-        }
-    }
+var body: some Scene {
+   WindowGroup {
+      TabView(selection: $selectedTab) {
+            ExploreView(state: state)
+               .tag(TabIdentifier.explore)
+            
+            ExploreRoutesView(state: state)
+               .tag(TabIdentifier.route)
+
+            AddView()
+               .tag(TabIdentifier.add)  
+            
+      }.onOpenURL { url in
+            routeURL(url)
+      }
+      .onContinueUserActivity(NSUserActivityTypeBrowsingWeb, perform: { activity in
+            routeURL(activity.webpageURL!)
+      })
+   }
+}
 ```
 
 
