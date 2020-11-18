@@ -7,14 +7,14 @@
 I struggled for a long time to figure out how to implement Universal Links properly. 
 In addition there was very little documentation on how you open into your app from a QR code. 
 This guide serves as a way to implement the base level of Universal Link functionality as 
-well as handling QR codes.
+well as handling QR codes. 
 
 ## Overview
 
 [Universal Links](https://developer.apple.com/ios/universal-links/) allow you to redirect users
 from a webpage directly into your app's context. It is applicable only for iOS devices. 
 With Universal Links you can maintain the context the user previously had on the webpage
-but give them a native experience.
+but give them a native experience. Often times this is called deep linking. 
 
 By adding a specific file (`apple-app-site-association`) on your webserver, you can support
 Universal Links relatively easily. When your app is downloaded the user's device will query
@@ -24,11 +24,10 @@ in this file, they will be directed into your native experience.
 **Steps to Implement**
 
 1. Add Apple App Site Association (AASA)
-   * Get Team ID
    * Validate AASA 
 2. Add Entitlements to App
-3. Use onOpenURL to handle Links
-4. Use onContinueUserActivity to handle QR Codes
+3. Use `onOpenURL` to handle Links
+4. Use `onContinueUserActivity` to handle QR Codes
 5. Handle Routing 
 6. Testing Universal Links
    * Notes Link
@@ -38,7 +37,10 @@ in this file, they will be directed into your native experience.
 ## Adding Apple App Site Association
 
 Before working on the App at all we want to have everything set up for the app to support our 
-Universal Link. The first thing to do is create the `apple-app-site-association` (AASA) and serve it.
+Universal Link. The first thing to do is create the `apple-app-site-association` (AASA) and 
+serve it. This will allow Apple to know when to open your app.
+
+### Creating your AASA
 
 For example [my AASA](https://digitaldirtbag.xyz/apple-app-site-association) looks like this:
 
@@ -65,13 +67,20 @@ Breaking this down you only need to do two things.
 
 1. Change the `appID` to be your `TEAM_ID.APP_BUNDLE_ID`
    * My `TEAM_ID = UWFLB4GC25` 
+     * Your team ID can be found [here](https://developer.apple.com/account/#/membership)
+     * Alternatively navigate to `developer.apple.com` > Accounts > Membership.
    * My `APP_BUNDLE_ID = com.pais.rockaholic` 
 2. Change the `paths` to be the URL's you want to treat as universal links.
    * I will be handling all paths starting with `route`
    * For more information see [Apple's Documentation](https://developer.apple.com/library/archive/documentation/General/Conceptual/AppSearch/UniversalLinks.html) (it's quite good)
 
-> Note: `activitycontinuation` may not be necessary here, but according to this blog it was.
+> Note: `activitycontinuation` may not be necessary here, but according to [this blog](https://medium.com/@barsh/my-first-date-with-ios-universal-links-90dfabc88bb8) it was.
 > If you run into trouble with your Universal Links you may want to add this too.
+
+### Serving your AASA
+
+Once you have your `apple-app-site-association` created, you will want to add this file 
+to your webserver.
 
 The requirements for serving it are as follows:
 
@@ -93,9 +102,20 @@ below if it's good!
 
 ![](aasa_valid.png)
 
-
 [Apple has their own validation tool](https://search.developer.apple.com/appsearch-validation-tool), however it doesn't think my App is valid 🤷🏽‍♂️. I wouldn't recommend it. 
 It just added to the confusion of the process.
+
+## Add Entitlements to App
+
+## Using `onOpenURL` to handle links
+
+This is quite simple. 
+
+## Using `o
+
+## Handle Routing 
+
+Best to check out Donny Wals guide on han
 
 ### References
 
