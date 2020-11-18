@@ -221,7 +221,7 @@ It should looks something like:
 
 ![](from_qr.mp4)
 
-## Other
+## Contact
 
 There are some finicky things here which were not covered, if you run into something weird
 don't hesitate to contact me `cj@cjpais.com`
