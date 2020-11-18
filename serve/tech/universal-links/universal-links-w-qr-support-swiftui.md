@@ -224,3 +224,8 @@ It should looks something like:
 ## References
 
 [Support Universal Links - Apple](https://developer.apple.com/library/archive/documentation/General/Conceptual/AppSearch/UniversalLinks.html)
+
+## Other
+
+There are some finicky things here which were not covered, if you run into something weird
+don't hesitate to contact me `cj@cjpais.com`
