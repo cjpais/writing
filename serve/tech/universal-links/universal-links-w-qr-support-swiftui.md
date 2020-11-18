@@ -189,12 +189,34 @@ you can handle routing in your own app. I ended up using a similar approach.
 
 I would test a few things. 
 
+### Notes App
+
 First would be in the Notes app. This seems like the most surefire way to see if you're on the
 right path.
 For me the Universal Link from the Notes app always worked. That is I had a note with the link
 pasted into it. When I clicked the link it went directly to the app and where I wanted.
 
+It should looks something like:
 
-### References
+### Your Website
+
+Second would be to test on your website. Ensure a link on your website will directly open your app.
+As mentioned earlier make sure you are using the full URL (https://www.yourdomain.com) path or this won't work. Also if you type
+the URL directly into Safari it will not launch your app. This is because if a user directly is
+typing in the URL they are probably fine with the mobile experience, however if they are tapping a
+link they are probably fine with the app launching.
+
+It should look something like:
+
+
+### From a QR Code
+
+Third would be to check the QR code. Open the camera app and point it to a QR Code which encodes
+the URL you want to open in the app.
+
+It should looks something like:
+
+
+## References
 
 [Support Universal Links - Apple](https://developer.apple.com/library/archive/documentation/General/Conceptual/AppSearch/UniversalLinks.html)
