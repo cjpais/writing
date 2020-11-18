@@ -12,7 +12,7 @@
     <h1>Handling Universal Links in SwiftUI</h1>
 <p><em>Last Updated: Nov 2020</em></p>
 <p><em>Using: iOS SDK 14.2</em></p>
-<p>I struggled for a long time to figure out how to implement Universal Links properly. In addition there was very little documentation on how you open into your app from a QR code. This guide serves as a way to implement the base level of Universal Link functionality as well as handling QR codes.</p>
+<p>I struggled for a long time to figure out how to implement Universal Links properly. In addition there was very little documentation on how you open into your app from a QR code. Similarly I wanted to handle Universal Links using NFC tags. You basically get this functionality for free once you’ve implemented for QR codes! This guide serves as a way to implement the base level of Universal Link functionality as well as handling QR codes.</p>
 <h2>Overview</h2>
 <p><a href="https://developer.apple.com/ios/universal-links/">Universal Links</a> allow you to redirect users from a webpage directly into your app’s context. It is applicable only for iOS devices. With Universal Links you can maintain the context the user previously had on the webpage but give them a native experience. Often times this is called deep linking.</p>
 <p>By adding a specific file (<code>apple-app-site-association</code>) on your webserver, you can support Universal Links relatively easily. When your app is downloaded the user’s device will query your server for this file. Once it’s done this, any time the user visits one of the routes provided in this file, they will be directed into your native experience.</p>
@@ -150,6 +150,7 @@
 <p>Third would be to check the QR code. Open the camera app and point it to a QR Code which encodes the URL you want to open in the app.</p>
 <p>It should looks something like:</p>
 <p><video src="from_qr.mp4" controls=""><a href="from_qr.mp4">Video</a></video></p>
+<h3>From an NFC Tag</h3>
 <h2>Contact</h2>
 <p>There are <em>many</em> finicky things which happen with Universal Links which were not covered. If you run into something weird don’t hesitate to contact me <code>cj@cjpais.com</code>. I’ll try to help to the best of my ability.</p>
 <p>🍻 Cheers - CJ</p>

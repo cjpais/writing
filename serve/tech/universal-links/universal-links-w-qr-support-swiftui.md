@@ -5,7 +5,9 @@
 *Using: iOS SDK 14.2*
 
 I struggled for a long time to figure out how to implement Universal Links properly. 
-In addition there was very little documentation on how you open into your app from a QR code. 
+In addition there was very little documentation on how you open into your app from a QR code.
+Similarly I wanted to handle Universal Links using NFC tags. You basically get this functionality
+for free once you've implemented for QR codes!
 This guide serves as a way to implement the base level of Universal Link functionality as 
 well as handling QR codes. 
 
@@ -220,6 +222,10 @@ the URL you want to open in the app.
 It should looks something like:
 
 ![](from_qr.mp4)
+
+### From an NFC Tag
+
+
 
 ## Contact
 
