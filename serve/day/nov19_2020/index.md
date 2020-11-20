@@ -37,7 +37,7 @@ Thinking quickly of permissions:
 * Admin (Owner)
 * Staff (Desk Staff)
   * Maybe what they are trained to do (give belay certification, etc.)
-* 
+* Setters
 
 Want to think about how this DB can be explored from the non-gym side and how that will impact the gym experience. 
 For example want to provide this service to every gym for free, but this implies a listing that will go into the 
