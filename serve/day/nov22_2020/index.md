@@ -8,6 +8,6 @@ Will be following: https://refactoringui.com/previews/building-your-color-palett
 
 Not sure what I want the primary color to be
 
-Between Green and Blue mostly
+Between Green and Blue mostly. I think green
 
 
