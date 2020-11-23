@@ -44,5 +44,3 @@ Want to think more heavily about how gym walls are going to be structured. Need 
 be quite tough. Want to know which direction and angle the walls are facing? Need to come up with some 3D representation
 which can also be easily viewed. Probably need to look into how things are 3D modeled and how this can easily be 
 represented in a postgres DB or some other format. Would like streaming 3D model format ideally. 
-
-## 
