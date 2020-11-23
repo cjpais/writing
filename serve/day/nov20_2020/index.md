@@ -45,3 +45,4 @@ be quite tough. Want to know which direction and angle the walls are facing? Nee
 which can also be easily viewed. Probably need to look into how things are 3D modeled and how this can easily be 
 represented in a postgres DB or some other format. Would like streaming 3D model format ideally. 
 
+## 
