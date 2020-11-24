@@ -29,3 +29,18 @@ There's still so much more to do though. We need to check to see if this is even
 Will I have to rely on other techniques as provided by AR Kit? I am not sure. Again the problem is iOS vs.
 Android here too. But the thing is the documentation for iOS is good.
 
+## Tomorrow
+
+Would like to test the Entities at the crag itself. Let's see if the text shows up lol.
+Will have to see if we can get a geo calibration or not. Might not allow for high accuracy.
+The problem will also be that if not we will have to figure out another way to do this.
+Might force us to move away from ARKit and to something more generic. We might have to 
+do a lot of legwork to make this work properly.
+
+I am thinking at the minimum taking compass and GPS location, but the amount of error induced 
+by GPS can be very large. So this means we would want to have a ground model of the routes
+(at minimum photos) then do matching on these photos to accurately place the routes. Would
+really need photos from multiple angles as well. This means a lot of data collection.
+May need to run a ML model to do this properly. I think there is still much to figure out
+and re-evaluate as things move.
+
