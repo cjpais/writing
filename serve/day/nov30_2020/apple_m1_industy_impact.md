@@ -1,28 +1,44 @@
 # Apple's M1 Impact on the Semiconductor Industry
 
+Apple has shifted the balance of power with the release of the M1 powered Macs.
+
 Will Apple's transition to ARM force the hand on the rest of the industry to do the same?
-What will happen if this is the case? How do Intel and AMD respond. Where does this leave
-NVidia?
+What will happen if this is the case? How do Intel and AMD respond. Where does this leave other semiconductor manufactures, notably Nvidia and Qualcomm?
 
 Apple's release of ARM powered Mac's is flipping the industry on it's head. The 
-sheer amount of press around this release is quite telling. The buzz on Twitter,
-HN, has been continuous.
+sheer amount of press around this release is quite telling. [The buzz on Twitter,
+HN, has been continuous](https://www.singhkays.com/blog/apple-silicon-m1-black-magic/). 
 
-At this point we all know they are *fast*. Not to mention the battery life achieved is out of this world. 
+At this point we know they are ***fast*** with incredible battery life to boot. 
 
 These are fantastic things and these two factors will be the driving force for huge 
 change in the industry. Consumer space and corporate space alike.
 
 To refresh what we've learned since the release is this.
 
+## What has Apple done?
+
+Apple is delivering exceptional performance at a third of the power of their competitors. 
+
+## Why others will follow
+
+Given history (iPhone, iPad, Airpods, Removing Headphone Jack) 
+it seems like a given to assume the rest of the industry will 
+follow Apple in incorporating ARM processors in their .
+
+##
+
 ## Quantifying 
+
+Unfortunately this chart does a pretty terrible job of
+telling really what is going on. 
 
 | CPU | TDP | Measured Power (at adapter) | Cores | ST Performance | MT Performance |
 |---|---|---|---|---|
 | Apple M1 | ~22W[^m1_anand_power] | 27.2W[^m1_nbcheck_power] |
 | AMD Ryzen 4800U | 15W (configurable to 25W)[^4800u_amd_power] | 49.5W[^4800u_nbcheck_power] |
 | AMD Ryzen 4900HS | 35W[^4900hs_amd_power] | 105W [^4900hs_nbcheck_power][^4900hs_test_gpu] |
-| Intel 1185G7 | 28W | N/A |
+| Intel 1065G7 | 15W | 35W[^] |
 
 ### Singlethreaded performance equaling desktop CPU's.
 
