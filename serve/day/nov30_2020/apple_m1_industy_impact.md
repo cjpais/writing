@@ -15,8 +15,7 @@ change in the industry. Consumer space and corporate space alike.
 
 To refresh what we've learned since the release is this.
 
-
-## The Facts
+## Quantifying 
 
 | CPU | TDP | Measured Power (at adapter) | Cores | ST Performance | MT Performance |
 |---|---|---|---|---|
