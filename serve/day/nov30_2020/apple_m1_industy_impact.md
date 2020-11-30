@@ -18,21 +18,41 @@ To refresh what we've learned since the release is this.
 
 ## The Facts
 
+| CPU | TDP | Measured Power |
+|---|---|---|
+| Apple M1 | ~20W | 27.2W[^1] |
+| AMD Ryzen 4800U | 15W (configurable to 25W) | 49.5W |
+| AMD Ryzen 4900HS | 35W | 105W |
+| Intel 1185G7 | 28W | N/A |
+
+### Singlethreaded performance equaling desktop CPU's.
+
+
+
 Power Usage:
 * Jury is still out (will wait for notebookcheck.net)]
   * Good comparison point https://www.notebookcheck.net/The-Ryzen-7-4800U-is-an-Absolute-Monster-Lenovo-Yoga-Slim-7-14-Laptop-Review.456068.0.html
-* Uses half the power of the 4800U
+* Uses half the power of the 4800U which is 15W TDP (default, configurable to 25)
   * https://www.notebookcheck.net/AMD-Ryzen-7-4800U-Laptop-Processor-Benchmarks-and-Specs.449937.0.html (49.5W)
   * https://www.notebookcheck.net/Apple-M1-Processor-Benchmarks-and-Specs.503613.0.html (27.2W)
   * Getting 36% better battery life, with 49.9Wh vs 61Wh
     * Lenovo has 22% larger battery, so it appears this approximates the raw power consumption seen.
+* Uses a quarter of the power of a Ryzen 4900HS (35W TDP, 105W Measured)
+* GPU consuming about 10 Watts when fully loaded
+  * https://www.anandtech.com/show/16252/mac-mini-apple-m1-tested/3
+
+My guess is the M1 powered laptops really come into a class of their own when you are 
+doing intense tasks on the battery. There have been some benchmarks that seem to validate
+this. The combination of power efficiency and speed means a lot more can be done on the
+laptio.
 
 CPU Speed:
 * Single-Threaded
 * Multi-Threaded
 
 GPU:
-* GPU in MBA competes 
+* GPU in MBA competes with discrete GPUs
+  * Radeon Pro 560X, Nvidia MX350
   * https://www.notebookcheck.net/Apple-MacBook-Air-2020-M1-Benchmarks-Should-you-get-7-or-8-GPU-cores.506105.0.html
   * 
 
@@ -73,6 +93,9 @@ Looks like AMD still has a winner on its hands with the Zen3 arch. Very efficien
 and very fast. Doesn't look like they are going to go away any time soon unless
 they falter on their next microarchs.
 
+They have put some ARM based CPU's into the market according to:
+https://www.anandtech.com/show/15575/amperes-altra-80-core-n1-soc-for-hyperscalers-against-rome-and-xeon
+
 ## Intel
 
 Intel. Intel has some work to do.
@@ -95,6 +118,8 @@ They also recently purchased ARM Holdings and have been making ARM based CPU's
 for some time with their Tegra line (however they have not seen much consumer success).
 This potentially leaves Nvidia in a very nice position to bene
 
+NVLink with the CPU????
+
 ## Amazon
 
 We have started to see the shift already and Amazon is on top of it. They have 
@@ -106,5 +131,30 @@ will be desired.
 
 ## New Players
 
-* Ampere
+* [Ampere](https://en.wikipedia.org/wiki/Ampere_Computing)
+  * Nvidia is partnering with them as well. GPU-accelerated ARM servers partnership too......
 * Nuvia
+
+## INTERCONNECTS?????!!!
+
+## CPU's used by AWS
+
+* C4 - E5-2666 (v3 and v4)
+* C5n - Intel Platinum (3ghz)
+* C5a - AMD EPYC 7002
+* C5
+  * Custom based on Cascade Lake
+  * Xeon Platinum 8000
+* M5
+  * Platinum 8175M
+
+
+[^1]: https://www.notebookcheck.net/Apple-M1-Processor-Benchmarks-and-Specs.503613.0.html
+[^2]:
+[^3]:
+[^4]:
+[^5]:
+[^6]:
+[^7]:
+[^8]:
+[^9]:
