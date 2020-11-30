@@ -18,11 +18,11 @@ To refresh what we've learned since the release is this.
 
 ## The Facts
 
-| CPU | TDP | Measured Power |
-|---|---|---|
-| Apple M1 | ~20W | 27.2W[^1] |
-| AMD Ryzen 4800U | 15W (configurable to 25W) | 49.5W |
-| AMD Ryzen 4900HS | 35W | 105W |
+| CPU | TDP | Measured Power (at adapter) | Cores | ST Performance | MT Performance |
+|---|---|---|---|---|
+| Apple M1 | ~22W[^m1_anand_power] | 27.2W[^m1_nbcheck_power] |
+| AMD Ryzen 4800U | 15W (configurable to 25W)[^4800u_amd_power] | 49.5W[^4800u_nbcheck_power] |
+| AMD Ryzen 4900HS | 35W[^4900hs_amd_power] | 105W [^4900hs_nbcheck_power][^] |
 | Intel 1185G7 | 28W | N/A |
 
 ### Singlethreaded performance equaling desktop CPU's.
@@ -149,12 +149,12 @@ will be desired.
   * Platinum 8175M
 
 
-[^1]: https://www.notebookcheck.net/Apple-M1-Processor-Benchmarks-and-Specs.503613.0.html
-[^2]:
-[^3]:
-[^4]:
-[^5]:
-[^6]:
+[^m1_nbcheck_power]: https://www.notebookcheck.net/Apple-M1-Processor-Benchmarks-and-Specs.503613.0.html
+[^m1_anand_power]: https://www.anandtech.com/show/16252/mac-mini-apple-m1-tested
+[^4800u_amd_power]: https://www.amd.com/en/products/apu/amd-ryzen-7-4800u
+[^4900hs_amd_power]: https://www.amd.com/en/products/apu/amd-ryzen-9-4900hs 
+[^4800u_nbcheck_power]: https://www.notebookcheck.net/AMD-Ryzen-7-4800U-Laptop-Processor-Benchmarks-and-Specs.449937.0.html
+[^4900hs_nbcheck_power]: https://www.notebookcheck.net/AMD-Ryzen-9-4900HS-Processor-Benchmarks-and-Specs.454860.0.html
 [^7]:
 [^8]:
 [^9]:
