@@ -6,3 +6,6 @@ Definitely want to allow gyms to pick their preferred code for bouldering and sp
 
 ![](qr_designs.png)
 
+Watched a little bit of Visa's advice for people in their 20's. Journaled a little on this.
+
+Now going to work on a few articles I am writing about Apple. Today particularly the M1 and AR.
