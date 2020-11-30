@@ -22,7 +22,7 @@ To refresh what we've learned since the release is this.
 |---|---|---|---|---|
 | Apple M1 | ~22W[^m1_anand_power] | 27.2W[^m1_nbcheck_power] |
 | AMD Ryzen 4800U | 15W (configurable to 25W)[^4800u_amd_power] | 49.5W[^4800u_nbcheck_power] |
-| AMD Ryzen 4900HS | 35W[^4900hs_amd_power] | 105W [^4900hs_nbcheck_power][^] |
+| AMD Ryzen 4900HS | 35W[^4900hs_amd_power] | 105W [^4900hs_nbcheck_power][^4900hs_test_gpu] |
 | Intel 1185G7 | 28W | N/A |
 
 ### Singlethreaded performance equaling desktop CPU's.
@@ -155,6 +155,6 @@ will be desired.
 [^4900hs_amd_power]: https://www.amd.com/en/products/apu/amd-ryzen-9-4900hs 
 [^4800u_nbcheck_power]: https://www.notebookcheck.net/AMD-Ryzen-7-4800U-Laptop-Processor-Benchmarks-and-Specs.449937.0.html
 [^4900hs_nbcheck_power]: https://www.notebookcheck.net/AMD-Ryzen-9-4900HS-Processor-Benchmarks-and-Specs.454860.0.html
-[^7]:
+[^4900hs_test_gpu]: Power was measured at the wall adapter as far as I can tell including the GPU (RTX 2060) which would increase overall power consumption
 [^8]:
 [^9]:
