@@ -16,6 +16,8 @@ change in the industry. Consumer space and corporate space alike.
 To refresh what we've learned since the release is this.
 
 
+## The Facts
+
 Power Usage:
 
 CPU Speed:
@@ -52,7 +54,7 @@ they falter on their next microarchs.
 
 Intel. Intel has some work to do.
 
-## Qualcomm:
+## Qualcomm
 
 From QC perspective there is a huge opportunity with Apple moving to ARM.
 People see the performance and battery life they can get from a MBA. 
@@ -62,4 +64,10 @@ in the first place. The cost of 4G/5G service is much more $/GB, however
 you don't ever have to worry about wifi. I use my phone without worries
 much of these days and would be very nice to do the same for my computer.
 
-Nvidia
+## Nvidia
+
+Nvidia I think has the most interesting spot out of all the major semiconductor
+manufacturers. They are already breaking into the server space with their GPU's.
+They also recently purchased ARM Holdings and have been making ARM based CPU's
+for some time with their Tegra line (however they have not seen much consumer success).
+This potentially leaves Nvidia in a very nice position to bene
