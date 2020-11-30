@@ -34,6 +34,8 @@ GPU:
 
 3x density.
 
+## My Interpretation in Context of the Questions
+
 
 Opposition:
 
