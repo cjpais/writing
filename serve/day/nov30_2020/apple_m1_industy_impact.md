@@ -25,7 +25,7 @@ Did Apple force the industry's hand to transition to ARM?
 
 For the consumer side of things I think it's quite simple. 
 [People are *stoked*](https://www.singhkays.com/blog/apple-silicon-m1-black-magic/#battery-life-is-insane) 
-to have a laptop that can last the whole day on battery and more.
+to have a laptop that can last multiple days on battery.
 
 This alone seems like it will drive the rest of the consumer market to follow Apple.
 
