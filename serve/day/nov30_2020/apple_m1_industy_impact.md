@@ -87,6 +87,14 @@ telling really what is going on.
 | AMD Ryzen 4900HS | 35W[^4900hs_amd_power] | 105W [^4900hs_nbcheck_power][^4900hs_test_gpu] |
 | Intel 1065G7 | 15W | 35W[^1065g7_nbcheck_power] |
 
+| CPU	| TDP	| Max Power | Raw ST PERF | ST Perf/Watt	| Raw MT Perf |	MT Perf/Watt |
+|---|---|---|---|---|---|---|
+| Apple M1 | ~22W	| 31W | 28.85 | 0.9306451613 |	38.71 |	1.248709677 |
+| AMD Ryzen 4800U	| 15W | 34.39W |	25.14 |	0.7310264612 | 28.25 | 0.8214597267 |
+| Intel 1185G7 | 28W | 51.92W | 21.52 | 0.4144838213	| 25.87 |	0.4982665639 |
+| AMD Ryzen 5800X |	105W | 140.1W | 47.89 | 0.3418272662	| 52.1 | 0.3718772305 |
+| Intel 10900K | 125W	| 251.6W	| 47.35	| 0.1881955485 | 48.59 | 0.1931240064 |
+
 ### Singlethreaded performance equaling desktop CPU's.
 
 
