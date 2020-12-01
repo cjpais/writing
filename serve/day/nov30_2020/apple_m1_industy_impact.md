@@ -7,7 +7,8 @@ Apple by releasing these M1 Macs is just begging for a response from the rest of
 analyze the consumer space and the server space
 
 Will be focusing just on how Apple's decision to release ARM based Mac's will force the rest 
-of the industry to respond. I will not be digging into why Apple would move to ARM. That will be saved for a future article.
+of the industry to respond. I will not be digging into why Apple would move to ARM. 
+That discussion will be saved for a future article.
 
 ## Consumer Side
 
