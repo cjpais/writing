@@ -85,7 +85,7 @@ telling really what is going on.
 | Apple M1 | ~22W[^m1_anand_power] | 27.2W[^m1_nbcheck_power] |
 | AMD Ryzen 4800U | 15W (configurable to 25W)[^4800u_amd_power] | 49.5W[^4800u_nbcheck_power] |
 | AMD Ryzen 4900HS | 35W[^4900hs_amd_power] | 105W [^4900hs_nbcheck_power][^4900hs_test_gpu] |
-| Intel 1065G7 | 15W | 35W[^1065g7_nbcheck_power] |
+| Intel 1065G7 | 15W (configurable to 25W)[^1065g7_intel_power] | 35W[^1065g7_nbcheck_power] |
 
 | CPU	| TDP	| Max Power | Raw ST PERF | ST Perf/Watt	| Raw MT Perf |	MT Perf/Watt |
 |---|---|---|---|---|---|---|
@@ -254,4 +254,4 @@ will be desired.
 [^4900hs_nbcheck_power]: https://www.notebookcheck.net/AMD-Ryzen-9-4900HS-Processor-Benchmarks-and-Specs.454860.0.html
 [^4900hs_test_gpu]: Power was measured at the wall adapter as far as I can tell including the GPU (RTX 2060) which would increase overall power consumption
 [^1065g7_nbcheck_power]: https://www.notebookcheck.net/Intel-Core-i7-1065G7-Laptop-Processor-Ice-Lake.423851.0.html
-[^9]:
+[^1065g7_intel_power]: https://ark.intel.com/content/www/us/en/ark/products/196597/intel-core-i7-1065g7-processor-8m-cache-up-to-3-90-ghz.html
