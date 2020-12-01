@@ -2,6 +2,13 @@
 
 Apple has shifted the balance of power with the release of the M1 powered Macs.
 
+The name of the game in the CPU space has been performance per watt
+for many years now. And Apple just changed the equation.
+
+
+
+## The fall of x86?
+
 Will Apple's transition to ARM force the hand on the rest of the industry to do the same?
 What will happen if this is the case? How do Intel and AMD respond. Where does this leave other semiconductor manufactures, notably Nvidia and Qualcomm?
 
@@ -33,12 +40,12 @@ follow Apple in incorporating ARM processors in their .
 Unfortunately this chart does a pretty terrible job of
 telling really what is going on. 
 
-| CPU | TDP | Measured Power (at adapter) | Cores | ST Performance | MT Performance |
-|---|---|---|---|---|
+| CPU | TDP | Measured Power (at adapter) |
+|---|---|---|
 | Apple M1 | ~22W[^m1_anand_power] | 27.2W[^m1_nbcheck_power] |
 | AMD Ryzen 4800U | 15W (configurable to 25W)[^4800u_amd_power] | 49.5W[^4800u_nbcheck_power] |
 | AMD Ryzen 4900HS | 35W[^4900hs_amd_power] | 105W [^4900hs_nbcheck_power][^4900hs_test_gpu] |
-| Intel 1065G7 | 15W | 35W[^] |
+| Intel 1065G7 | 15W | 35W[^1065g7_nbcheck_power] |
 
 ### Singlethreaded performance equaling desktop CPU's.
 
@@ -96,8 +103,6 @@ Opposition:
 Why the industry might want to move to ARM anyway. Or why there might be a push.
 
 
-Currently:
-
 ## LOTS OF COMPETITION IN THE SEMICONDUCTOR INDUSTRY
 
 Hard to say who will do well and who wont, but here's my predictions
@@ -152,6 +157,8 @@ will be desired.
 
 ## INTERCONNECTS?????!!!
 
+## What about RISC-V??
+
 ## CPU's used by AWS
 
 * C4 - E5-2666 (v3 and v4)
@@ -171,5 +178,5 @@ will be desired.
 [^4800u_nbcheck_power]: https://www.notebookcheck.net/AMD-Ryzen-7-4800U-Laptop-Processor-Benchmarks-and-Specs.449937.0.html
 [^4900hs_nbcheck_power]: https://www.notebookcheck.net/AMD-Ryzen-9-4900HS-Processor-Benchmarks-and-Specs.454860.0.html
 [^4900hs_test_gpu]: Power was measured at the wall adapter as far as I can tell including the GPU (RTX 2060) which would increase overall power consumption
-[^8]:
+[^1065G7_nbcheck_power]: https://www.notebookcheck.net/Intel-Core-i7-1065G7-Laptop-Processor-Ice-Lake.423851.0.html
 [^9]:
