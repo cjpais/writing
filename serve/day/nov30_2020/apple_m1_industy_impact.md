@@ -30,6 +30,10 @@ change in the industry. Consumer space and corporate space alike.
 
 Did Apple force the industry's hand to transition to ARM?
 
+Seems everyone is talking about how amazing the new macs are. There's a lot more going on however.
+We understand the product is amazing. This will drive sales like crazy. But the impact on the rest
+of the industry I think is more interesting.
+
 ## PERFORMANCE PER WATT
 
 https://www.anandtech.com/show/1936/7
