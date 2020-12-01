@@ -57,9 +57,20 @@ Within a very short period of time it's become clear that Apple is able to get e
 and battery life out of these new M1 powered Mac's. To have a laptop that can last 2/3 of a day 
 is mindboggling today, but soon enough this will be seen as abysmal battery life. 
 
+## Server Side
+
+It's strange to talk about servers and Apple in the same sentence. It seems very very unlikely that
+Apple will jump back into the server space. However, we are not talking about Apple in the server
+space. We are talking about how Apple's impact on the consumer space will drive the server space
+to change.
+
 What will happen if this is the case? How do Intel and AMD respond. Where does this leave other semiconductor manufactures, notably Nvidia and Qualcomm?
 
 To refresh what we've learned since the release is this.
+
+If you can accept the assumptions made about the spaces, now we can go ahead and analyze some
+of the main players in the semiconductor industry who will be directly affected by the
+release of the M1 Macs in the next couple of years.
 
 ## Quantifying 
 
