@@ -254,6 +254,12 @@ Looks like AMD still has a winner on its hands with the Zen3 arch. Very efficien
 and very fast. Doesn't look like they are going to go away any time soon unless
 they falter on their next microarchs.
 
+However they still have to compete with Apple, who seems to be progressing
+quite linearly when compared with the x86 space. (Well maybe intel wasn't the 
+bet comparison. I've made my own comparison based on Anandtech's data)
+
+![](https://images.anandtech.com/doci/16226/perf-trajectory.png)
+
 The good think for AMD is it looks like they can compete with Apple in terms of 
 performance per watt, or at least be relatively close to the benchmark set by
 Apple. However this is very short term thinking. I imagine the progression of
@@ -274,7 +280,7 @@ Recently purchased Xilinx. I am not quite sure what to think about this now.
 ## Intel
 
 At this moment Intel is in a tough spot. AMD has been starting to dominate Intel in the CPU
-space and seems to extending their lead with the Zen 3 microarchitecture. Beyond this
+space and seems to extending their lead with the Zen 2 microarchitecture. Beyond this
 they have been struggling to shrink their process nodes. Now they have lost Apple
 as a customer, and at the same time Apple is putting pressure on Intel and the entirety of the
 x86 space by threatening the server market.
@@ -305,6 +311,12 @@ used (Joules) Apple nearly doubles Qualcomm's performance.
 
 Apple has clearly been playing a different game than Qualcomm. A
 response is very warranted. Could not be so good for QC.
+
+However as we know, Apple now has shown ARM is viable for desktop PC's for the masses.
+This will force pressure on Qualcomm and they have potential to deliver.
+
+Qualcomm also has potential in the server space, which could help them compete in
+the consumer space as well.
 
 ## Nvidia
 
