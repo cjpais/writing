@@ -10,12 +10,46 @@ Will be focusing just on how Apple's decision to release ARM based Mac's will fo
 of the industry to respond. I will not be digging into why Apple would move to ARM. 
 That discussion will be saved for a future article.
 
+Did Apple force the industry's hand to transition to ARM?
+
 ## Consumer Side
 
+For the consumer side of things I think it's quite simple. 
+[People are *stoked*](https://www.singhkays.com/blog/apple-silicon-m1-black-magic/#battery-life-is-insane) 
+to have a laptop that can last the whole day on battery and more.
+
+This alone seems like it will drive the rest of the consumer market to follow Apple.
+
+
+Given that other Windows laptops with ARM CPU's have been released, why is it only
+now that it's a big deal?
+
+I feel like this is something like Apple dropping the headphone jack. At first
+the whole industry and consumers are bewildered by the move. Then sure enough
+the rest of the smartphone industry follows Apple and drops the headphone
+jack. Apple proved to the rest of the industry that you could remove the headphone
+jack, provide a better user experience, and ultimately make more money off consumers.
+
+ARM based 
+
+What if Microsoft doesn't respond? 
+
+It seems to me this is quite unlikely. 
+
+
+Microsoft has been working with Qualcomm for years to have Windows on ARM. Laptops
+like the Surface Pro X have been released, but haven't gained anywhere near the
+traction that the M1 powered Mac's have. 
+
+One of the problems with the Surface Pro X is the price. Who is going to pay $1500
+for a laptop that might not run your apps and has no cult following? 
+
+Within a very short period of time it's become clear that Apple is able to get extraordinary performance
+and battery life out of these new M1 powered Mac's. To have a laptop that can last 2/3 of a day 
+is mindboggling today, but soon enough this will be seen as abysmal battery life. 
 
 
 
-Will Apple's transition to ARM force the hand on the rest of the industry to do the same?
 What will happen if this is the case? How do Intel and AMD respond. Where does this leave other semiconductor manufactures, notably Nvidia and Qualcomm?
 
 
