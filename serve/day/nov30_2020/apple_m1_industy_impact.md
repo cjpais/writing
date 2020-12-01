@@ -67,6 +67,19 @@ Apple will jump back into the server space. However, we are not talking about Ap
 space. We are talking about how Apple's impact on the consumer space will drive the server space
 to change.
 
+The driving force behind change in the server world will be dominated by change in the consumer space.
+[As Linus Torvalds recognizes](https://www.realworldtech.com/forum/?threadid=183440&curpostid=183486),
+ people don't want to develop at home on x86 and then deploy on ARM.
+It doesn't make any sense. With Apple moving towards ARM, it only makes sense that some of the server
+market will start moving towards ARM as well. Especially as more and more developers move their
+home systems to something ARM based. 
+
+[MacOS computers represent approximately 27.5% of the machines developers use](https://insights.stackoverflow.com/survey/2020#technology-developers-primary-operating-systems). 
+This is a significant
+number. This large number will motivate people to cross compile their software if they weren't already.
+
+
+
 
 ## How does the industry respond?
 
@@ -193,6 +206,9 @@ they falter on their next microarchs.
 
 They have put some ARM based CPU's into the market according to:
 https://www.anandtech.com/show/15575/amperes-altra-80-core-n1-soc-for-hyperscalers-against-rome-and-xeon
+Opteron A1100 series in 2017.
+
+This clearly was not a big success
 
 ## Intel
 
@@ -218,6 +234,30 @@ This potentially leaves Nvidia in a very nice position to bene
 
 NVLink with the CPU????
 
+Jensen-Huang has specifically mentioned the like.
+https://www.tomshardware.com/news/jensen-huang-hints-at-nvidia-branded-arm-cpus
+
+Remember NVidia is not new to building ARM processors. They have been doing so since
+the original Tegra APX 2500 in 2008. They have not been the most high profile SOC's
+out there (given the mobile space is mostly dominated by Qualcomm/Samsung/Huawei).
+However the Nintendo Switch runs based on a Tegra X1 SOC.
+
+It's possible for Nvidia to come up with an extremely powerful and low power solution
+that could compete with Apple in a huge way. They have the GPU/TPU prowess and
+with bringing ARM on board could really be a force to be reckoned with in the consumer
+and server space.
+
+The consumer space could benefit immensely from a deeply integrated CPU/GPU/GPGPU combo, leading
+to incredible performance and very low power. This could be perfect for the next generation
+of gaming laptops, or perhaps even better VR headsets or other AR devices.
+
+One big stumbling block potential for NVidia is if they continue to remain very 
+proprietary with their drivers and software. Most of the server industry runs on 
+Linux, so deep support in Linux would be ideal for them.
+
+The best case scenario for Nvidia is to completely dominate the server and consumer
+space with their own CPU/GPU/AI Accelerator combos.
+
 ## Amazon
 
 We have started to see the shift already and Amazon is on top of it. They have 
@@ -225,6 +265,8 @@ We have started to see the shift already and Amazon is on top of it. They have
 It will take a while for the rest of the industry to catch up, but as more and more
 developers start building docker images for ARM, I suspect more and more ARM servers
 will be desired. 
+
+## Samsung and TSMC?
 
 
 ## New Players
@@ -234,6 +276,12 @@ will be desired.
 * Nuvia
 
 ## INTERCONNECTS?????!!!
+
+You would imagine companies like Mellanox and Infiband could stand to do extremely well here.
+If programs increasingly are becoming multithreaded and there are more CPU's/Servers, you will
+need increasingly high performance interconnects. Anyhow this industry is not even close to going
+away any time soon. This is just another small boost to them. I don't know enough about the specifics
+to really get into more detail. 
 
 ## What about RISC-V??
 

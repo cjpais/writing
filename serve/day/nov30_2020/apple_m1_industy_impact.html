@@ -37,6 +37,8 @@
 <p>Within a very short period of time it’s become clear that Apple is able to get extraordinary performance and battery life out of these new M1 powered Mac’s. To have a laptop that can last 2/3 of a day is mindboggling today, but soon enough this will be seen as abysmal battery life.</p>
 <h2>Server Side</h2>
 <p>It’s strange to talk about servers and Apple in the same sentence. It seems very very unlikely that Apple will jump back into the server space. However, we are not talking about Apple in the server space. We are talking about how Apple’s impact on the consumer space will drive the server space to change.</p>
+<p>The driving force behind change in the server world will be dominated by change in the consumer space. <a href="https://www.realworldtech.com/forum/?threadid=183440&amp;curpostid=183486">As Linus Torvalds recognizes</a>, people don’t want to develop at home on x86 and then deploy on ARM. It doesn’t make any sense. With Apple moving towards ARM, it only makes sense that some of the server market will start moving towards ARM as well. Especially as more and more developers move their home systems to something ARM based.</p>
+<p><a href="https://insights.stackoverflow.com/survey/2020#technology-developers-primary-operating-systems">MacOS computers represent approximately 27.5% of the machines developers use</a>. This is a significant number. This large number will motivate people to cross compile their software if they weren’t already.</p>
 <h2>How does the industry respond?</h2>
 <p>What will happen if this is the case? How do Intel and AMD respond. Where does this leave other semiconductor manufactures, notably Nvidia and Qualcomm?</p>
 <p>If you can accept the assumptions made about the spaces, now we can go ahead and analyze some of the main players in the semiconductor industry who will be directly affected by the release of the M1 Macs in the next couple of years.</p>
@@ -204,7 +206,8 @@
 <p>Hard to say who will do well and who wont, but here’s my predictions</p>
 <h2>AMD</h2>
 <p>Looks like AMD still has a winner on its hands with the Zen3 arch. Very efficient and very fast. Doesn’t look like they are going to go away any time soon unless they falter on their next microarchs.</p>
-<p>They have put some ARM based CPU’s into the market according to: https://www.anandtech.com/show/15575/amperes-altra-80-core-n1-soc-for-hyperscalers-against-rome-and-xeon</p>
+<p>They have put some ARM based CPU’s into the market according to: https://www.anandtech.com/show/15575/amperes-altra-80-core-n1-soc-for-hyperscalers-against-rome-and-xeon Opteron A1100 series in 2017.</p>
+<p>This clearly was not a big success</p>
 <h2>Intel</h2>
 <p>Intel. Intel has some work to do.</p>
 <h2>Qualcomm</h2>
@@ -212,9 +215,16 @@
 <h2>Nvidia</h2>
 <p>Nvidia I think has the most interesting spot out of all the major semiconductor manufacturers. They are already breaking into the server space with their GPU’s. They also recently purchased ARM Holdings and have been making ARM based CPU’s for some time with their Tegra line (however they have not seen much consumer success). This potentially leaves Nvidia in a very nice position to bene</p>
 <p>NVLink with the CPU????</p>
+<p>Jensen-Huang has specifically mentioned the like. https://www.tomshardware.com/news/jensen-huang-hints-at-nvidia-branded-arm-cpus</p>
+<p>Remember NVidia is not new to building ARM processors. They have been doing so since the original Tegra APX 2500 in 2008. They have not been the most high profile SOC’s out there (given the mobile space is mostly dominated by Qualcomm/Samsung/Huawei). However the Nintendo Switch runs based on a Tegra X1 SOC.</p>
+<p>It’s possible for Nvidia to come up with an extremely powerful and low power solution that could compete with Apple in a huge way. They have the GPU/TPU prowess and with bringing ARM on board could really be a force to be reckoned with in the consumer and server space.</p>
+<p>The consumer space could benefit immensely from a deeply integrated CPU/GPU/GPGPU combo, leading to incredible performance and very low power. This could be perfect for the next generation of gaming laptops, or perhaps even better VR headsets or other AR devices.</p>
+<p>One big stumbling block potential for NVidia is if they continue to remain very proprietary with their drivers and software. Most of the server industry runs on Linux, so deep support in Linux would be ideal for them.</p>
+<p>The best case scenario for Nvidia is to completely dominate the server and consumer space with their own CPU/GPU/AI Accelerator combos.</p>
 <h2>Amazon</h2>
 <p>We have started to see the shift already and Amazon is on top of it. They have</p>
 <p>It will take a while for the rest of the industry to catch up, but as more and more developers start building docker images for ARM, I suspect more and more ARM servers will be desired.</p>
+<h2>Samsung and TSMC?</h2>
 <h2>New Players</h2>
 <ul>
 <li><a href="https://en.wikipedia.org/wiki/Ampere_Computing">Ampere</a>
@@ -224,6 +234,7 @@
 <li>Nuvia</li>
 </ul>
 <h2>INTERCONNECTS?????!!!</h2>
+<p>You would imagine companies like Mellanox and Infiband could stand to do extremely well here. If programs increasingly are becoming multithreaded and there are more CPU’s/Servers, you will need increasingly high performance interconnects. Anyhow this industry is not even close to going away any time soon. This is just another small boost to them. I don’t know enough about the specifics to really get into more detail.</p>
 <h2>What about RISC-V??</h2>
 <h2>CPU’s used by AWS</h2>
 <ul>
