@@ -147,13 +147,13 @@ going to happen anytime soon
 >That's bullshit. If you develop on x86, then you're going to want to deploy on x86, because you'll be able to run what you test "at home" (and by "at home" I don't mean literally in your home, but in your work environment).
 >
 > Which means that you'll happily pay a bit more for x86 cloud hosting, simply because it matches what you can test on your own local setup, and the errors you get will translate better.
-
-
-Which in turn means that cloud providers will end up making more money from their x86 side, which means that they'll prioritize it, and any ARM offerings will be secondary and probably relegated to the mindless dregs (maybe front-end, maybe just static html, that kind of stuff).
-
-Guys, do you really not understand why x86 took over the server market?
-
-It wasn't just all price. It was literally this "develop at home" issue. Thousands of small companies ended up having random small internal workloads where it was easy to just get a random whitebox PC and run some silly small thing on it yourself. Then as the workload expanded, it became a "real server". And then once that thing expanded, suddenly it made a whole lot of sense to let somebody else manage the hardware and hosting, and the cloud took over.
+>
+>
+>Which in turn means that cloud providers will end up making more money from their x86 side, which means that they'll prioritize it, and any ARM offerings will be secondary and probably relegated to the mindless dregs (maybe front-end, maybe just static html, that kind of stuff).
+>
+>Guys, do you really not understand why x86 took over the server market?
+>
+>It wasn't just all price. It was literally this "develop at home" issue. Thousands of small companies ended up having random small internal workloads where it was easy to just get a random whitebox PC and run some silly small thing on it yourself. Then as the workload expanded, it became a "real server". And then once that thing expanded, suddenly it made a whole lot of sense to let somebody else manage the hardware and hosting, and the cloud took over.
 
 
 https://www.realworldtech.com/forum/?threadid=183440&curpostid=183486
