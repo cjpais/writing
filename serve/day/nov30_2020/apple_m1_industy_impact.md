@@ -180,6 +180,19 @@ https://www.anandtech.com/show/15578/cloud-clash-amazon-graviton2-arm-against-in
 I would guess that Amazon is making boatloads on these CPU's when compared to their
 Intel and AMD counterparts, due to the lower power consumption.
 
+Thinking about the future of the server space it seems quite clear the benefits of moving to ARM.
+Some of the biggest problems in the server space are power and cooling. Given the constraints
+that ARM CPU's have traditionally been in, they can fill this niche quite well. 
+
+It will take some time to see how much less power A
+
+From the perspective of someone operating a datacenter, why would you not want to move to ARM
+if the software support is there and the customers are too? As a benefit you can squeeze over
+2x the compute in the same area while keeping the same thermal and power envelope.
+
+Apple has shown
+the performance of an ARM based CPU can compete with the big boys in desktop environments. 
+
 ## My Interpretation in Context of the Questions
 
 
@@ -226,11 +239,12 @@ much of these days and would be very nice to do the same for my computer.
 
 ## Nvidia
 
-Nvidia I think has the most interesting spot out of all the major semiconductor
+Nvidia is in the most interesting spot out of all the major semiconductor
 manufacturers. They are already breaking into the server space with their GPU's.
-They also recently purchased ARM Holdings and have been making ARM based CPU's
+They trying to purchase ARM Holdings. They have also been making ARM based CPU's
 for some time with their Tegra line (however they have not seen much consumer success).
-This potentially leaves Nvidia in a very nice position to bene
+
+AI Accelerators. NVLink. Highly integrated SOC
 
 NVLink with the CPU????
 
@@ -260,7 +274,10 @@ space with their own CPU/GPU/AI Accelerator combos.
 
 ## Amazon
 
-We have started to see the shift already and Amazon is on top of it. They have 
+Amazon is ahead of the game. They have had ARM based EC2 instances for some time.
+Beyond that [it's been proven they offer massive amounts of compute per $](https://www.anandtech.com/show/15578/cloud-clash-amazon-graviton2-arm-against-intel-and-amd/9).
+
+I'd imagine that Amazon is making money hand over fist 
 
 It will take a while for the rest of the industry to catch up, but as more and more
 developers start building docker images for ARM, I suspect more and more ARM servers
@@ -274,6 +291,7 @@ will be desired.
 * [Ampere](https://en.wikipedia.org/wiki/Ampere_Computing)
   * Nvidia is partnering with them as well. GPU-accelerated ARM servers partnership too......
 * Nuvia
+* Marvell?
 
 ## INTERCONNECTS?????!!!
 
