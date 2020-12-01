@@ -2,13 +2,6 @@
 
 Apple has shifted the balance of power with the release of the M1 powered Macs.
 
-The name of the game in the CPU space has been performance per watt
-for many years now. And Apple just changed the equation.
-
-
-
-## The fall of x86?
-
 Will Apple's transition to ARM force the hand on the rest of the industry to do the same?
 What will happen if this is the case? How do Intel and AMD respond. Where does this leave other semiconductor manufactures, notably Nvidia and Qualcomm?
 
@@ -23,17 +16,6 @@ change in the industry. Consumer space and corporate space alike.
 
 To refresh what we've learned since the release is this.
 
-## What has Apple done?
-
-Apple is delivering exceptional performance at a third of the power of their competitors. 
-
-## Why others will follow
-
-Given history (iPhone, iPad, Airpods, Removing Headphone Jack) 
-it seems like a given to assume the rest of the industry will 
-follow Apple in incorporating ARM processors in their .
-
-##
 
 ## Quantifying 
 
