@@ -1,9 +1,16 @@
-# Apple's M1 Impact on the Semiconductor Industry
+# Impact of Apple's M1 on the Semiconductor Industry
 
 Apple has shifted the balance of power with the release of the M1 powered Macs.
+Apple by releasing these M1 Macs is just begging for a response from the rest of the industry.
+
+
+Would like to analyze the consumer space and the server space, and how 
+
 
 Will Apple's transition to ARM force the hand on the rest of the industry to do the same?
 What will happen if this is the case? How do Intel and AMD respond. Where does this leave other semiconductor manufactures, notably Nvidia and Qualcomm?
+
+
 
 Apple's release of ARM powered Mac's is flipping the industry on it's head. The 
 sheer amount of press around this release is quite telling. [The buzz on Twitter,
@@ -15,7 +22,6 @@ These are fantastic things and these two factors will be the driving force for h
 change in the industry. Consumer space and corporate space alike.
 
 To refresh what we've learned since the release is this.
-
 
 ## Quantifying 
 
@@ -63,9 +69,36 @@ GPU:
 * Power comparison
 * Performance comparison
 
-3x density.
+## Why has ARM been struggling in the server space and how apple is going to change this
 
-ARM is already crushing in the server space, but is probably highly underutilized.
+Well in the server space there seems to be little incentive to swap over to ARM especially
+given the huge hassle of changing ISA's. Clearly this is not simple and that's why Apple
+has spent so much time to provide tools to get people swapped over cleanly.
+
+That is the beauty of what they've done. According to the stackoverflow developer survey, about 27.5%
+of developers use Apple systems. As we see a huge developer population move to ARM based Mac's
+surely the tooling will have to support ARM very well. 
+
+This is massive and will force a rethink of the server space. Even Linus didn't believe this was 
+going to happen anytime soon
+
+> Some people think that "the cloud" means that the instruction set doesn't matter. Develop at home, deploy in the cloud.
+> 
+>That's bullshit. If you develop on x86, then you're going to want to deploy on x86, because you'll be able to run what you test "at home" (and by "at home" I don't mean literally in your home, but in your work environment).
+>
+> Which means that you'll happily pay a bit more for x86 cloud hosting, simply because it matches what you can test on your own local setup, and the errors you get will translate better.
+
+
+Which in turn means that cloud providers will end up making more money from their x86 side, which means that they'll prioritize it, and any ARM offerings will be secondary and probably relegated to the mindless dregs (maybe front-end, maybe just static html, that kind of stuff).
+
+Guys, do you really not understand why x86 took over the server market?
+
+It wasn't just all price. It was literally this "develop at home" issue. Thousands of small companies ended up having random small internal workloads where it was easy to just get a random whitebox PC and run some silly small thing on it yourself. Then as the workload expanded, it became a "real server". And then once that thing expanded, suddenly it made a whole lot of sense to let somebody else manage the hardware and hosting, and the cloud took over.
+
+
+https://www.realworldtech.com/forum/?threadid=183440&curpostid=183486
+
+ARM is already crushing x86 in the server space, but is probably highly underutilized.
 https://www.anandtech.com/show/15578/cloud-clash-amazon-graviton2-arm-against-intel-and-amd/9
 
 I would guess that Amazon is making boatloads on these CPU's when compared to their
