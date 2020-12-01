@@ -29,9 +29,12 @@ to have a laptop that can last multiple days on battery.
 
 This alone seems like it will drive the rest of the consumer market to follow Apple.
 
-
 Given that other Windows laptops with ARM CPU's have been released, why is it only
-now that it's a big deal?
+now that it's a big deal? The Surface Pro X has great battery life too
+
+  * apparently it serves a "small group of people" which Apple's laptops definitely do not
+  * apple serves everyone, people dont have much choice once their lineup goes all arm
+    * which it certainly will
 
 I feel like this is something like Apple dropping the headphone jack. At first
 the whole industry and consumers are bewildered by the move. Then sure enough
