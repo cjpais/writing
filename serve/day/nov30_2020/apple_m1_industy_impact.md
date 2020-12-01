@@ -114,7 +114,7 @@ Power Usage:
 My guess is the M1 powered laptops really come into a class of their own when you are 
 doing intense tasks on the battery. There have been some benchmarks that seem to validate
 this. The combination of power efficiency and speed means a lot more can be done on the
-laptio.
+laptop.
 
 CPU Speed:
 * Single-Threaded
