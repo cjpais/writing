@@ -4,7 +4,14 @@ Apple has shifted the balance of power with the release of the M1 powered Macs.
 Apple by releasing these M1 Macs is just begging for a response from the rest of the industry.
 
 
-analyze the consumer space and the server space, and how 
+analyze the consumer space and the server space
+
+Will be focusing just on how Apple's decision to release ARM based Mac's will force the rest 
+of the industry to respond. I will not be digging into why Apple would move to ARM. That will be saved for a future article.
+
+## Consumer Side
+
+
 
 
 Will Apple's transition to ARM force the hand on the rest of the industry to do the same?
