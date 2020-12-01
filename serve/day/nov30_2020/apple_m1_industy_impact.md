@@ -65,6 +65,11 @@ jack, provide a better user experience, and ultimately make more money off consu
 How do Microsoft, Intel, AMD, Qualcomm, NVidia respond to such a performant chip in 
 a $700 package?
 
+## Will ARM completely take over the industry?
+
+This seems unlikely in the near term. There is such a massive amount of code running on x86
+machines that probably won't be deprecated for a long time. 
+
 ARM based 
 
 What if Microsoft doesn't respond? 
