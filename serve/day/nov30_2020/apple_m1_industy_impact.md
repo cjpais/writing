@@ -1,5 +1,8 @@
 # Impact of Apple's M1 on the Semiconductor Industry
 
+Apple's M1 Changes Everything
+transformative change?
+
 Apple has shifted the balance of power with the release of the M1 powered Macs.
 Apple by releasing these M1 Macs is just begging for a response from the rest of the industry.
 
@@ -20,6 +23,11 @@ These are fantastic things and these two factors will be the driving force for h
 change in the industry. Consumer space and corporate space alike.
 
 Did Apple force the industry's hand to transition to ARM?
+
+## Heterogeneous compute
+https://erik-engheim.medium.com/why-is-apples-m1-chip-so-fast-3262b158cba2
+
+Nvidia can compete
 
 ## Consumer Side
 
@@ -217,15 +225,31 @@ Looks like AMD still has a winner on its hands with the Zen3 arch. Very efficien
 and very fast. Doesn't look like they are going to go away any time soon unless
 they falter on their next microarchs.
 
+The good think for AMD is it looks like they can compete with Apple in terms of 
+performance per watt, or at least be relatively close to the benchmark set by
+Apple. However this is very short term thinking. I imagine the progression of
+ARM based microarchitectures are going to improve much more rapidly in terms
+of performance per watt. However this is based on pure speculation rather than facts
+or information.
+
 They have put some ARM based CPU's into the market according to:
 https://www.anandtech.com/show/15575/amperes-altra-80-core-n1-soc-for-hyperscalers-against-rome-and-xeon
 Opteron A1100 series in 2017.
 
 This clearly was not a big success
 
+Recently purchased Xilinx. I am not quite sure what to think about this now.
+
 ## Intel
 
-Intel. Intel has some work to do.
+At this moment Intel is in a tough spot. AMD has been starting to dominate Intel in the CPU
+space and seems to extending their lead with the Zen 3 microarchitecture. Beyond this
+they have been struggling to shrink their process nodes. Now they have lost Apple
+as a customer, and at the same time Apple is putting pressure on Intel and the entirety of the
+x86 space by threatening the server market.
+
+Of course Intel is an interesting company that does a massive amount of R&D which cannot be discounted.
+
 
 ## Qualcomm
 
