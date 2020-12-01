@@ -10,6 +10,15 @@ Will be focusing just on how Apple's decision to release ARM based Mac's will fo
 of the industry to respond. I will not be digging into why Apple would move to ARM. 
 That discussion will be saved for a future article.
 
+Apple's release of ARM powered Mac's is flipping the industry on it's head. The 
+sheer amount of press around this release is quite telling. [The buzz on Twitter,
+HN, has been continuous](https://www.singhkays.com/blog/apple-silicon-m1-black-magic/). 
+
+At this point we know they are ***fast*** with incredible battery life to boot. 
+
+These are fantastic things and these two factors will be the driving force for huge 
+change in the industry. Consumer space and corporate space alike.
+
 Did Apple force the industry's hand to transition to ARM?
 
 ## Consumer Side
@@ -48,20 +57,7 @@ Within a very short period of time it's become clear that Apple is able to get e
 and battery life out of these new M1 powered Mac's. To have a laptop that can last 2/3 of a day 
 is mindboggling today, but soon enough this will be seen as abysmal battery life. 
 
-
-
 What will happen if this is the case? How do Intel and AMD respond. Where does this leave other semiconductor manufactures, notably Nvidia and Qualcomm?
-
-
-
-Apple's release of ARM powered Mac's is flipping the industry on it's head. The 
-sheer amount of press around this release is quite telling. [The buzz on Twitter,
-HN, has been continuous](https://www.singhkays.com/blog/apple-silicon-m1-black-magic/). 
-
-At this point we know they are ***fast*** with incredible battery life to boot. 
-
-These are fantastic things and these two factors will be the driving force for huge 
-change in the industry. Consumer space and corporate space alike.
 
 To refresh what we've learned since the release is this.
 
