@@ -254,9 +254,8 @@ Looks like AMD still has a winner on its hands with the Zen3 arch. Very efficien
 and very fast. Doesn't look like they are going to go away any time soon unless
 they falter on their next microarchs.
 
-However they still have to compete with Apple, who seems to be progressing
-quite linearly when compared with the x86 space. (Well maybe intel wasn't the 
-bet comparison. I've made my own comparison based on Anandtech's data)
+However they still have to compete with Apple who is seeing large generation over
+generation performance. Fortunately for AMD they are as well.
 
 ![](https://images.anandtech.com/doci/16226/perf-trajectory.png)
 
