@@ -3,6 +3,9 @@
 Apple's M1 Changes Everything
   * This title then begs the question, what is the state of the industry now (before M1)
   * What is the state after the M1. What has been shaken up
+Gamechanger
+
+Title's in the form of questions?
 
 transformative change?
 
@@ -29,6 +32,11 @@ Did Apple force the industry's hand to transition to ARM?
 
 ## Heterogeneous compute
 https://erik-engheim.medium.com/why-is-apples-m1-chip-so-fast-3262b158cba2
+  excellently written and want something similar to this, but maybe more opinion. 
+  opinion rooted in fact. or rather just opening up the room for discussion
+
+  probably want some pictures or something instead of pure text otherwise peoples brains will
+  probably turn off or something since people arent good at having attention span (neither am i)
 
 Nvidia can compete
 
@@ -52,6 +60,10 @@ the whole industry and consumers are bewildered by the move. Then sure enough
 the rest of the smartphone industry follows Apple and drops the headphone
 jack. Apple proved to the rest of the industry that you could remove the headphone
 jack, provide a better user experience, and ultimately make more money off consumers.
+
+
+How do Microsoft, Intel, AMD, Qualcomm, NVidia respond to such a performant chip in 
+a $700 package?
 
 ARM based 
 
