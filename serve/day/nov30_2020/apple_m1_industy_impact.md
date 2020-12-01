@@ -1,6 +1,9 @@
 # Impact of Apple's M1 on the Semiconductor Industry
 
 Apple's M1 Changes Everything
+  * This title then begs the question, what is the state of the industry now (before M1)
+  * What is the state after the M1. What has been shaken up
+
 transformative change?
 
 Apple has shifted the balance of power with the release of the M1 powered Macs.
