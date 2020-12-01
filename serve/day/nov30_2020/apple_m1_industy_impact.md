@@ -269,6 +269,8 @@ This clearly was not a big success
 
 Recently purchased Xilinx. I am not quite sure what to think about this now.
 
+"Intel has stagnated itself out of the market, and has lost a major customer today. AMD has shown lots of progress lately, however it’ll be incredibly hard to catch up to Apple’s power efficiency. If Apple’s performance trajectory continues at this pace, the x86 performance crown might never be regained."
+
 ## Intel
 
 At this moment Intel is in a tough spot. AMD has been starting to dominate Intel in the CPU
