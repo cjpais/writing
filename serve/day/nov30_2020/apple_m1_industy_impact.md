@@ -30,6 +30,55 @@ change in the industry. Consumer space and corporate space alike.
 
 Did Apple force the industry's hand to transition to ARM?
 
+## PERFORMANCE PER WATT
+
+https://www.anandtech.com/show/1936/7
+Latest keynote for Apple Silicon as well
+
+### Efficiency
+
+This focus on efficiency is the most important thing. performance enabled by the efficiency
+the low thermal envelope, and the ability to control thermals extremely well. To fit
+a really high performance cpu inside of a 10W chassis. 
+
+all of the graphs in the presentation were performance vs power. That is the main thing
+for Apple and the rest of the industry. I think the industry as a whole recognizes this, but
+Apple has put in the investment to do well. (this is out of the scope of this particular article)
+(however it will be good to put into context the work AMD has been doing in terms of 
+efficiency as well. Ways that efficiency can be improved (IPC). Understanding moderns
+workloads (javascript and floating point performance are more important nowadays)). Certainly
+should make other companies think more about their designs and how to improve them. What 
+are the biggest gains that can be made in terms of efficiency in particular. That is the 
+only way you can catch up to Apple at this point. In the long run this is good too. We get
+platforms that are lower power, use less energy and ultimately could be more sustained. Not only
+on battery but directly from alternative power sources like solar, or even some nano materials providing
+electricity through kinetic energy generated.
+
+Not about generating the highest raw performance, but again performance per watt. Would rather maximize
+that at the cost of max performance.
+Qualcomm could do very well in this department as well....
+
+efficiency is the most important, you are literally getting more for what you pay for by maximizing
+for it. you get the most performance you can for the energy you spend. that is what is important.
+
+### Thermals
+
+## But but but... it's limited to Apple
+
+Sure, that is the case currently. But taking a look a history, I'd say it's pretty likely to 
+repeat itself here. Apple has made a big move, and it's clearly beneficial for them. Other
+companies will also realize that it will be beneficial for them as well and follow Apple 
+down the track of ARM based computing, even if they aren't really aware of how it will
+improve things. I think it is not far fetched to see some of the things Apple might be working on
+next, but we can leave those for another time.
+
+Everyone must compete now. Wether that means x86 will continue to dominate or not is a question
+in the air. Right now there are no good ARM competitors on Windows. Even Windows and Microsoft
+was not ready for this change. It will be a good year before there is any competition, which
+gives Apple plenty of time to roll out some higher TDP ARM chips. Right now it looks like AMD
+is in a great position for the laptop space with Renoir, but who knows what the future holds.
+I hope for a more ARM based future, that slowly moves towards RISC-V. 
+
 ## Heterogeneous compute
 https://erik-engheim.medium.com/why-is-apples-m1-chip-so-fast-3262b158cba2
   excellently written and want something similar to this, but maybe more opinion. 
