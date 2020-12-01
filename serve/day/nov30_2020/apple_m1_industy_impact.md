@@ -295,8 +295,14 @@ https://www.anandtech.com/show/16226/apple-silicon-m1-a14-deep-dive/3
 
 ![](https://images.anandtech.com/doci/16226/spec2006_A14.png)
 
+
 Looking at this picture we can clearly see that with the same amount of energy
 used (Joules) Apple nearly doubles Qualcomm's performance.
+
+![](https://images.anandtech.com/graphs/graph16226/119329.png)
+
+Apple has clearly been playing a different game than Qualcomm. A
+response is very warranted. Could not be so good for QC.
 
 ## Nvidia
 
