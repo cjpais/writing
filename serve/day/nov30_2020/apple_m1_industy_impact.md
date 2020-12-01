@@ -69,11 +69,11 @@ to change.
 
 What will happen if this is the case? How do Intel and AMD respond. Where does this leave other semiconductor manufactures, notably Nvidia and Qualcomm?
 
-To refresh what we've learned since the release is this.
-
 If you can accept the assumptions made about the spaces, now we can go ahead and analyze some
 of the main players in the semiconductor industry who will be directly affected by the
 release of the M1 Macs in the next couple of years.
+
+To refresh what we've learned since the release is this.
 
 ## Quantifying 
 
