@@ -43,6 +43,7 @@
 <p>How do Microsoft, Intel, AMD, Qualcomm, NVidia respond to such a performant chip in a $700 package?</p>
 <h2>Will ARM completely take over the industry?</h2>
 <p>This seems unlikely in the near term. There is such a massive amount of code running on x86 machines that probably won’t be deprecated for a long time.</p>
+<p>There may be a transition in ISA in the consumer space for sure, but the server space is a much much longer game to play.</p>
 <p>ARM based</p>
 <p>What if Microsoft doesn’t respond?</p>
 <p>It seems to me this is quite unlikely.</p>
@@ -186,8 +187,24 @@
 <li>https://www.notebookcheck.net/Apple-MacBook-Air-2020-M1-Benchmarks-Should-you-get-7-or-8-GPU-cores.506105.0.html</li>
 <li></li>
 </ul></li>
-<li><p>Power comparison</p></li>
-<li><p>Performance comparison</p></li>
+<li><p>Power comparison</p>
+<ul>
+<li>Power compared to package power
+<ul>
+<li>The fact that Apple is able to achieve this in a total device power consumption of 5W including the SoC, DRAM, and regulators, versus +21W (1185G7) and 49W (5950X) package power figures, without DRAM or regulation, is absolutely mind-blowing.
+<ul>
+<li>https://www.anandtech.com/show/16226/apple-silicon-m1-a14-deep-dive/4</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><p>Performance comparison</p>
+<ul>
+<li>Single threaded performance rivals desktop CPU’s. Mind blowing.
+<ul>
+<li>https://www.anandtech.com/show/16226/apple-silicon-m1-a14-deep-dive/4</li>
+</ul></li>
+<li></li>
+</ul></li>
 </ul>
 <h2>Why has ARM been struggling in the server space and how apple is going to change this</h2>
 <p>Well in the server space there seems to be little incentive to swap over to ARM especially given the huge hassle of changing ISA’s. Clearly this is not simple and that’s why Apple has spent so much time to provide tools to get people swapped over cleanly.</p>
@@ -233,6 +250,9 @@
 <p>Of course Intel is an interesting company that does a massive amount of R&amp;D which cannot be discounted.</p>
 <h2>Qualcomm</h2>
 <p>From QC perspective there is a huge opportunity with Apple moving to ARM. People see the performance and battery life they can get from a MBA. Beyond this Qualcomm has the value add of being able to add a modem for always connected PC’s. It is very dependent if people even want this in the first place. The cost of 4G/5G service is much more $/GB, however you don’t ever have to worry about wifi. I use my phone without worries much of these days and would be very nice to do the same for my computer.</p>
+<p>Has a ways to catch up with Apple https://www.anandtech.com/show/16226/apple-silicon-m1-a14-deep-dive/3</p>
+<p><img src="https://images.anandtech.com/doci/16226/spec2006_A14.png" /></p>
+<p>Looking at this picture we can clearly see that with the same amount of energy used (Joules) Apple nearly doubles Qualcomm’s performance.</p>
 <h2>Nvidia</h2>
 <p>Nvidia is in the most interesting spot out of all the major semiconductor manufacturers. They are already breaking into the server space with their GPU’s. They trying to purchase ARM Holdings. They have also been making ARM based CPU’s for some time with their Tegra line (however they have not seen much consumer success).</p>
 <p>AI Accelerators. NVLink. Highly integrated SOC</p>
@@ -272,9 +292,10 @@
 </ul></li>
 <li>M5
 <ul>
-<li><p>Platinum 8175M</p></li>
+<li>Platinum 8175M</li>
 </ul></li>
 </ul>
+<p>LOL HOLY SHIT DIDNT THINK ABOUT THIS: “This might be one reason why Apples does so well in browser benchmarks (JavaScript numbers are floating-point doubles).” - https://www.anandtech.com/show/16226/apple-silicon-m1-a14-deep-dive/2</p>
 <section class="footnotes" role="doc-endnotes">
 <hr />
 <ol>

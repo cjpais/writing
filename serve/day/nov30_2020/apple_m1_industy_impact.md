@@ -70,6 +70,9 @@ a $700 package?
 This seems unlikely in the near term. There is such a massive amount of code running on x86
 machines that probably won't be deprecated for a long time. 
 
+There may be a transition in ISA in the consumer space for sure, but the server space is a
+much much longer game to play. 
+
 ARM based 
 
 What if Microsoft doesn't respond? 
@@ -171,7 +174,13 @@ GPU:
   * 
 
 * Power comparison
+  * Power compared to package power
+    * The fact that Apple is able to achieve this in a total device power consumption of 5W including the SoC, DRAM, and regulators, versus +21W (1185G7) and 49W (5950X) package power figures, without DRAM or regulation, is absolutely mind-blowing.
+      * https://www.anandtech.com/show/16226/apple-silicon-m1-a14-deep-dive/4
 * Performance comparison
+  * Single threaded performance rivals desktop CPU's. Mind blowing.
+    * https://www.anandtech.com/show/16226/apple-silicon-m1-a14-deep-dive/4
+  * 
 
 ## Why has ARM been struggling in the server space and how apple is going to change this
 
@@ -281,6 +290,14 @@ in the first place. The cost of 4G/5G service is much more $/GB, however
 you don't ever have to worry about wifi. I use my phone without worries
 much of these days and would be very nice to do the same for my computer.
 
+Has a ways to catch up with Apple
+https://www.anandtech.com/show/16226/apple-silicon-m1-a14-deep-dive/3
+
+![](https://images.anandtech.com/doci/16226/spec2006_A14.png)
+
+Looking at this picture we can clearly see that with the same amount of energy
+used (Joules) Apple nearly doubles Qualcomm's performance.
+
 ## Nvidia
 
 Nvidia is in the most interesting spot out of all the major semiconductor
@@ -357,6 +374,8 @@ to really get into more detail.
   * Xeon Platinum 8000
 * M5
   * Platinum 8175M
+
+LOL HOLY SHIT DIDNT THINK ABOUT THIS: "This might be one reason why Apples does so well in browser benchmarks (JavaScript numbers are floating-point doubles)." - https://www.anandtech.com/show/16226/apple-silicon-m1-a14-deep-dive/2 
 
 
 [^m1_nbcheck_power]: https://www.notebookcheck.net/Apple-M1-Processor-Benchmarks-and-Specs.503613.0.html
