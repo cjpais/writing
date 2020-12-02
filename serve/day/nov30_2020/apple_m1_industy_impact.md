@@ -370,6 +370,11 @@ This will force pressure on Qualcomm and they have potential to deliver.
 Qualcomm also has potential in the server space, which could help them compete in
 the consumer space as well.
 
+### Summit Notes
+
+Cloud AI for Datacenter - Can compete with Nvidia?
+Snapdragon S888 - How performant? Anandtech pls
+
 ## Nvidia
 
 Nvidia is in the most interesting spot out of all the major semiconductor
@@ -449,6 +454,10 @@ to really get into more detail.
 
 LOL HOLY SHIT DIDNT THINK ABOUT THIS: "This might be one reason why Apples does so well in browser benchmarks (JavaScript numbers are floating-point doubles)." - https://www.anandtech.com/show/16226/apple-silicon-m1-a14-deep-dive/2 
 
+
+# Video? Do some analysis?
+
+# Home server mac mini?
 
 [^m1_nbcheck_power]: https://www.notebookcheck.net/Apple-M1-Processor-Benchmarks-and-Specs.503613.0.html
 [^m1_anand_power]: https://www.anandtech.com/show/16252/mac-mini-apple-m1-tested
