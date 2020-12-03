@@ -23,3 +23,5 @@ Things to do:
 * Apple article. Writing round 2
 * ARKit Point Cloud Generation and Visualization
 * Directory structure and VSCode plugin so I don't go insane.
+
+Python 3.9 fucked up my life. Accidentally installed. Back to 3.8.5
