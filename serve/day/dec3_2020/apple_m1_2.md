@@ -2,11 +2,21 @@
 
 ## Focus on Performance (raw perf, power, efficiency, heat) Metrics
 
-###
+### Performance
 
-###
+**CPU**
 
-### 
+#### Vs. Desktop CPU's
+
+#### Vs. Laptop CPU's
+
+#### Vs. Mobile CPU's
+
+#### Vs. Desktop GPU's
+
+#### Vs. Laptop GPU's
+
+#### Vs. Mobile GPU's
 
 ## By Having Performance
 
