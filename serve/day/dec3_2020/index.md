@@ -6,6 +6,7 @@ So for today:
   * Good progress on this, have a bunch ready for boulder. 
     * Want to prune out ones I don't like. Probably put twitter to a vote?
       * Instagram?
+  * Put labeled one on twitter for now
 
 ![qr codes](qr_codes.png)
 
