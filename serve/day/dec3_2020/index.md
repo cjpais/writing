@@ -9,7 +9,6 @@ So for today:
 
 ![qr codes](qr_codes.png)
 
-
 * Apple article. Writing round 2
 * ARKit Point Cloud Generation and Visualization
 * Directory structure and VSCode plugin so I don't go insane.
