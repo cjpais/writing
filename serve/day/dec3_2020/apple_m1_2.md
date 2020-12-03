@@ -23,3 +23,5 @@
 ###### That apple ecosystem
 
 ###### Maybe not the low end < $900
+
+How much of the market is this?
