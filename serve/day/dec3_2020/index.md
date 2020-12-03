@@ -12,6 +12,6 @@ So for today:
 
 * Apple article. Writing round 2
   * Really want to think about the performance metrics today. Making sure to get good benchmarks and what these mean.
-    * [link here](apple_m1_2.md)
+    * [link here](apple_m1_2.html)
 * ARKit Point Cloud Generation and Visualization
 * Directory structure and VSCode plugin so I don't go insane.
