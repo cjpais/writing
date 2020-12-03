@@ -37,5 +37,10 @@ for high performance gaming laptops? Will push the thermal envelope at the top e
 eventually these gains will trickle down again. We will continue to see better and better
 performance in low power devices, which will become more and more mainstream.
 
+As we look to a future of AR, we require extremely low power devices to make this 
+possible, yet with a lot of compute capability, or the ability to offload it
+to another device. Requires full realtime experience, which even ARKit is lacking 
+in it's current state. It is high performance, but we need methods to eek out every last bit (this is a tangent and a half)
+
 ## Some new questions
 
