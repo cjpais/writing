@@ -11,6 +11,10 @@ This is a demarkation. Why? What has the M1 shown the rest of the industry?
 
 ### Performance
 
+So now that we have the facts on performance, what have we learned?
+
+On the surface looking at the raw performance metrics it seems like
+
 **POWER**
 
 Power puts everything in context.
@@ -75,3 +79,5 @@ talk of
 will the rest of the industry try to catch up using unified memory arch?
 
 super high performance workloads!? rely on icc
+
+if you want more industry insight read the above lmao
