@@ -1,8 +1,21 @@
 # INDUSTRY CHANGE YO
 
+We are just past a huge moment in the semi conductor industry.
+
+Before M1
+After M1
+
+This is a demarkation. Why? What has the M1 shown the rest of the industry?
+
 ## Focus on Performance (raw perf, power, efficiency, heat) Metrics
 
 ### Performance
+
+**POWER**
+
+Power puts everything in context.
+
+
 
 **CPU**
 
@@ -54,3 +67,11 @@ in it's current state. It is high performance, but we need methods to eek out ev
 
 ## Some new questions
 
+https://mule.substack.com/p/the-tech-monopolies-go-vertical
+https://www.phoronix.com/forums/forum/hardware/processors-memory/1220825-apple-m1-arm-performance-with-a-2020-mac-mini/page16
+
+talk of 
+
+will the rest of the industry try to catch up using unified memory arch?
+
+super high performance workloads!? rely on icc
