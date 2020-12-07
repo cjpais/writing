@@ -25,3 +25,21 @@ of trad experience! I was hesitant to lead a single pitch, but Rich really helpe
 to encourage me. Really appreciate that. Learned a lot from him and still have more
 to learn I think
 
+## This Week
+
+Thinking about the stuff that I would like to do this week, it looks like...
+
+* Make QR codes for Sport
+  * Add in icons?
+* Think more about publishing strategy and potentially writing VSCode plugin?
+  * Find out a sane way to have a directory structure. Ideally plaintext
+    * Or dynamically creating one?
+    * Again upspin?
+  * Tag precedence?
+  * new file templates?
+* Visualize point cloud generated from camera
+  * Look at the google paper and smartphone estimated depth
+    * depth from motion
+  * how can we recognize arbitrary things, with fixed location
+    * simplify the problem.
+* Apple article
