@@ -43,3 +43,16 @@ Thinking about the stuff that I would like to do this week, it looks like...
   * how can we recognize arbitrary things, with fixed location
     * simplify the problem.
 * Apple article
+
+
+Tomorrow:
+
+* Bike ride
+* Plan where we are going to do a mushroom trip
+* Apple article 
+  * outline and
+  * Record video
+* Grocery store?
+* Go tour the house at 1:30
+  * Text Rich
+* think about tagging and generally site generation (with dynamic URLs)
