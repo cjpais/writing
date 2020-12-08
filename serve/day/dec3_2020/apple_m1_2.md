@@ -5,6 +5,34 @@
 A milestone in the semiconductor industry.
 A signaling point.
 
+Prior to the release of the M1 the semiconductor industry seemed relatively stagnant
+apart from AMD overcoming WinTel in the past few years, but if you were following AMD
+around the Zen release, it was quite obvious this was going to happen.
+
+The picture looked something like this.
+
+You have Intel who traditionally has been holding the high ground in the high-end market,
+(pc gaming, high performance laptops) including Apple devices. AMD was relegated to
+lower tiers u
+
+This time with the release of the M1 things are less clear, but there are a few
+companies in incredible positions as times change.
+
+The ripple effects from the release of the M1 based Mac's will be incredible.
+gets people used to all day battery life from all their devices. consumers expect
+and demand this. rest of the industry must become even more efficient in order
+to meet these demands. the next step beyond this is achieving week long battery life
+this will be a new turning point for the industry and certainly achievable.
+
+what does week long battery life mean? what does this allow for the industry?
+wearables i would think, but we already have a clear demarkation of a day
+is a week of battery really necessary? I mean i just hate plugging things in
+but apple will change that too.
+
+would like to think the focus on doubling transistors following moores law
+will change to be something similar for battery life (though this is much
+harder, so would be interested to see the line). Do we stop caring about 
+performance? 
 
 Before M1
 After M1
