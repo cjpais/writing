@@ -33,7 +33,7 @@ To understand why we need to take a look at history.
   * **Significance** 
     * WinTel Born
       * Most people become familiar with Windows
-    * x86 dominating enterprise and 
+    * x86 dominating enterprise and consumer spaces
 2. Multi-Core Processors
   * Intel Core (Core 2 Duo)
   * AMD K8
