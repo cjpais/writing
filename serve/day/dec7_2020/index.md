@@ -56,3 +56,16 @@ Tomorrow:
 * Go tour the house at 1:30
   * Text Rich
 * think about tagging and generally site generation (with dynamic URLs)
+  * want a file in plain text to describe the metadata
+  * .<filename>.meta
+  * what does the interface in vscode look like to make it work?
+    * ie multiple workspaces within the same directory
+    * define workspaces adhoc
+    * change workspaces (and associated tabs using kb shortcuts or button?)
+    * have custom filtering rules for "directories"
+      * really this starts as time
+  * maybe take a step back
+    * what is the basic problem to solve?
+      * dont want to type the date out every single day and create new folder and file
+        * this can be as basic as python doing it
+      * have a 'focus' mode for just todays stuff
