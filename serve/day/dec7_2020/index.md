@@ -76,3 +76,7 @@ Tomorrow:
       * how can it be packaged more cleanly?
         * it's not that these pieces individually are bad, but its more the whole thing does not appear to work cleanly together as a system
         * i mean obviously a better environment would be to have an app which directly gets written in and then this publishes directly to a server with some real requests
+  * how can i define environment variables for myself?
+    * by this i mean, i have a birthday 5/30/1996, how can i use this to say on a website i am {%x} years old
+    * like in swift we have variables that act really just as results of functions
+      * other langs too. i just want a bunch of these for 
