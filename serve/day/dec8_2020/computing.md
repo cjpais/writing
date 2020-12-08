@@ -12,8 +12,41 @@ Will have to be extremely concise.
 
 ### Intro
 
-This will be something like the M1 is going to shake up the industry. To understand why
-we need to take a 
+This will be something like the M1 is going to shake up the industry. Could be one
+of the main turning points in the desktop computing era.
+
+Purely focused on the CPU/GPU space. Maybe a touch on the TPU/AI, but this
+can be saved for another discussion.
+
+Initially the impact will seem small, but the future potential could be massive.
+
+To understand why we need to take a look at history.
+
+### Relevant History and Players
+
+1. Birth of Personal Computers
+  * Apple II
+  * IBM PC - MS-DOS
+    * IBM Struggling. Partnered with MS. Intel.
+    * IBM Compatible PC's, cheaper. 
+    * Huge success. Gaining 80% market share
+  * **Significance** 
+    * WinTel Born
+      * Most people become familiar with Windows
+    * x86 dominating enterprise and 
+2. Multi-Core Processors
+  * Intel Core (Core 2 Duo)
+  * AMD K8
+  * Apple switch to Intel from PPC
+  * **Significance** 
+    * Birth of modern laptops
+    * Continued Intel dominance
+3. 
+
+### Where we are today
+
+Things are changing much more rapidly today then they were previously. We could essentially summarize
+the history in a few sentences.
 
 ## History of Computing
 
@@ -24,3 +57,5 @@ Need to highlight the significance of all of them, and then come back to why tha
 2. Birth of the GUI ()
 
 ## Where is computing technology heading?
+
+* Post Cloud Era
