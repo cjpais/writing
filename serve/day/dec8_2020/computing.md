@@ -12,7 +12,9 @@ Will have to be extremely concise.
 ## History of Computing
 
 This comes in a few sections.
-Need to highlight the significance of all of them
+Need to highlight the significance of all of them, and then come back to why that is important today
 
 1. Birth of the PC
 2. Birth of the GUI ()
+
+## Where is computing technology heading?
