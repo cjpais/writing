@@ -67,5 +67,12 @@ Tomorrow:
   * maybe take a step back
     * what is the basic problem to solve?
       * dont want to type the date out every single day and create new folder and file
-        * this can be as basic as python doing it
+        * this can be as basic as python doing it, or as complicated as VSCode plugin and
       * have a 'focus' mode for just todays stuff
+    * would ideally like to have a more complete solution
+      * if i got a new computer, I don't want to set up the same script to run
+        * then a specific directory structure
+        * then a server on the other end to make sure it listens
+      * how can it be packaged more cleanly?
+        * it's not that these pieces individually are bad, but its more the whole thing does not appear to work cleanly together as a system
+        * i mean obviously a better environment would be to have an app which directly gets written in and then this publishes directly to a server with some real requests
