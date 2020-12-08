@@ -1,6 +1,8 @@
 # INDUSTRY CHANGE YO
 
-We are just past a huge moment in the semi conductor industry.
+# Whats Next? The Post M1 Era.
+
+A milestone in the semiconductor industry.
 
 Before M1
 After M1
