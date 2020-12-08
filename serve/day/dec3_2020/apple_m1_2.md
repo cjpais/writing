@@ -3,6 +3,7 @@
 # Whats Next? The Post M1 Era.
 
 A milestone in the semiconductor industry.
+A signaling point.
 
 Before M1
 After M1
