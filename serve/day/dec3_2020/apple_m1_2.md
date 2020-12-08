@@ -12,8 +12,9 @@ around the Zen release, it was quite obvious this was going to happen.
 The picture looked something like this.
 
 You have Intel who traditionally has been holding the high ground in the high-end market,
-(pc gaming, high performance laptops) including Apple devices. AMD was relegated to
-lower tiers u
+(pc gaming, high performance laptops) including Apple devices. They also dominated
+the entire server market, and continue to have huge marketshare.
+AMD was relegated to lower tiers u
 
 This time with the release of the M1 things are less clear, but there are a few
 companies in incredible positions as times change.
