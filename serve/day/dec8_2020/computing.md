@@ -34,14 +34,28 @@ To understand why we need to take a look at history.
     * WinTel Born
       * Most people become familiar with Windows
     * x86 dominating enterprise and consumer spaces
-2. Multi-Core Processors
+2. Microprocessor Wars
+  * Intel v AMD
+  * Frequency wars
+  * **Significance**
+    * Focus on raw performance at the cost of power and heat
+3. Multi-Core Processors
   * Intel Core (Core 2 Duo)
   * AMD K8
   * Apple switch to Intel from PPC
   * **Significance** 
     * Birth of modern laptops
     * Continued Intel dominance
-3. 
+    * Rise of efficient architecture
+      * Shift to IPC/ILP/(Perf/Watt)
+4. Smartphones
+  * iPhone introduced 2007, based on ARM architecture
+  * Powerful low power device
+5. Cloud Computing
+  * iPhone introduced 2007, based on ARM architecture
+  * Powerful low power device
+5. Zen
+  * AMD taking Intel's spot as top dog in the CPU industry.  
 
 ### Where we are today
 
