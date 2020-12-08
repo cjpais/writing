@@ -8,6 +8,12 @@ Ideally would like to squeeze everything in 10 minutes, not sure if this is poss
 Will have to be extremely concise.
 
 
+## M1 Video/Article Outline
+
+### Intro
+
+This will be something like the M1 is going to shake up the industry. To understand why
+we need to take a 
 
 ## History of Computing
 
