@@ -1,6 +1,6 @@
 # INDUSTRY CHANGE YO
 
-# Whats Next in the Post M1 Era?
+# Whats Next in the Post-M1 Era?
 
 A milestone in the semiconductor industry.
 A signaling point.
