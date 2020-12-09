@@ -71,3 +71,9 @@ Need to highlight the significance of all of them, and then come back to why tha
 ## Where is computing technology heading?
 
 * Post Cloud Era
+
+
+A question we will need to revisit. How will this change affect you and me? 
+What does this mean for the consumer space in depth, what is going to change
+for us as a result of this. The real motivations for Apple to do this.
+The effects on the industry
