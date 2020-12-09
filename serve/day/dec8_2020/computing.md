@@ -52,8 +52,6 @@ To understand why we need to take a look at history.
   * iPhone introduced 2007, based on ARM architecture
   * Powerful low power device
 5. Cloud Computing
-  * iPhone introduced 2007, based on ARM architecture
-  * Powerful low power device
 5. Zen
   * AMD taking Intel's spot as top dog in the CPU industry.  
 
