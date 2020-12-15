@@ -33,4 +33,8 @@ Already wrote for tomorrow but here it is again:
     * shows number of unmatched people (and a link to the unmatched tab)
     * shows the total number of people signed up
     * shows a list of the 10 latest sign ups
+  * unmatched
+    * just a simple table for now
+      * checkboxes in the table to manually assign group
+      * simple filtering at the top of the table
 * start sending out test emails
