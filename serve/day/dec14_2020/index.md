@@ -37,4 +37,6 @@ Already wrote for tomorrow but here it is again:
     * just a simple table for now
       * checkboxes in the table to manually assign group
       * simple filtering at the top of the table
+  * groups
+    * show the groups in some simple bubbles or something
 * start sending out test emails
