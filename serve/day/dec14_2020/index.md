@@ -18,4 +18,19 @@ After that at the bare minimum we will have the endpoint up. From there we can t
 rock climbing dashboard and clean it up a bit, maybe a drop shadow to the right or something. 
 
 It will probably be a very empty dashboard, but that is fine. Maybe can show the most recent sign ups.
-Forgot to include the date in the DB, but can easily add this.
+
+Anyway was able to finish up the sql endpoints, might need to make some more tomorrow, but this is okay for today.
+Learned a bit about SQL as well. It's been a while since I've had to craft queries, almost always used an ORM
+before but really crafted them today. It's an odd way to think. I understand it, and I know it must be possible
+but it's not always immediately intuitive the best way to make the query. Seems like there are a lot of ways
+to do things 'wrong' and have performance be impacted massively.
+
+Already wrote for tomorrow but here it is again:
+
+* spin up react app
+* simple dashboard
+  * home
+    * shows number of unmatched people (and a link to the unmatched tab)
+    * shows the total number of people signed up
+    * shows a list of the latest sign ups
+* start sending out test emails
