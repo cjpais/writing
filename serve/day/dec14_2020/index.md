@@ -32,5 +32,5 @@ Already wrote for tomorrow but here it is again:
   * home
     * shows number of unmatched people (and a link to the unmatched tab)
     * shows the total number of people signed up
-    * shows a list of the latest sign ups
+    * shows a list of the 10 latest sign ups
 * start sending out test emails
