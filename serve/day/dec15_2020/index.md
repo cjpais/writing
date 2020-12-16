@@ -13,3 +13,6 @@ Have a few things.
   * how many people matched
   * how many sign ups in the last week
   * table of the latest sign ups
+
+I keep bashing my head into a wall with CSS. I swear to fucking.
+Tailwind seems great but way to much overhead to setup for a tiny project.
