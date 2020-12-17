@@ -39,6 +39,23 @@ sent for them. Then on top of that another endpoint which takes the group id
 and actually sends the email. This is something that can be added to the dashboard
 as well
 
-So for tomorrow (finish in the morning):
+So for tomorrow:
 
-* 
+Morning:
+  * Fix multiple input bug, make sure columns appear correct to sort (going into DB)
+    * fix: strip spacing
+  * add pending groups to the dashboard
+    * pending groups endpoint
+
+If we go fast can finish (by 12):
+  * replicate the group page for pending, but add additional button to send the email out to the group
+    * endpoint to send the email once good
+  * change grouping logic
+    * if the email has not been sent yet, then group the people, but allow more to be added through the algo
+    * group can only be formed once
+
+After that may want to think about:
+  * Partial match
+    * Have Meera be able to see good potential candidates for the group
+  * Review Jon's comments, and do some rewriting.
+  * Sport QRs and test prints
