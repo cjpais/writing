@@ -66,3 +66,32 @@ After that may want to think about:
   * begin working on sign on and approval flow
     * roles
     * think about discord/teamspeak and role based access. i have one account but can have different permissions on each 'server'. Same should go here.
+
+3 month reflection, just the outline
+
+* financials
+* daily's (started a week after)
+* reflect
+* new home page
+* dawn patrol group and outdoor climbing
+* climbing gym app
+* outdoor climbing ar
+  * photogrammetry research
+* lobster diving
+* katie and mild depression
+* van research
+  * van finding script
+* red rock
+  * oct
+  * dec
+* j tree
+  * paul
+  * backpacking
+* valley of the moon
+* first trad
+* first multipitch
+
+from all of this what have i learned
+* looking for love, trying my best to give it, to strangers
+* need to stay focused on one thing and keep to it
+  * ive gotten a lot of knowledge in a lot of areas, but 
