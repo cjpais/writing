@@ -21,4 +21,21 @@ Addressing the concerns:
 Anyway. These are some of the long term things to think about and work on. This will be a piece coming out.
 Perhaps in multiple parts, perhaps in one long. 
 
-Thinking about the possibilities
+Thinking about the possibilities of the future of computing in general too.
+
+
+Anyway things for today include
+
+
+* Fix multiple input bug, make sure columns appear correct to sort (going into DB)
+  * fix: strip spacing
+* add pending groups to the dashboard
+  * pending groups endpoint
+* replicate the group page for pending, but add additional button to send the email out to the group
+  * endpoint to send the email once good
+* change grouping logic
+  * if the email has not been sent yet, then group the people, but allow more to be added through the algo
+  * group can only be formed once
+* plugin for vscode instead of python script
+* review jons comments
+* overview
