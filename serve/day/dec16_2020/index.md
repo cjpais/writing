@@ -74,12 +74,14 @@ After that may want to think about:
 * reflect
 * new home page
 * dawn patrol group and outdoor climbing
+* plugin arch
 * climbing gym app
 * meera griefpal
 * outdoor climbing ar
   * photogrammetry research
 * lobster diving
 * katie and mild depression
+* rbg passing and analysis of court cases
 * van research
   * van finding script
 * red rock
