@@ -100,5 +100,5 @@ After that may want to think about:
 from all of this what have i learned
 * looking for love, trying my best to give it, to strangers
 * need to stay focused on one thing and keep to it
-  * ive gotten a lot of knowledge in a lot of areas, but 
+  * ive gotten a lot of knowledge in a lot of areas, but not finished a lot of projects 
 * i love to climb, but if i do it too much i have issues
