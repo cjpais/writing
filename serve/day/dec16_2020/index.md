@@ -57,5 +57,12 @@ If we go fast can finish (by 12):
 After that may want to think about:
   * Partial match
     * Have Meera be able to see good potential candidates for the group
+    * I think this can wait if the above functionality works.
   * Review Jon's comments, and do some rewriting.
   * Sport QRs and test prints
+  * Get basic tailwind css project running to move everything over to.
+    * then think about CI pipeline, for rockaholic.
+    * or visit other CSS frameworks, to make sure I don't go insane using CSS
+  * begin working on sign on and approval flow
+    * roles
+    * think about discord/teamspeak and role based access. i have one account but can have different permissions on each 'server'. Same should go here.
