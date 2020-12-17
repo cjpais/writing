@@ -36,4 +36,5 @@ interface off the top of my head which is making me think best not to for now.
 Anyway, that will likely be a task for tomorrow, but may try to tackle tonight.
 Should just be creating a new endpoint to get the groups which don't have emails
 sent for them. Then on top of that another endpoint which takes the group id
-and actually sends the email.
+and actually sends the email. This is something that can be added to the dashboard
+as well
