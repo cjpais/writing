@@ -12,3 +12,10 @@ Thinking about what we need to do it becomes a few things pretty quickly.
   * a table where you can select and filter users
   * want to find a good library for this and then style. 
   * we are going to do this first
+
+
+Need to do something to fix my goddamn shell. At what point do I just have a docker image which becomes
+my primary and forget about everything else. Seems like so much overhead but yeah. I don't want
+to have a lot of dependencies when using a computer. It should just work and continue to work in any
+state.
+
