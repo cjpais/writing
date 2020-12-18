@@ -29,6 +29,7 @@ Anyway things for today include
 
 * Fix multiple input bug, make sure columns appear correct to sort (going into DB)
   * fix: strip spacing
+  * *done.*
 * add pending groups to the dashboard
   * pending groups endpoint
 * replicate the group page for pending, but add additional button to send the email out to the group
@@ -39,3 +40,18 @@ Anyway things for today include
 * plugin for vscode instead of python script
 * review jons comments
 * overview
+
+welp. did everything for Meera. Then I got sidetracked. Was about 7 hours of work, slightly less.
+
+Did not write the vscode plugin.
+Did not review Jon's comments.
+
+However I did start thinking about all the things that I can give. I think I need to make a list.
+Maybe this will be a more effective way to move forward. Think about all the things right now
+which I can give to someone else that can help them. And not do it in a half-ass way.
+But do something really that can help if explained right.
+
+The most obvious one to me right now would be TypeScript + React. Plus an explanation of 
+"the stack". Perhaps even previous stacks. LAMP... All these things. At the level of
+someone who knows how to program, but maybe is unfamiliar with these particular environment
+and things you can do in them (namely functional programming constructs)
