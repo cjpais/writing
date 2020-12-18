@@ -28,12 +28,7 @@ let createDayDir = () => {
         let year = today.getFullYear();
         let newDayStr = `${month}${day}_${year}`;
         let dayDir = `/serve/day/${newDayStr}`;
-        // let dayUri = vscode.Uri.joinPath(baseDir, dayDir);
         let dayUri = vscode.Uri.file(baseDir + dayDir);
-        console.log("Creating directory", dayUri.fsPath);
-        // if (!fs.existsSync(dayUri.fsPath)) {
-        // 	fs.mkdirSync(dayUri.fsPath);
-        // }
         vscode.workspace.fs.createDirectory(dayUri);
         return dayUri;
     }
@@ -44,7 +39,6 @@ let createDayDir = () => {
 };
 let createDayFile = (dir) => {
     let file = vscode.Uri.joinPath(dir, "index.md");
-    console.log("creating file", file);
     let dateOptions = { weekday: 'long',
         year: 'numeric',
         month: 'long',
@@ -52,14 +46,7 @@ let createDayFile = (dir) => {
     let dateString = new Intl.DateTimeFormat('en-US', dateOptions)
         .format(Date.now());
     let encoder = new util_1.TextEncoder();
-    let fileContents = encoder.encode(`# ${dateString}`);
-    // let fileContents = `# ${dateString}\n`;
-    console.log("adding contents", fileContents);
-    // if (!fs.existsSync(file.fsPath)) {
-    // 	let f = fs.createWriteStream(file.fsPath);
-    // 	f.write(fileContents);
-    // 	f.close();
-    // }
+    let fileContents = encoder.encode(`# ${dateString}\n\n`);
     vscode.workspace.fs.writeFile(file, fileContents);
     return true;
 };

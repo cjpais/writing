@@ -1,7 +1,6 @@
 // The module 'vscode' contains the VS Code extensibility API
 // Import the module and reference it with the alias vscode in your code below
 import * as vscode from 'vscode';
-import * as fs from 'fs';
 import { TextEncoder } from 'util';
 
 const MONTH_LOOKUP = new Map([
@@ -28,14 +27,7 @@ let createDayDir = () => {
 		let year = today.getFullYear();
 		let newDayStr = `${month}${day}_${year}`;
 		let dayDir = `/serve/day/${newDayStr}`;
-		// let dayUri = vscode.Uri.joinPath(baseDir, dayDir);
 		let dayUri = vscode.Uri.file(baseDir + dayDir);
-
-		console.log("Creating directory", dayUri.fsPath);
-
-		// if (!fs.existsSync(dayUri.fsPath)) {
-		// 	fs.mkdirSync(dayUri.fsPath);
-		// }
 
 		vscode.workspace.fs.createDirectory(dayUri);
 		return dayUri;
@@ -47,7 +39,6 @@ let createDayDir = () => {
 
 let createDayFile = (dir: vscode.Uri) => {
 	let file = vscode.Uri.joinPath(dir, "index.md");
-	console.log("creating file", file)
 	let dateOptions = { weekday: 'long', 
 											year: 'numeric', 
 											month: 'long',
@@ -55,16 +46,8 @@ let createDayFile = (dir: vscode.Uri) => {
 	let dateString = new Intl.DateTimeFormat('en-US', dateOptions)
 										.format(Date.now());
   let encoder = new TextEncoder();
-	let fileContents = encoder.encode(`# ${dateString}`);
-	// let fileContents = `# ${dateString}\n`;
+	let fileContents = encoder.encode(`# ${dateString}\n\n`);
 
-	console.log("adding contents", fileContents);
-
-	// if (!fs.existsSync(file.fsPath)) {
-	// 	let f = fs.createWriteStream(file.fsPath);
-	// 	f.write(fileContents);
-	// 	f.close();
-	// }
 	vscode.workspace.fs.writeFile(file, fileContents);
 
 	return true;
