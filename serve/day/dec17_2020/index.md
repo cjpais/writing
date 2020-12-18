@@ -55,3 +55,5 @@ The most obvious one to me right now would be TypeScript + React. Plus an explan
 "the stack". Perhaps even previous stacks. LAMP... All these things. At the level of
 someone who knows how to program, but maybe is unfamiliar with these particular environment
 and things you can do in them (namely functional programming constructs)
+
+Tomorrow AM will be exploring this.
