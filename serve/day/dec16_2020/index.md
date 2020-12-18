@@ -99,6 +99,7 @@ After that may want to think about:
   * climb with cousin, dean, friend
 * first time driving off road?!
   * now i want a 4x4
+* reviewing markdown editors
 
 from all of this what have i learned
 * looking for love, trying my best to give it, to strangers
