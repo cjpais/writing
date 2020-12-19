@@ -45,6 +45,10 @@ There are quite a few videos or series I'd like to make. Just to explore about c
       * returning pointers to something from a function
 * What is a computer? How do computers work?
   * This would be a fun challenge and test my own knowledge and fundamentals. Nearly infinite areas to explore.
+* Cool technologies and tools
+  * vim
+  * tmux
+  * package managers
 * For now stick with things that are concrete. Then can move to opinion later.
   * Even things like the history are fun to research, and maybe more interesting on their own.
   * Would like to mix in opinions later. Where the industry is going. Where I would like to see it go.
