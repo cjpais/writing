@@ -102,7 +102,7 @@ time I was adamant about creating my own. So I started to.
 ![](../../../day/oct1_2020/yooooooo.png)
 
 Reflect was my first attempt to create a markdown editor. It was meant to combine all data sources and
-automate the tasks I was doing on a daily basis to write and publish. 
+automate the tasks I was doing on a daily basis to write and publish. It also needed VIM mode.
 
 It was also my first try at using Electron. I found out pretty quickly it was relatively easy to build
 something in Electron, however I wasn't totally wrapping my head around node/npm. Anyhow I quickly realized
