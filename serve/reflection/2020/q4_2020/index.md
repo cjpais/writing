@@ -51,7 +51,7 @@ favorite classes was Constitutional Law. I asked her what her favorite RBG cases
 read the opinions. I read 3 cases intending to write about each. I managed to do so just for 
 Shelby County v Holder
 
-* *Shelby County v Holder* - [[marked up pdf](../../../scotus/Shelby%20County%20v.%20Holder.html)]
+* *Shelby County v Holder* - [[marked up pdf](../../../scotus/Shelby%20County%20v.%20Holder.md)] [[my analysis](../../../scotus/Shelby%20County%20v.%20Holder.md)]
 * *Burwell v Hobby Lobby*
 * *US v Virginia*
 
