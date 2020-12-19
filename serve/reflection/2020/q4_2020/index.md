@@ -1,8 +1,10 @@
 # Q4 2020 (Sept - December)
 
+![Red Rock, NV. Oct 2020. First Climbing Trip](red_rock.jpeg)
+
+## Into the Unknown
 Wow. What a wild 4 months. 4 months of the unknown. 
 
-![Red Rock, NV. Oct 2020. First Climbing Trip](red_rock.jpeg)
 
 ## Quitting Qualcomm
 
