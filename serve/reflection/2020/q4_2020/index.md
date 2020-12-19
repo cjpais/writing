@@ -9,6 +9,8 @@ Wow. What a wild 4 months. 4 months of the unknown.
 Below will be a summary of everything that I worked on or did during this time. However since this is a
 reflection I'd like to tackle that up front. However it was not written until after everything was done.
 
+There is a theme that runs through this document. It is one of play, but also one of distraction.
+
 ## Quitting Qualcomm
 
 Yep. I quit my job without much of a plan. Initially I thought 
@@ -28,9 +30,30 @@ in addition to the CoreData DB they were using.
 
 Once this was done, I got thinking about another project. To display my financials publicly.
 
+## Conversations
+* Kristen Dave
+* Kristen Dave Jon
+* Weiwei
+* Jon
+* Austin
+* Morgan
+* Adam
+* Shep
+* Alex
+* Chandler
+* All climbing peeps, Caroline, Katie in particular
+
 ## RBG Passing
 
+The death of RBG was tragic to hear, for the future of the Supreme Court, minorities (yes!
+not just Women) rights, and much more. One of my friends is going to law school, and one of her
+favorite classes was Constitutional Law. I asked her what her favorite RBG cases were so I could
+read the opinions. I read 3 cases intending to write about each. I managed to do so just for 
+Shelby County v Holder
 
+* *Shelby County v Holder* - [[marked up pdf](../../../scotus/Shelby%20County%20v.%20Holder.html)]
+* *Burwell v Hobby Lobby*
+* *US v Virginia*
 
 ## Financials (aka. [burrito.place](https://burrito.place))
 
