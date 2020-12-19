@@ -97,6 +97,10 @@ and augment it. Ideally something with a plugin system. [I found a bunch of open
 but none really fit the bill for me. Well.. VSCode did, and remains the choice today. However, at the
 time I was adamant about creating my own. So I started to.
 
+## Lobster Diving
+
+yaaa
+
 ### Enter Reflect
 
 ![](../../../day/oct1_2020/yooooooo.png)
@@ -108,7 +112,33 @@ It was also my first try at using Electron. I found out pretty quickly it was re
 something in Electron, however I wasn't totally wrapping my head around node/npm. Anyhow I quickly realized
 I needed to get something to write text and code into. Since Markdown is technically code, and I wanted
 some level of syntax highlighting I chose to use CodeMirror. Getting up and running with it was relatively
-simple, but still required a full day or two of work to wrap my head around.
+simple, but still required a full day or two of work to wrap my head around. It also started to get me
+thinking about plugin architectures.
+
+With reflect one of the main goals was to have a little tiny core editor piece, that handles all the rendering
+and everything, but then data sources can create their own elements backed by data. You would just pass
+the data and template to the main UI and it would render everything for you. It would also provide a neat
+interface for you to pass data between plugins. That way you could wire up a bunch of views together directly
+from the UI. It should allow data sources to be directly imported too, so you could just write code directly
+in the editor and have it be previewed and running live.
+
+This whole architecture seemed like a fun challenge and definitely required a lot of research. I was mostly
+curious about how VSCode was doing their architecture under the hood, but digging through the code I got
+lost very quickly. I would need to spend multiple days to understand it. I did find Hashicorp's architecture
+and wrote some [notes on it](../../../day/oct6_2020/hashicorp_go_arch.html). Good things to know for the future. What I remember is things talking via sockets, then over tcp later or something.
+
+#### CodeMirror 6 and Plugins
+
+After tweeting, I thought I should move to CodeMirror 6 to get the latest and greatest. Plus TypeScript
+support! I had no idea how to use TypeScript at the time, but sounded fannnncy. This led me to 
+integrating CodeMirror 6 in reflect as opposed to 5 like I was using before. However this had one problem.
+No VIM mode. This would not fly. There is not a VIM plugin for CodeMirror 6 yet (or at the time of me
+needing one). So I started to try to write one. I did make some progress, however very slowly.
+
+### Exit Reflect
+
+However this was another project that got stalled, however is something I am still very interested in,
+but would love to pick up another time.
 
 
 ## Climbing
@@ -123,3 +153,14 @@ the process to what it is today. It's quite smooth now for all kinds of publishi
 
 
 ----- detail ------ TODO
+
+
+## Reflection
+
+* A lot of hopping from project to project trying to find one that's a good fit
+
+
+## Moving Forward
+
+* Would like to pick something to focus on and stick to it. Regardless of other ideas coming into my head.
+  * That means 3 months of dedication. I am writing this on Dec 18th, and I haven't quite found what that is going to be yet. This is something to be figured out by the New Year.
