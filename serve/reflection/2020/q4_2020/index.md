@@ -4,12 +4,19 @@
 
 ![Red Rock, NV. Oct 2020. First Climbing Trip](red_rock.jpeg)
 
+**Table of Contents**
+
 Wow. What a wild 4 months. 4 months of the unknown. 
+
+If you'd like to skip to the reflection bit, feel free. It's at the bottom, however please take a look
+through the rest of the writing, you might find something interesting :) 
 
 Below will be a summary of everything that I worked on or did during this time. However since this is a
 reflection I'd like to tackle that up front. However it was not written until after everything was done.
 
 There is a theme that runs through this document. It is one of play, but also one of distraction.
+Before getting into reflection and analysis here's a table of contents
+
 
 ## Quitting Qualcomm
 
@@ -77,3 +84,40 @@ of writing which was what I was planning on using.
 While this project never quite got off the ground, I still think it is quite an interesting concept.
 I would like to revisit this at some point. Wether it be for financial data, or any of my data. This
 is one aspect of the technology industry I think could use some change and has lots of potential. 
+
+## Daily's
+
+Started to get a system down in early September, however with a lot of manual labor. The plan from
+the start was to automate as much as possible of this, and turn writing into a complete play space.
+Having images, video, audio, links, code, tables, all play nicely with each other. And also be able
+to reference anything in the DB at any time. Eventually augmented by NLP. 
+
+To actually get moving I thought the best first step would be to take an existing Markdown editor
+and augment it. Ideally something with a plugin system. [I found a bunch of open source ones and compared them](../../../day/sept30_2020/open_source_md_editors.html),
+but none really fit the bill for me. Well.. VSCode did, and remains the choice today. However, at the
+time I was adamant about creating my own. So I started to.
+
+### Enter Reflect
+
+![](../../../day/oct1_2020/yooooooo.png)
+
+Reflect was my first attempt to create a markdown editor. It was meant to combine all data sources and
+automate the tasks I was doing on a daily basis to write and publish. 
+
+It was also my first try at using Electron. I found out pretty quickly it was relatively easy to build
+something in Electron, however I wasn't totally wrapping my head around node/npm. Anyhow I quickly realized
+I needed to get something to write text and code into. Since Markdown is my primary writing 
+
+
+## Climbing
+
+In between all this, I was climbing a lot in the gym. I had two climbing partners and friends 
+I met at Qualcomm so I was climbing with them when I could. 
+
+
+I started to refine
+the process to what it is today. It's quite smooth now for all kinds of publishing if you ask me.
+
+
+
+----- detail ------ TODO
