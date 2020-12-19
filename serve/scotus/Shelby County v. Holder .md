@@ -1,0 +1,205 @@
+- Feb 27, 2013 - June 25th, 2013
+- Background:
+    - The focus of this case revolves around the Voting Rights Act of 1965 (VRA). 
+        - It is a fundamental law that came out of the Civil Rights movement to curtail voter discrimination. Specifically helping to enforce the 14th and 15th Amendments. These amendments were largely unenforced as states implemented literacy tests for voter registration.
+        - It has always been temporally restricted. 
+            - Introduced in 1965 -> Set to expire in 5 years (1970)
+            - Reauthorized in 1970 -> Set to expire in 5 years (1975)
+            - Reauthorized in 1975 -> Set to expire in 7 years (1982)
+            - Reauthorized in 1982 -> Set to expire in 25 years (2007)
+            - Reauthorized in 2006 -> Set to expire in 25 years (2031)
+            - Section 4 declared unconstitutional in 2013.
+        - There are a few provisions in this law discussed in this case, with the primary focus being Sections 4 & 5.
+            - Section 2: 
+                - States:
+                    - (a) No voting qualification or prerequisite to voting or standard, practice, or procedure shall be imposed or applied by any State or political subdivision in a manner which results in a denial or abridgement of the right of any citizen of the United States to vote on account of race or color, or in contravention of the guarantees set forth in section 10303(f)(2) of this title, as provided in subsection (b).
+                    - (b) A violation of subsection (a) is established if, based on the totality of circumstances, it is shown that the political processes leading to nomination or election in the State or political subdivision are not equally open to participation by members of a class of citizens protected by subsection (a) in that its members have less opportunity than other members of the electorate to participate in the political process and to elect representatives of their choice. The extent to which members of a protected class have been elected to office in the State or political subdivision is one circumstance which may be considered: __Provided__, That nothing in this section establishes a right to have members of a protected class elected in numbers equal to their proportion in the population.
+                - Background: 
+                    - It essentially says that no state should deny or impose restrictions on the right to vote on the basis of race or color (or spoken/written language). That the political process must be equally open for all to participate in. As a result any state who imposes such a restriction may be challenge in court. 
+                    - This “applies nationwide” [sup court decision]. Not a constitutional question
+            - Section 4: 
+                - Background:
+                    - Certain parts of the country had a history of strong racial discrimination. This section is aims to identifying these areas of the country. If a state or political subdivision meets any of the formula’s criteria it will be subject to Section 5 of the VRA. 
+                    - Formula:
+                        - Has multiple components to it.
+                            - 1. Is satisfied if the state implemented a test (literacy, moral character, etc) which may restrict the right to vote. Temporally based (Nov. 1, 1964)
+                            - 2. Is satisfied if less than 50% of eligible voters in a state are registered to vote as of Nov. 1, 1964. If a state is > 50%, we go down to the “political subdivision” (generally county) level and check the same criterion. 
+                        - Extra restrictions were put in place in 1970
+                            - Changed the date from Nov. 1, 1964 to Nov. 1968
+                        - Extra restrictions were put in place in 1975
+                            - Changed the date from Nov. 1968 to Nov. 1972
+                            - Expanded to include minorities being excluded on the basis of language. 
+                                - Specifically if only English ballots were provided where a single-language minority consisted of >5% of the eligible voters. 
+                    - “Bail Out” Clause:
+                        - In summary it provides states or political subdivision a way out of Section 5 being applied to them. It essentially states if they have shown good behavior for 10 years, Section 5 no longer need to apply. Provides an exemption. 
+                            - Specifics (from DOJ website)
+                                - The successful "bailout" applicant must demonstrate that during the past ten years:
+                                    - No test or device has been used within the jurisdiction for the purpose or with the effect of voting discrimination;
+                                    - All changes affecting voting have been reviewed under Section 5 prior to their implementation;
+                                    - No change affecting voting has been the subject of an objection by the Attorney General or the denial of a Section 5 declaratory judgment from the District of Columbia district court;
+                                    - There have been no adverse judgments in lawsuits alleging voting discrimination;
+                                    - There have been no consent decrees or agreements that resulted in the abandonment of a discriminatory voting practice;
+                                    - There are no pending lawsuits that allege voting discrimination; and
+                                    - Federal examiners have not been assigned;
+                                    - There have been no violations of the Constitution or federal, state or local laws with respect to voting discrimination unless the jurisdiction establishes that any such violations were trivial, were promptly corrected, and were not repeated.
+                - Court Cases:
+            - Section 5:
+                - Background:
+                    - Applies to any state which is “covered” by section 4
+                        - Any law which may changes voting cannot be enforced until it was been reviewed by the Attorney General or US District Court and deemed to have no discriminatory effect (as per Section 2).
+                            - Specific language:
+                                - Under Section 5, any change with respect to voting in a covered jurisdiction -- or any political subunit within it -- cannot legally be enforced unless and until the jurisdiction first obtains the requisite determination by the United States District Court for the District of Columbia or makes a submission to the Attorney General. This requires proof that the proposed voting change does not deny or abridge the right to vote on account of race, color, or membership in a language minority group. If the jurisdiction is unable to prove the absence of such discrimination, the District Court denies the requested judgment, or in the case of administrative submissions, the Attorney General objects to the change, and it remains legally unenforceable.
+                - Court Cases:
+- Case Summary:
+    - Shelby County (Alabama) argues that Section 4 and Section 5 of the Voting Rights Act of 1965 (VRA) is unconstitutional. The court ruled in favor (5-4) of Shelby County, declaring Section 4 of the VRA unconstitutional.
+- Majority Opinion (Justice Roberts):
+    - Section 4 of the VRA is unconstitutional on the basis of violations to the 10th Amendment. This amendment is focused on ‘states-rights’ and ‘state sovereignty’ otherwise called federalism. 
+    - The basis of the argument is revealed in the first sentence. “The [VRA] employed __extraordinary__ measures to address an __extraordinary__ problem” [formatting mine]. 
+        - This is key, and gives light to the fact the majority court does not believe this is an __extraordinary__ problem now. 
+            - Stating this was upheld in 1966 (__South Carolina v. Katzenbach__), but 50 years later the provisions need not apply since the racial gap in covered states is lower than nationwide.
+            - Since this racial gap has been lowered the __extraordinary__ measures provided in Section 4 & 5 of the VRA, are too much, given the imposition on states-rights.
+                - This is specifically quoted from __Northwest Austin__ case. 
+            - They also mention that minorities regularly hold office. 
+            - Determined that Section 5 is constitutional because of the “bail-out” clause.
+                - Justice Thomas in essence noted that Section 5 is also unconstitutional. It is too big of a burden on states. 
+        - Section 4 judgement
+            - It was a “close question”
+                - One thing to note was Judge Williams dissent in the district court
+                    - The district court upheld Section 4 as constitutional.
+                    - That when section 4 applied, black voter registration and turnout was higher. Importantly that “the 5 worst uncovered jurisdictions have worse records than eight of the covered jurisdictions”
+                        - I find this particularly important, as it is basically trying to say. Look, this is clearly ineffective on the whole. If it was effective the worst records of uncovered districts should be better.
+                            - But this is a complex argument.
+            - Basis of the argument (10th Amendment)
+                - “The Federal Government does not, however, have a __general__ right to review and veto state enhancements before they go into effect”
+                    - References other cases, where the framers intended that states should have the power to regulate elections.
+                - States should have “equal soverignty”
+            - Argument itself (II)
+                - The VRA does not stand up to these principles, as it requires states to get laws approved by the Federal Government. This is a departure from the first principle set above.
+                - The VRA also departs from the principle of equal soverignty. That is it applies only to certain states. One state may have to wait to enact a law, while it’s neighbor passes it without issue.
+            - Previously these departures from the 10th Amendment were justified under “exceptional conditions”
+                - Very few % of African American’s were voting in the states covered by the VRA.
+                - The formula only applied to the states where it was needed which was “rational in both practice and theory”
+            - Times have changed
+                - Covered districts voter registration is nearly equal when compared to uncovered.
+                - Minority canidates hold office
+                - Blatant discrimination doesnt happen
+                - Congress even said progress was made
+                - “no doubt these improvements are large part because of the” VRA
+                    - We have made great strides, yet Section 4 is just as stringent as ever.
+                - Is it constitutional (III)
+                    - Part 1 of the formula doesnt apply anymore.
+                    - “voter registration and turnout.. have risen dramatically”
+                    - The formula is not relevant or rational to the districts which are covered
+                        - The government (defendant) argues that it was rational in 1965 so it is today. Response form the court “But history did not end in 1965”.
+                        - The decision made in 2006 does not reflect “current conditions” it relies on old data.
+                        - The data that was provided doesn’t show the extraordinary conditions that made this act relevant in 1965.
+                            - more importantly “Congress did not use this record..to shape a coverage formula grounded in current conditions”
+                            - addresses the dissenting opinion
+                                - that “second generational barriers” do not impose on someone casting a ballot, but what weight their ballot may have
+                                - not ignoring the record from congress, but it didnt play a role in shaping the formula (ie formula was unchanged)
+                                - Shelby County had history of voter discrimination so can’t be “bailed out”. But majority opinion says this doesnt matter because the law itself is unconstitutional.
+                                - the VRA is not a normal piece of legislation and shouldnt be treated as such, again exceptional conditions require exceptional solution
+                                - there are no flagrant acts of discrimination
+            - “Congress should have updated the coverage formula”
+                - And they can still update it. The rest of the Act stands. Just Section 5 is temporarily disabled until a new formula for Section 4 is approved or amended into the law. 
+- Dissenting Opinion (Justice Ginsberg):
+    - Court v Congress
+        - Court: Since the act has been effective it’s no longer needed
+        - Congress: Upheld the act in 2006, as “the scourge of discrimination was not yet extipated”
+    - We should continue the act, complete the progress being made, and ensure we dont go backwards
+        - “Voting discrimination still exists; no one doubts that”
+            - This came from the majority opinion, but the ruling as the dissenting opinion sees it goes against this idea
+    - The act came about as part of one act of discrimination after another, different ways trying to discriminate. “Case-by-case litigation were indadequate.” Needed sweeping legislation to handle this. [this is important because she will go on later to prove the efficacy today, that there are still these attempts]
+        - even with the act it “surely has not eliminated all vestiges of discrimination”
+    - Second-generation barriers
+        - As mentioned above in the majority dissenting.
+        - Racial gerrymandering
+        - [At large voting](https://www.naacpldf.org/wp-content/uploads/At-Large-Voting-Frequently-Asked-Questions-1.pdf)
+        - Basically arguing that the act does more than just protect people getting to the ballots, but on the whole protects the whole voting process, ensuring there is fair and equal voting methods in place
+    - Congress considered different amendments (what were they?) and a huge majority passed. Similar in the senate.
+        - They also specifically addressed the majority concern, that congress did not take into account modern circumstance. Where there is still plenty of “flagrant racial discrimination” and specifically in the covered jurisdictions.
+    - Due to the 14th and 15th amendments, when confronted with discrimination, “congress’ power to act is at it’s height”
+        - The VRA lines up with these amendments. And serves the transformative goal as set forth by the Constitution
+        - Beyond that the framers “stated purpose of the civil war amendent was to arm congress with the power and authority to protect all persons within the Nation fro the violations of the rights by the states”
+    - Is the formula “rational”?
+        - ‘rational-basis test’
+        - seems a bit off topic
+            - but, basically
+                - 1. reauthorization itself implies there is legislative record
+                    - they can take into account all the new facts that came up as part of this legislation
+                - 2. there is a time limit built in, so it can be reconsidered in a modern context
+                    - repeatedly it has been
+                - 3. if the act was working as intended there should be less discrimination
+    - There were 626 objections between 1982 and 2004.
+        - Is this not contemporary evidence? How much has changed in the years since 2004? Ideally we could have a better record
+        - This is what congress based it’s decision on. 
+            - cited are very modern (even post-2000) records which congress considered, DOJ decisions that blocked discriminatory voting laws (and some of these were 2nd generation barriers), which shows the law was effective in stopping these as well. Also shows that it is effective in a modern context
+        - These are the modern records
+        - it was effective
+    - In states not covered, Section 2 itself is not enough to cover.
+        - The problem is that the schemes are put into place, voted with, and then declared illegal which defeats the purpose. 
+            - preclearence of the laws is cheaper than going through litigation over Section 2
+                - Suggests maybe the coverage formula perhaps is not stringent enought.
+    - The record of lawsuits on section 2 vs those blocked by preclearence suggest that discrimination is most prevalent in the jurisdictions signaled out for preclearance
+        - congress studied the effectiveness and reached a connclusion that the formula does identify districts of concern effectively
+    - jurisdictions can bail out!
+        - coverage by the VRA was not permanant. “nearly 200 jurisdictions have been sucessfully bailed out”
+        - was designed to be dynamic and keep up with the times
+    - Huge potential for backsliding, as there are still persistent issues.
+    - The act is “severable”
+        - Basically if one application of the act was not proper, that application itself could be severed. So if only this Shelby County application is incorrect, it need not apply. **But the bill stands outright**
+        - because of this, the court was way to heavy handed. the scope could have been limited but it wasnt. 
+            - “the Court’s opinion can hardly be described as an exemplar of restrained and moderate decisionmaking. Quite the opposite. Hubris is a fit word for today’s demolition of the VRA”
+    - Discrepances in the 10th amendment are hardly uncommon
+        - Nevada Yucca Mountain radioactive
+    - famous Ginsberg “Throwing out preclearace when it has worked and is continuing to work to stop disriminatory changes is like throwing away your umbrella in a rainstorm because you are not getting wet”
+    - Congress did the work. They don’t need to start from scratch
+        - was not out of sync with reality
+    - “history repeats itself”
+    - This is an extraordinary piece of legislation
+        - “to realize the purpose and promise of the 15th amendment”
+        - The record shows overwhelming support for the act. 
+- Effects of the Ruling:
+    - [Directly from the DOJ](https://www.justice.gov/crt/file/876246/download):
+        - This means that the department will be able to send fewer people than in similar past elections to watch the voting process in real-time
+        - Can’t enforce additional language ballots being sent out
+        - Can enforce translation of other election related material
+        - Can enforce ban on tests which discriminate as part of amendment to the VRA
+            - This was mostly fine anyway
+    - Immediate implementations of voter id laws which were previously denied
+        - Texas... then [taken to court and not allowed](https://www.brennancenter.org/our-work/policy-solutions/effects-shelby-county-v-holder)
+            - proves Ginsberg point about cost
+        - north Caroline (same source)
+            - targed african americans
+    - __Abbott v. Perez__, the Court affirmed its disregard for voting discrimination by upholding racially gerrymandered districts in Texas.
+    - Legal action being taken against states
+    - Voter purging, again previously DOJ didn’t approve
+        - again backsliding
+- My Thoughts:
+    - I am not a legal scholar, but someone who does deeply care about this nation and how we can do better. 
+    - Honestly I think both arguments are extremely strong.
+        - I think it comes down to what you value more. Personally I feel discrimination is intolerable, and the 14th/15th amendments stand stronger than states rights in my mind. I think this fact is a given honestly. To me it seems especially in the modern context that discrimination cannot be discounted in any form. So for this to be struck down on the basis of it being a burden to states who are discriminating or have history of doing so seems wrong. They even had the chance to fix the issue with the bail out provision. 
+            - “stated purpose of the civil war amendent was to arm congress with the power and authority to protect all persons within the Nation fro the violations of the rights by the states”
+                - This is key. This is a summary of my belief as well. We need [[individual rights]], and no one, not the states, not the nation should be able to subordinate someone from their basic rights.
+        - Personally I value individual freedoms over states freedoms. Rather that the state can only be granted freedoms given it’s citizens have equal freedoms. You cannot have one without the other. 
+    - I judge this not only by the law, but what I feel is right and moral. I think this law as a whole is moral. We must try to treat everyone as an equal. Yes the law does not treat states/political jurisdictions as equals. I think this is a problem, but the reason it does this is that it is not treating it’s citizens as equals. This is fundamental human right which our nation is built on top of. I feel this right is more important. In some way this act is like a punishment on a child until they get their act together. And rightly so. They can even prove that they need no longer apply if they’ve been on good behavior. 
+    - At the end of the day the decision has been made, so what do we do next? Well I believe if we find this issue important we should push congress to rewrite section 4 in a way deemed constitutional. Obviously this poses a challenge, but we must protect voting rights for all. 
+        - is it an excessive burden on states to all comply with DOJ rule? 
+- References:
+    - [Supreme Court Decision](https://www.supremecourt.gov/opinions/12pdf/12-96_6k47.pdf)
+    - [My Marked Up Copy]()
+    - https://en.wikipedia.org/wiki/Voting_Rights_Act_of_1965
+    - https://www.oyez.org/cases/2012/12-96
+    - https://en.wikipedia.org/wiki/Shelby_County_v._Holder
+    - https://en.wikipedia.org/wiki/Tenth_Amendment_to_the_United_States_Constitution
+    - https://en.wikipedia.org/wiki/Fourteenth_Amendment_to_the_United_States_Constitution
+    - https://en.wikipedia.org/wiki/Fifteenth_Amendment_to_the_United_States_Constitution
+    - https://www.justice.gov/crt/section-2-voting-rights-act
+        - https://www.justice.gov/crt/title-52-voting-and-elections-subtitle-i-and-ii#sec_2
+    - https://www.vox.com/2016/2/14/17619202/voting-rights-fight-explained-key-sections-rights-act
+    - https://www.justice.gov/crt/file/876246/download
+    - https://www.justice.gov/crt/about-section-5-voting-rights-act
+    - https://www.americanprogress.org/issues/democracy/reports/2018/11/20/461296/voter-suppression-2018-midterm-elections/
+    - https://www.demos.org/blog/5-years-later-effects-shelby-county-are-acutely-felt
+    - https://www.brennancenter.org/our-work/policy-solutions/effects-shelby-county-v-holder
+    - https://uofsdmedia.com/justice-ruth-bader-ginsburg-leaves-more-than-just-a-legacy/
