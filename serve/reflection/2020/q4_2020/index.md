@@ -146,14 +146,15 @@ but would love to pick up another time.
 In between all this, I was climbing a lot in the gym. I had two climbing partners and friends 
 I met at Qualcomm so I was climbing with them when I could. 
 
+I met Katie and Steven. This starts a whole other chapter.
 
 I started to refine
 the process to what it is today. It's quite smooth now for all kinds of publishing if you ask me.
-
-
-
 ----- detail ------ TODO
 
+### Red Rock
+
+## Living in a Van?
 
 ## Reflection
 
@@ -164,3 +165,6 @@ the process to what it is today. It's quite smooth now for all kinds of publishi
 
 * Would like to pick something to focus on and stick to it. Regardless of other ideas coming into my head.
   * That means 3 months of dedication. I am writing this on Dec 18th, and I haven't quite found what that is going to be yet. This is something to be figured out by the New Year.
+* Intention to write quality code.
+  * I've gotten used to writing up some hacked up code
+  * I can easily write better code, but got lazy. This might be impacting the projects longevity as well.
