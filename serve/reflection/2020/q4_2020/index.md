@@ -49,7 +49,7 @@ The death of RBG was tragic to hear, for the future of the Supreme Court, minori
 not just Women) rights, and much more. One of my friends is going to law school, and one of her
 favorite classes was Constitutional Law. I asked her what her favorite RBG cases were so I could
 read the opinions. I read 3 cases intending to write about each. I managed to do so just for 
-Shelby County v Holder
+*Shelby County v Holder*, and partially for *Burwell v Hobby Lobby*
 
 * *Shelby County v Holder* - [[marked up pdf](../../../scotus/shelby%20county%20v%20holder.pdf)] [[my analysis](../../../scotus/Shelby%20County%20v.%20Holder.html)]
 * *Burwell v Hobby Lobby* - [[marked up pdf](../../../scotus/burwell%20v%20hobby%20lobby.pdf)] [[my analysis - partial](../../../scotus/Burwell%20v%20Hobby%20Lobby.html)]
