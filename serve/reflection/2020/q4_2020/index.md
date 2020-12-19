@@ -106,7 +106,9 @@ automate the tasks I was doing on a daily basis to write and publish. It also ne
 
 It was also my first try at using Electron. I found out pretty quickly it was relatively easy to build
 something in Electron, however I wasn't totally wrapping my head around node/npm. Anyhow I quickly realized
-I needed to get something to write text and code into. Since Markdown is my primary writing 
+I needed to get something to write text and code into. Since Markdown is technically code, and I wanted
+some level of syntax highlighting I chose to use CodeMirror. Getting up and running with it was relatively
+simple, but still required a full day or two of work to wrap my head around.
 
 
 ## Climbing
