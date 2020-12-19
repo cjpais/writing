@@ -137,7 +137,7 @@ needing one). So I started to try to write one. I did make some progress, howeve
 
 ### Exit Reflect
 
-However this was another project that got stalled, however is something I am still very interested in,
+Reflect was another project that got stalled, however is something I am still very interested in,
 but would love to pick up another time.
 
 
