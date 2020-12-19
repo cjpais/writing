@@ -15,7 +15,7 @@ Yep. I quit my job without much of a plan. Initially I thought
 
 ## An Adventure in Openness
 
-## Finding a DB
+## Finding a DB (First Week)
 
 Since one of the big things I want to work on is private data, I was trying to figure out a good way 
 to manage all of my private data. Initially my plan was to write my own DB. However, this idea was
@@ -28,6 +28,10 @@ in addition to the CoreData DB they were using.
 
 Once this was done, I got thinking about another project. To display my financials publicly.
 
+## RBG Passing
+
+
+
 ## Financials (aka. [burrito.place](https://burrito.place))
 
 One of the more interesting things to me is the idea of transparency. 
@@ -39,6 +43,13 @@ my data as well as creating an exchange.
 * Selling Data
   * Giving up Data for Discount (effectively selling your data)
 * Adjusting price based on wealth. Flattening wealth inequality curve
+
+One of the main reasons this never got finished was that my main two credit cards were not easy to 
+get data from. This effectively killed the project. It was certainly possible to get my data
+from CapitalOne (see my analysis), but I don't think it was worth the time to continue to engineer 
+such a fragile solution. Beyond this, my Apple Card is the only other card I use, which doesn't
+look like you can pull data easily from (c'mon Apple). Neither were integrated with Plaid at the time
+of writing which was what I was planning on using.
 
 While this project never quite got off the ground, I still think it is quite an interesting concept.
 I would like to revisit this at some point. Wether it be for financial data, or any of my data. This
