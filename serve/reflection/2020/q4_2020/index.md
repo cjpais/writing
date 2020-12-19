@@ -1,13 +1,45 @@
 # Q4 2020 (Sept - December)
 
+## Into the Unknown
+
 ![Red Rock, NV. Oct 2020. First Climbing Trip](red_rock.jpeg)
 
-## Into the Unknown
 Wow. What a wild 4 months. 4 months of the unknown. 
 
+Below will be a summary of everything that I worked on or did during this time. However since this is a
+reflection I'd like to tackle that up front. However it was not written until after everything was done.
 
 ## Quitting Qualcomm
 
-Yep. I quit my job without much of a plan. I thought I was 
+Yep. I quit my job without much of a plan. Initially I thought 
 
-##
+## An Adventure in Openness
+
+## Finding a DB
+
+Since one of the big things I want to work on is private data, I was trying to figure out a good way 
+to manage all of my private data. Initially my plan was to write my own DB. However, this idea was
+quickly abandoned in favor of Postgres. However I didn't want to use SQL directly. I've found it effective
+but always a bit of a pain. 
+
+I'd been looking in this area for a while, and eventually it looked like GraphQL and Hasura were my
+best option to augment Postgres. Once all set up I migrated my Podcast and Notes apps to use this DB
+in addition to the CoreData DB they were using. 
+
+Once this was done, I got thinking about another project. To display my financials publicly.
+
+## Financials (aka. [burrito.place](https://burrito.place))
+
+One of the more interesting things to me is the idea of transparency. 
+
+Beyond just transparency, with this project I wanted to play around with the idea of directly selling 
+my data as well as creating an exchange.
+
+* Transparency
+* Selling Data
+  * Giving up Data for Discount (effectively selling your data)
+* Adjusting price based on wealth. Flattening wealth inequality curve
+
+While this project never quite got off the ground, I still think it is quite an interesting concept.
+I would like to revisit this at some point. Wether it be for financial data, or any of my data. This
+is one aspect of the technology industry I think could use some change and has lots of potential. 
