@@ -2,6 +2,7 @@ import sys
 import os
 import re
 import subprocess
+import commonmark
 from jinja2 import Template, Environment, FileSystemLoader, select_autoescape
 
 PANDOC_CMD = "pandoc -f commonmark_x -t html {}"
@@ -27,6 +28,11 @@ with open(in_fn, 'r') as in_f:
             title = remove_html(line.split("#")[-1].strip())
             break
 
+    md = in_f.read()
+    html = commonmark.commonmark(md)
+    print(html)
+
+"""
 # generate raw HTML from markdown
 cmd = PANDOC_CMD.format(in_fn)
 print(cmd)
@@ -39,3 +45,4 @@ output_html = template.render({"content": result, "title": title})
 # write out final HTML
 with open(out_fn, 'wb') as out_f:
     out_f.write(output_html.encode("utf-8"))
+"""
