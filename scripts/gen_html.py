@@ -23,12 +23,14 @@ out_fn = os.path.splitext(in_fn)[0] + ".html"
 
 # get the title from the file
 with open(in_fn, 'r') as in_f:
+    md = in_f.read()
+
     for line in in_f:
         if "#" in line:
             title = remove_html(line.split("#")[-1].strip())
+            print("TITLE ", title)
             break
 
-    md = in_f.read()
     html = commonmark.commonmark(md)
     print(html)
 
