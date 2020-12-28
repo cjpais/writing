@@ -24,6 +24,7 @@ out_fn = os.path.splitext(in_fn)[0] + ".html"
 # get the title from the file
 with open(in_fn, 'r') as in_f:
     md = in_f.read()
+    in_f.seek(0)
 
     for line in in_f:
         if "#" in line:
