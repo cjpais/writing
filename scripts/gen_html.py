@@ -29,23 +29,15 @@ with open(in_fn, 'r') as in_f:
     for line in in_f:
         if "#" in line:
             title = remove_html(line.split("#")[-1].strip())
-            print("TITLE ", title)
+            print("TITLE", title)
             break
 
     html = commonmark.commonmark(md)
-    print(html)
 
-"""
-# generate raw HTML from markdown
-cmd = PANDOC_CMD.format(in_fn)
-print(cmd)
-result = subprocess.run(cmd, shell=True, stdout=subprocess.PIPE).stdout.decode("utf-8")
+    # insert raw HTML into a template
+    template = jinja_env.get_template("base.template")
+    output_html = template.render({"content": html, "title": title})
 
-# insert raw HTML into a template
-template = jinja_env.get_template("base.template")
-output_html = template.render({"content": result, "title": title})
-
-# write out final HTML
-with open(out_fn, 'wb') as out_f:
-    out_f.write(output_html.encode("utf-8"))
-"""
+    # write out final HTML
+    with open(out_fn, 'wb') as out_f:
+        out_f.write(output_html.encode("utf-8"))
