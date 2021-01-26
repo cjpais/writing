@@ -27,7 +27,9 @@ affect change in some way.
     * FIRST
 * How do we keep kids engaged in computer science learning?
 * What are next generation teaching techniques, that blend the physical and digital
-  * Really the more important question. What are the needs of students which are not being met as part of current ciriculum?
+  * Really the more important question. What are the needs of students which are not being met as part of current education ciriculum?
+  * What parts of ciriculum don't allow them to explore?
+  * What is the base knowledge needed for success in the next century?
 * Will there be more school from home? Similar to remote work? Remote schooling?
 
 ## [[Natural Language Processing]]/[[Reflect]]
