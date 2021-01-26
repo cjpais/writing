@@ -51,4 +51,16 @@ thing with everyone I talk to etc. A real personal assistant integrated into the
 way I live. But this must be built of personal and independent data. It can take
 data in from other people, but it needs to be 'local'. Whatever that means
 
-![](kevin_text)
+![](kevin_text.png)
+
+Will really need to think about the output of the program, or really if it's a
+hypernetwork of machine learning models, each which are specific to certain 
+kind of outputs and the top level one is just delegating to smaller subtasks
+
+This is also something Geore Hotz talked about in Comma.ai with Lex Fridman I 
+believe. <- For example that certainly should be linked to the podcast itself
+which I do have in a database somewhere. It is just a graph with nodes and edges.
+Can the whole graph just be arbitrary? I think that is how I would like to
+structure data in a way.
+
+### [[Young Futures]]
