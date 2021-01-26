@@ -63,4 +63,13 @@ which I do have in a database somewhere. It is just a graph with nodes and edges
 Can the whole graph just be arbitrary? I think that is how I would like to
 structure data in a way.
 
+How can a computer organize the data for itself more effectively than I can?
+Some kind of CDN? Optimizing paths of access? Is this something that you 
+should go and get a PhD for?
+
 ### [[Young Futures]]
+
+## Etc
+
+Just so you know. A tag NEED NOT BE A FILE. That seems like a really silly thing
+to enforce. Somethimes it's just a piece of data goddamnit.
