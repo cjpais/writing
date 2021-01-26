@@ -69,7 +69,18 @@ should go and get a PhD for?
 
 ### [[Young Futures]]
 
+After a lot of conversation the bigger problem that I am seeing is not
+necessarily a lack of access to computers. But really the problem is lack
+of computer science education in K-12 schools across the nation. Would 
+love to quantify this. 
+
 ## Etc
 
 Just so you know. A tag NEED NOT BE A FILE. That seems like a really silly thing
 to enforce. Somethimes it's just a piece of data goddamnit.
+
+### Interesting UCSD Courses
+
+CSE222A/B: Computer Communication Networks
+CSE 232/B/233: Databases
+CSE 250-254/256-258
