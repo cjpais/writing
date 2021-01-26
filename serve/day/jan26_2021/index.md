@@ -50,3 +50,5 @@ climb and the AI behind it should be helping me every part of the way. Same
 thing with everyone I talk to etc. A real personal assistant integrated into the
 way I live. But this must be built of personal and independent data. It can take
 data in from other people, but it needs to be 'local'. Whatever that means
+
+{}
