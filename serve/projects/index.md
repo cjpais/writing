@@ -23,6 +23,11 @@ love to quantify this.
 
 ## [[Natural Language Processing]]/[[Reflect]]
 
-
-
 ### TODO
+
+* Learn Fundamentals of Machine Learning
+  * Computer Vision
+  * Natural Language Processing (Text and Audio)
+    * Speaker identification and labeling
+      * Especially given input and former samples
+  * Be able to label (aka tag) things coming from nearly any data source
