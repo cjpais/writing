@@ -21,9 +21,9 @@ organize information with it
 ![](teri-duhon-1.jpeg)
 ![](teri-duhon-2.jpeg)
 
-## Projects
+## [[Projects]]
 
-### Natural Language Processing
+### [[Natural Language Processing]]
 
 Really this is a thought from yesterday. I don't actually want to organize the
 data in my brain in a computer system. This is a heinous task to try to do.
