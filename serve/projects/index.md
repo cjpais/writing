@@ -11,4 +11,18 @@ necessarily a lack of access to computers. But really the problem is lack
 of computer science education in K-12 schools across the nation. Would 
 love to quantify this. 
 
-## [[Natural Language Processing]]
+### TODO
+
+* Quantify how many schools K-12 have computer science/computer literacy
+  * Available
+    * Mandatory
+    * Advanced Learning
+  * Unavailable
+  * Extra-Ciricular Programs
+    * FIRST
+
+## [[Natural Language Processing]]/[[Reflect]]
+
+
+
+### TODO
