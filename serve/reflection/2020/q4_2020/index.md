@@ -168,3 +168,4 @@ the process to what it is today. It's quite smooth now for all kinds of publishi
 * Intention to write quality code.
   * I've gotten used to writing up some hacked up code
   * I can easily write better code, but got lazy. This might be impacting the projects longevity as well.
+
