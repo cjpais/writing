@@ -1,4 +1,4 @@
-# Projects
+# [[Projects]]
 
 A collection of the things that are started/in-progress or abandoned
 
@@ -10,3 +10,5 @@ A collection of the things that are started/in-progress or abandoned
 necessarily a lack of access to computers. But really the problem is lack
 of computer science education in K-12 schools across the nation. Would 
 love to quantify this. 
+
+## [[Natural Language Processing]]
