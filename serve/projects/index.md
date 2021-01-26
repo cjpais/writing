@@ -27,6 +27,7 @@ affect change in some way.
     * FIRST
 * How do we keep kids engaged in computer science learning?
 * What are next generation teaching techniques, that blend the physical and digital
+  * Really the more important question. What are the needs of students which are not being met as part of current ciriculum?
 * Will there be more school from home? Similar to remote work? Remote schooling?
 
 ## [[Natural Language Processing]]/[[Reflect]]
