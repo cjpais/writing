@@ -25,6 +25,9 @@ affect change in some way.
   * Unavailable
   * Extra-Ciricular Programs
     * FIRST
+* How do we keep kids engaged in computer science learning?
+* What are next generation teaching techniques, that blend the physical and digital
+* Will there be more school from home? Similar to remote work? Remote schooling?
 
 ## [[Natural Language Processing]]/[[Reflect]]
 
