@@ -23,7 +23,7 @@ Comes down to a few things.
   * World Peace
 * Need to learn ML (interest in AGI)
 * Reduce Scope
-* I would like to be in a position of influence, while maintaining a healthy lifestyle balance. Tell me it can't be done. 
+* I would like to be in a position of influence, while maintaining a healthy lifestyle balance. Tell me it can't be done. This should be augmented by the above question about story of my life I'm compelled by.
 
 ## ML Learning
 
