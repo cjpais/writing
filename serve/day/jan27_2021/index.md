@@ -34,6 +34,10 @@ Looking to tackle learning in a few ways.
 * Want to understand transformer networks and their purpose
 * Want to know pivotal moments/major advancements in AI tech
 
+As a beginner it might be good to start basic too, with stuff like
+
+* Handwriting Recognition
+
 I think it makes sense to start with labelers.
 So the projects for this seem to be relatively straightforward and obvious
 
@@ -52,3 +56,28 @@ model similar to GPT-3.
 
 Before diving into any of this I think we should find some course sylibi and
 see what they want me to read. Let's take a look at UCSD's grad courses.
+
+## [[ML Learning Notes]]
+
+Coming from coursera
+
+Basically given some input (experience, sense data) provide some output, and 
+measure performance of output
+
+### Supervised Learning
+
+Classification could be like assigning boolean value to something
+
+Regression is more like trying to assign numerical value
+
+### Unsupervised Learning
+
+Ideally this is what I want. 
+
+Clustering Algorithms, basically taking data and clustering them based on likeness
+in some way. TODO
+
+How can we cluster computer data?
+
+Interesting note of two recordings and separating out languages. This could be 
+similar to speaker recognition
