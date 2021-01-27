@@ -51,4 +51,4 @@ So this will probably need to be some kind of transformer based language
 model similar to GPT-3. 
 
 Before diving into any of this I think we should find some course sylibi and
-see what they want me to read.
+see what they want me to read. Let's take a look at UCSD's grad courses.
