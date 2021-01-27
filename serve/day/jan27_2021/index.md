@@ -38,11 +38,11 @@ I think it makes sense to start with labelers.
 So the projects for this seem to be relatively straightforward and obvious
 
 * Speech Recognition -> Text
-  * Then labeling or generating overall context of this in tags
-    * This implies generating tags from text, this could be a challenge.
   * Overall goal to transcribe podcast text with relatively high level of accuracy
     * Ideally with timestamps. Word and time level recognition. => good input data
 * AR Video -> Boxes and labels (computer vision problem)
+* Generating overall context of podcast/audio in tags
+  * This implies generating tags from text, this could be a challenge.
 
 Once we have the labelers down (data generation), I think it will then 
 be important to understand how we can actually access the data.
