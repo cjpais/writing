@@ -81,3 +81,27 @@ How can we cluster computer data?
 
 Interesting note of two recordings and separating out languages. This could be 
 similar to speaker recognition
+
+## Compelling Story of My Life
+
+Well damn, so far we are doing pretty damn good. We quit our job. And we are going
+out to do whatever we want. I definitely don't want that to end anytime soon.
+Really I would love to continue it indefinitely. However at some point it will
+need to make some level of money in some capacity. What that capacity is? Not sure.
+I do want to own a home. But I want to be in a place where the home doesn't hold me
+down, but is more just a base where I operate from. Want to have a beautiful wife and
+a couple of kids at some point relatively soon too. In 5 years probably. Right around
+30 or a little past. If I have to go back to work, I want to maintain a high level 
+of independence while still being able to pay the bills. If this means freelancing
+maybe that's what I need to do. I just want to continue to get good at climbing.
+But ultimately I want to be in a place where I have my hands in a ton of different
+aspects able to help influence direction on a global scale. Only able to do this
+with the help of a lot of other people. ego speaking? maybe.
+
+## Misc
+
+During the bike ride there was a few interesting things to come of the podcasts.
+Well one more obvious thing is that for the podcasts we can just transcribe 
+an absolute fuck ton. Want to make this convienient for something like are.na.
+Basically how do you make audio more transparent? See the big themes at once
+and then all the text there with audio. Yes otter.ai
