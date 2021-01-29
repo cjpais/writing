@@ -55,3 +55,9 @@ confident
 ***switch it up.***
 
 smile bitch
+
+***switch it up.***
+
+lesson learned today. don't build fragile systems. mostly meaning my iOS apps.
+fucking hell the backend for them is so trash. time to simplify and make robust.
+fuck this crazy ass nonsense I invented.
