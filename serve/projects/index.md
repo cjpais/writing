@@ -10,7 +10,11 @@ A collection of the things that are started/in-progress or abandoned
 
 ## [[Financials]]
 
+## [[Meshtastic]]
 
+## [[Distributed Internet]] (LTE/5G)
+
+## [[Design Language]]
 
 ## [[Young Futures]]
 
