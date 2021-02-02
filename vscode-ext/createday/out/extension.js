@@ -64,6 +64,7 @@ function activate(context) {
             let file = createDayFile(dirUri);
             if (file !== null) {
                 vscode.window.showInformationMessage('Created Day');
+                console.log(file);
                 vscode.window.showTextDocument(file);
             }
             else {

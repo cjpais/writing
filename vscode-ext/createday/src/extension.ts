@@ -69,6 +69,7 @@ export function activate(context: vscode.ExtensionContext) {
 			let file = createDayFile(dirUri)
 			if (file !== null) {
 				vscode.window.showInformationMessage('Created Day');
+				console.log(file)
 				vscode.window.showTextDocument(file);
 			} else {
 				vscode.window.showInformationMessage('Failed to Create Day File');
