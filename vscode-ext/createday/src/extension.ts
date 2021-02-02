@@ -2,6 +2,7 @@
 // Import the module and reference it with the alias vscode in your code below
 import * as vscode from 'vscode';
 import { TextEncoder } from 'util';
+import { time } from 'console';
 
 const MONTH_LOOKUP = new Map([
 	[0, "jan"],
@@ -53,6 +54,10 @@ let createDayFile = (dir: vscode.Uri) => {
 	return file;
 };
 
+function sleep (time: number) {
+  return new Promise((resolve) => setTimeout(resolve, time));
+}
+
 // this method is called when your extension is activated
 // your extension is activated the very first time the command is executed
 export function activate(context: vscode.ExtensionContext) {
@@ -70,6 +75,7 @@ export function activate(context: vscode.ExtensionContext) {
 			if (file !== null) {
 				vscode.window.showInformationMessage('Created Day');
 				console.log(file)
+				sleep(2000)
 				vscode.window.showTextDocument(file);
 			} else {
 				vscode.window.showInformationMessage('Failed to Create Day File');

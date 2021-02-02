@@ -50,6 +50,9 @@ let createDayFile = (dir) => {
     vscode.workspace.fs.writeFile(file, fileContents);
     return file;
 };
+function sleep(time) {
+    return new Promise((resolve) => setTimeout(resolve, time));
+}
 // this method is called when your extension is activated
 // your extension is activated the very first time the command is executed
 function activate(context) {
@@ -65,6 +68,7 @@ function activate(context) {
             if (file !== null) {
                 vscode.window.showInformationMessage('Created Day');
                 console.log(file);
+                sleep(2000);
                 vscode.window.showTextDocument(file);
             }
             else {
