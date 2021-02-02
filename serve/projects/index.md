@@ -1,6 +1,10 @@
 # [[Projects]]
 
-A collection of the things that are started/in-progress or abandoned
+A collection of the things that are started/in-progress or abandoned.
+
+This should serve as a directory to the projects.
+
+Each of which should have - last updated, and linked to why.
 
 ## [[Podcast Transcription]]
 
@@ -17,6 +21,8 @@ A collection of the things that are started/in-progress or abandoned
 ## [[Distributed Internet]] (LTE/5G)
 
 ## [[Design Language]]
+
+## [[Edge Compute]]
 
 ## [[Young Futures]]
 
