@@ -11,3 +11,6 @@ Anyway an interesting idea. Something that may want to be explored in the
 future more. I really just want to be able to talk between devices directly
 even if it is connected via a cell tower. I don't want to jump to servers
 you know.
+
+Maybe the bigger thing is to bake in authentication to my stream so no one
+else can hit it, even if they were to know the paths. 
