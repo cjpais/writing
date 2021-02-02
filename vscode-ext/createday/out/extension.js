@@ -64,9 +64,7 @@ function activate(context) {
             let file = createDayFile(dirUri);
             if (file !== null) {
                 vscode.window.showInformationMessage('Created Day');
-                vscode.workspace.openTextDocument(file).then(doc => {
-                    vscode.window.showTextDocument(doc);
-                });
+                vscode.window.showTextDocument(file);
             }
             else {
                 vscode.window.showInformationMessage('Failed to Create Day File');
