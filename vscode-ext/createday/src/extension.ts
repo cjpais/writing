@@ -50,7 +50,7 @@ let createDayFile = (dir: vscode.Uri) => {
 
 	vscode.workspace.fs.writeFile(file, fileContents);
 
-	return true;
+	return file;
 };
 
 // this method is called when your extension is activated
@@ -66,8 +66,12 @@ export function activate(context: vscode.ExtensionContext) {
 		// Display a message box to the user
 		let dirUri = createDayDir();
 		if (dirUri !== null) {
-			if (createDayFile(dirUri)) {
+			let file = createDayFile(dirUri)
+			if (file !== null) {
 				vscode.window.showInformationMessage('Created Day');
+				vscode.workspace.openTextDocument(file).then(doc => {
+					vscode.window.showTextDocument(doc);
+				});
 			} else {
 				vscode.window.showInformationMessage('Failed to Create Day File');
 			}

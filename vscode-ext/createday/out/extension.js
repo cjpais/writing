@@ -48,7 +48,7 @@ let createDayFile = (dir) => {
     let encoder = new util_1.TextEncoder();
     let fileContents = encoder.encode(`# ${dateString}\n\n`);
     vscode.workspace.fs.writeFile(file, fileContents);
-    return true;
+    return file;
 };
 // this method is called when your extension is activated
 // your extension is activated the very first time the command is executed
@@ -61,8 +61,12 @@ function activate(context) {
         // Display a message box to the user
         let dirUri = createDayDir();
         if (dirUri !== null) {
-            if (createDayFile(dirUri)) {
+            let file = createDayFile(dirUri);
+            if (file !== null) {
                 vscode.window.showInformationMessage('Created Day');
+                vscode.workspace.openTextDocument(file).then(doc => {
+                    vscode.window.showTextDocument(doc);
+                });
             }
             else {
                 vscode.window.showInformationMessage('Failed to Create Day File');

@@ -2,7 +2,7 @@
 	"name": "createday",
 	"displayName": "create-day",
 	"description": "Create a day for writing",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"publisher": "CJPAIS",
 	"engines": {
 		"vscode": "^1.52.0"
