@@ -27,3 +27,12 @@ on what I am doing. Initially it will start out as an entirely private web
 app, also basic auth. Then moving onto something more complex from there
 as necessary. Being able to add people into the namespace in a meaningful
 and secure way.
+
+For now we will move to working more on Meera's app Griefpal. I think
+even if the features don't get done today, if we can get the backend
+ready for them that will speed things up significantly. 
+
+I think we also need to start documenting all these projects and their
+current state and put them up on the website in some form. Basically
+a log of what is going on and the current state with the intention
+behind it.
