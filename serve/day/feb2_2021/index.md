@@ -60,3 +60,5 @@ more fancy layers on top of it if we really feel like it. Something
 like RPC, WebSockets, Sockets, or something of the like.
 
 Still really want to Colocate some server in San Diego. 
+
+Also surfed, and great sunset. 
