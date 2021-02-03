@@ -36,3 +36,11 @@ I think we also need to start documenting all these projects and their
 current state and put them up on the website in some form. Basically
 a log of what is going on and the current state with the intention
 behind it.
+
+Okay that was quick. Able to add both endpoints in a matter of minutes.
+I think we can work on the UI this afternoon as long as things go
+well.
+
+Oh we also fixed the UI in the iOS notes app which is just wonderful.
+I feel so much better about that now. It is a little jank but not
+too bad, I think we can figure out the render order.
