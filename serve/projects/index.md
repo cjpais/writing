@@ -14,13 +14,30 @@ Each of which should have - last updated, and linked to why.
 
 * Write once a week on world peace
 
+## [[Bitcoin]]
+
+## [[Markdown Linter]]
+
+And markdown extension. Would love to be able to have a sidebar.
+Want width of lines capped at 100 chars or less (ideally 80). 
+
+Basically starting to turn markdown into almost WYSIWYG by default.
+And have direct linking and commenting in the sidebar(s), but all in
+plaintext. 
+
 ## [[Financials]]
 
 ## [[Meshtastic]]
 
 ## [[Distributed Internet]] (LTE/5G)
 
-## [[Design Language]]
+CBRS
+
+## [[My Design Language]]
+
+* maybe taking inspo from interior design
+* also from fashion, the colors i enjoy
+  * this goodwill burgundy shirt, nice.
 
 ## [[Edge Compute]]
 
