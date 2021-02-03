@@ -54,3 +54,9 @@ merge conflicts.
 Apps can write into this git repo, perhaps via an API, which just
 allows for add, modify, remove, commit. And can be done relatively
 the same as anything else.
+
+This also allows for easy syncronization. I think we can add some
+more fancy layers on top of it if we really feel like it. Something
+like RPC, WebSockets, Sockets, or something of the like.
+
+Still really want to Colocate some server in San Diego. 
