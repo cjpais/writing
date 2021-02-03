@@ -12,7 +12,7 @@ more level of sanity, however for now it looks to be okay.
 
 I think we need to understand what streamable means and also create better
 abstractions within the code itself to clean up the implementaion. I think
-we need to remove the config files as well and finally use something proper.
+we need to remove the `config` files as well and finally use something proper.
 
 Then after that we can start to build and reflect on the architecture of the system.
 Hopefully it will be simple enough to be something relatively interesting.
