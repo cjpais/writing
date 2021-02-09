@@ -149,7 +149,7 @@ if __name__ == "__main__":
 
   # get all of the days that are not in this week and return the years
   # so we can use our template
-  years = get_days_past(days, this_week).reverse()
+  years = get_days_past(days, this_week)
 
   # generate .md from template
   template = jinja_env.get_template("index.template")
