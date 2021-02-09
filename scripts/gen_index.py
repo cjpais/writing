@@ -138,7 +138,7 @@ def get_days_past(all_days, this_week):
     
     month.add_day(day)
 
-  return years
+  return years.reverse()
 
 if __name__ == "__main__":
   days = get_all_days()
