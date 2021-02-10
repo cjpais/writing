@@ -31,6 +31,7 @@ plaintext.
 * Understanding US Debt
 * Understanding China in relation to the US economy
 * Post oil economy
+* Understanding 2008 crisis
 
 ## [[Meshtastic]]
 
