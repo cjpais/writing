@@ -28,6 +28,9 @@ plaintext.
   * even if a monthly thing. retrospective on spending.
 * Stock portfolio vs market
 * Assest classes
+* Understanding US Debt
+* Understanding China in relation to the US economy
+* Post oil economy
 
 ## [[Meshtastic]]
 
