@@ -23,6 +23,12 @@ plaintext.
 
 ## [[Financials]]
 
+* Learn about the petro-dollar
+* See if I can capture transactions.
+  * even if a monthly thing. retrospective on spending.
+* Stock portfolio vs market
+* Assest classes
+
 ## [[Meshtastic]]
 
 ## [[Distributed Internet]] (LTE/5G)
