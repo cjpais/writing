@@ -79,6 +79,7 @@ a start and stop clipping method.
 Okay so a few big things are coming out of these interests.
 
 * Investing
+  * Petro Dollar
 * Podcast
 * Machine Learning (Speech to Text)
 * CBRS
@@ -89,3 +90,14 @@ about what this looks like and actually set up a LTE base station with
 minimal equipment and see what is possible. 
 
 The financials thing is much more interesting that Austin brought up.
+
+Before this lets set some buys for crypto and then go from there. 
+Okay I set buys. ~$3000 worth. ETH and BTC, about 50/50 split between
+the two. Let's see. Pretty low buys :)
+
+Okay interesting afternoon. Sold the MBP to investment bankers GF.
+But got to meet the investment banker Omar Gomez. Was interesting to 
+talk to him. Mentioned the dollar is more the petro-dollar than anything
+else. Very interesting to know. I think understanding the implications
+of the petro dollar will be important to understand, however I don't think
+I have a good grasp on it currently.
