@@ -127,3 +127,14 @@ my decisions are being driven by that motivation, but ultimately having
 the $ is nice. I do want a house and I can't ignore that either. But
 how much of my time is it really worth to put in? 
 
+I think more than anything I may need to dedicate more of my day to 
+reading. I think maybe I need to be reading on the order of 2+ hours
+a day so I can really make progress through books or other interesting
+materials.
+
+But with reading, we also need to be putting that into practice. In the
+case of some of the things I am talking about here, it should be directly
+reflected in my investments.
+
+I am curious, if it makes more sense to sell Tesla, and put that into 
+some new class.
