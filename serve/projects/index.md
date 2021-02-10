@@ -10,10 +10,6 @@ Each of which should have - last updated, and linked to why.
 
 ## [[World Peace]]
 
-### TODO
-
-* Write once a week on world peace
-
 ## [[Bitcoin]]
 
 ## [[Markdown Linter]]
