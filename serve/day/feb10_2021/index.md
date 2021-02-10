@@ -66,3 +66,26 @@ After reading their 'manifesto' or whatever, makes it clear to me. If I wanted
 to build a distributed LTE/5G network it would be more than possible. We could
 build a properly distributed and mesh internet on a global scale.
 
+I did also do some writing about what I want in the podcast app. To be more concrete.
+
+Voice to Text is AWFUL ON MY IPHONE. I think it really would be useful to train
+a neural net specifically to recognize my voice. I think I can probably
+use Otter for some of it then correct it, and feed that into my own net.
+
+So podcasts. Have direct note taking capability within app. Be able to dictate 
+a note on the podcast. No typing initially. Also with bookmarks be able to set
+a start and stop clipping method. 
+
+Okay so a few big things are coming out of these interests.
+
+* Investing
+* Podcast
+* Machine Learning (Speech to Text)
+* CBRS
+
+I think these should be the focus for some time and start to knock them
+down. CBRS is the biggest one and probably need to think more deeply
+about what this looks like and actually set up a LTE base station with
+minimal equipment and see what is possible. 
+
+The financials thing is much more interesting that Austin brought up.
