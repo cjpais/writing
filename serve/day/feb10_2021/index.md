@@ -107,7 +107,23 @@ being in debt really means. Also what are the implications of renewables
 taking on the current oil driven economy? What happens with China? 
 These are questions that deserve more of my mental attention I think.
 
+Beyond this also want to diversify my portfolio to incorporate more asset
+classes. Gold. Crypto. Tech. Bio. Materials. Energy. Etc. Etc.
+
 The main question however still remains unanswered. Why do I care about
 this $ value attached to my name? Do I value this at all? Does it mean
 anything or is it purely a means for me to get around in the world?
 I mean it doesn't inherently add any value to me.
+
+Does it even matter to publish the graphs that I am working on? I mean
+yeah sure, but at the same time I don't want to make a big deal out
+of it, it's more an interesting thing to put out there to see performance.
+I think it is interesting to show, but there's not a lot of value. Am I 
+just trying to show, wow, look at this big guy here, he can invest money.
+But that is not something I really care about. I mean yes, but I really
+care more about investing money into something positive that will make
+the world better. Is that what I am doing here? Hard for me to say. Yes
+my decisions are being driven by that motivation, but ultimately having
+the $ is nice. I do want a house and I can't ignore that either. But
+how much of my time is it really worth to put in? 
+
