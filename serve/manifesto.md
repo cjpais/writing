@@ -1,0 +1,4 @@
+# Manifesto
+
+***DO GOOD***
+
