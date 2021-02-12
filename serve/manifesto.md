@@ -2,3 +2,8 @@
 
 ***DO GOOD***
 
+
+
+Inspirations (companies):
+
+* Patagonia
