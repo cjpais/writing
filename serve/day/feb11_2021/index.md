@@ -7,3 +7,6 @@ The other way to go about it would be to write things out to file,
 then serve from golang but this seems overly complex even though python
 is going to be a pain as well.
 
+On a sidenote really want to build the Patagonia of tech companies.
+Really thoughtful and not focused on growth, but really provide 
+something good and unique.
