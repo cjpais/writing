@@ -16,6 +16,7 @@ Feature List TODO:
 * API (import from server)
 * Transcription (below)
 * Record Audio notes
+* Downloading player
 
 ## [[Podcast Transcription]]
 
