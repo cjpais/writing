@@ -6,6 +6,17 @@ This should serve as a directory to the projects.
 
 Each of which should have - last updated, and linked to why.
 
+## [[Podcast]]
+
+Feature List TODO:
+
+* Re-Listen
+* Share
+* Chapters (lex)
+* API (import from server)
+* Transcription (below)
+* Record Audio notes
+
 ## [[Podcast Transcription]]
 
 ## [[World Peace]]
