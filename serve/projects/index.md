@@ -39,7 +39,7 @@ plaintext.
 * See if I can capture transactions.
   * even if a monthly thing. retrospective on spending.
 * Stock portfolio vs market
-* Assest classes
+* Asset classes
 * Understanding US Debt
 * Understanding China in relation to the US economy
 * Post oil economy
@@ -76,12 +76,12 @@ affect change in some way.
     * Mandatory
     * Advanced Learning
   * Unavailable
-  * Extra-Ciricular Programs
+  * Extra-Curricular Programs
     * FIRST
 * How do we keep kids engaged in computer science learning?
 * What are next generation teaching techniques, that blend the physical and digital
-  * Really the more important question. What are the needs of students which are not being met as part of current education ciriculum?
-  * What parts of ciriculum don't allow them to explore?
+  * Really the more important question. What are the needs of students which are not being met as part of current education curriculum?
+  * What parts of curriculum don't allow them to explore?
   * What is the base knowledge needed for success in the next century?
 * Will there be more school from home? Similar to remote work? Remote schooling?
 
