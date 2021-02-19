@@ -3,7 +3,10 @@
 
 | State | Area | Best Months | My Month |
 | - | - | - | - |
-| CA | SoCal/Desert | Feb,March,April,Oct,Nov,Dec | Feb,March |
+| CA | SoCal(SD,LA)/Desert | Feb,March,April,Oct,Nov,Dec | Feb,March |
 | CA | Central Coast | April,May | ? |
 | CA | Sierras | June, July, Aug | ? |
 | CA | JTree | Feb,March,April,Oct,Nov,Dec | Feb,March |
+| CA | Tahoe | June, July, Aug | June, ? |
+| CA | North East (Shasta) | May, June, July, Aug | June, ? |
+| CA | Redwood Coast | June, July, Aug, Sept | June, ? |
