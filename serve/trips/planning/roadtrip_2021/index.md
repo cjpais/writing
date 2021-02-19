@@ -9,4 +9,5 @@
 | CA | JTree | Feb,March,April,Oct,Nov,Dec | Feb,March |
 | CA | Tahoe | June, July, Aug | June, ? |
 | CA | North East (Shasta) | May, June, July, Aug | June, ? |
-| CA | Redwood Coast | June, July, Aug, Sept | June, ? |
+| CA | Redwood Coast | June, July, Aug, Sept | ? |
+| CA | San Bernadino | May, June, July, Aug, Sept | ? |
