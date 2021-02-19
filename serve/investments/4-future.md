@@ -15,9 +15,22 @@ This is to say, I think with enough people, we can throw our weight behind
 truly good things in the world. By doing this we should outweigh the 
 'bad'/'evil' things. 
 
+I think the first steps are to collect some money and put it towards good
+and future looking investments. I think every person who is putting money in
+should have a voice on the companies 
+
 Ultimately I would like to have a crowdfunded and voted VC fund. To have 
 enough money to take risks. To have a platform where ideas can be played with
-and eventually funded in a collaborative way. 
+and eventually funded in a collaborative way. The funding should not be massive
+investments as we see with traditional funding, but rather an effort between
+open source work and funding those contributors in a meaningful way. Paying
+them more than livable wages while reducing overhead. Trying to keep lean,
+not aim for scale but again sustainable growth. Patagonia style.
+
+If there is good that we can do that doesn't make money, we should do this
+too. We should make money through our investments, not just to make more
+money, but to do good. We should expect returns for everyone, but we should
+also be investing into everyone's future. 
 
 To have experts in every category to bounce ideas off of and see if that idea
 is truly good. Ideas are valuable based not on the amount of money they 
