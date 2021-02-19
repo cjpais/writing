@@ -34,3 +34,8 @@
 | NM | Taos | May, June, July, Aug | ? |
 | OR | Central (Smith Rock) | April, May, June, July, Sept, Oct | ? |
 | OR | Mt. Hood | May, June, July, Aug | ? |
+| OR | Portland | June, July, Aug | ? |
+| UT | West Desert | March, April, May, June | ? |
+| UT | Wasatch | April, May, June, July, Aug, Sept, Oct | ? |
+| UT | Southwest (Zion) | March, April, May, Oct, Nov, Dec | ? |
+| UT | Southeast (Indian Creek) | April, May, Sept, Oct, Nov | ? |
