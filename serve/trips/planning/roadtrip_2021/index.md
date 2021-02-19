@@ -14,3 +14,4 @@
 | CA | San Bernadino | May, June, July, Aug, Sept | ? |
 | CA | Sequoia/Kings Canyon | June, July, Aug | ? |
 | CA | Tahquitz/Suicide | April, May, June, July, Aug | ? |
+| CA | Yosemite | May, June, July, Aug | ? |
