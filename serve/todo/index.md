@@ -28,3 +28,4 @@
 * Transformer based Speech to Text for Podcast Transcription
 * Daily based on my stream data (which eventually needs to be merged into Home, but maybe not all synced.)
 * Build filter for stream (filter out podcast lmao)
+* Build dev stream into `Streamable` library
