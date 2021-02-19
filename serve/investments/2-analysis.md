@@ -12,7 +12,7 @@ to buy in if you could afford it.
 What I did say were two-fold:
 
 * I can live off of my investments for life
-* I have had ~100% returns this year
+* I have had ~100% returns this year, with a good amount of my portfolio > 200%
 
 Specifically I mentioned one thing
 that might be true. I think that I could live off of my investments for the 
