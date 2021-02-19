@@ -11,5 +11,6 @@
 * Materials and Supply Chain
   * Encourage good supply chain ethics even at the expense of profit.
 * For tech should value privacy (ideally.)
+* No big pharma
 
 Business should be geared towards the long term even if sacrificing short term profits. Sustainability. Yvon Chouinard
