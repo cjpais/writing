@@ -39,3 +39,8 @@
 | UT | Wasatch | April, May, June, July, Aug, Sept, Oct | ? |
 | UT | Southwest (Zion) | March, April, May, Oct, Nov, Dec | ? |
 | UT | Southeast (Indian Creek) | April, May, Sept, Oct, Nov | ? |
+| WA | Overall | May, June, July, Aug, Sept | ? |
+| WA | Central | March, April, May | ? |
+| WA | Seattle | May, June, July, Aug | ? |
+| WA | Olympic Ntl/Coast | June, July, Aug, Sept | ? |
+| WA | Cascades | May, June, July, Aug | ? |
