@@ -15,3 +15,5 @@
 | CA | Sequoia/Kings Canyon | June, July, Aug | ? |
 | CA | Tahquitz/Suicide | April, May, June, July, Aug | ? |
 | CA | Yosemite | May, June, July, Aug | ? |
+| AZ | Central AZ | March, April, Oct, Nov | ? |
+| AZ | Northern AZ (Grand Canyon, Sedona) | March, April, May, June, July, Oct, Nov | ? |
