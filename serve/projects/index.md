@@ -20,6 +20,11 @@ Feature List TODO:
 
 ## [[Podcast Transcription]]
 
+## [[Forum]]
+
+For ideas in a wide variety of sectors. Encourage discussion of the ideas 
+with the goal of them eventually to be funded.
+
 ## [[World Peace]]
 
 ## [[Bitcoin]]
