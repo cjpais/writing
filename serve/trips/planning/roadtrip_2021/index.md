@@ -27,4 +27,10 @@
 | ID | Central Idaho | June, July, Aug | ? |
 | NV | Red Rock Area | March, April, Nov, Dec | ? |
 | NM | Albuquerque | March, April, May, June, July, Aug, Sept, Oct, Nov, Dec | ? |
+| NM | Santa Fe | March, April, May, June, Nov | ? |
 | NM | Los Alamos | March, April, May, June, July, Aug, Sept, Oct, Nov, Dec | ? |
+| NM | Southern | April, May | ? |
+| NM | Box Canyon | March, April, Nov| ? |
+| NM | Taos | May, June, July, Aug | ? |
+| OR | Central (Smith Rock) | April, May, June, July, Sept, Oct | ? |
+| OR | Mt. Hood | May, June, July, Aug | ? |
