@@ -20,3 +20,8 @@
 | AZ | Southern AZ | March, April, May, Nov, Dec | ? |
 | CO | Overall | May, June, July, Aug | ? |
 | CO | Grand Junction | April, May, June | ? |
+| CO | Vail/Surrounding | June, July, Aug, Sept | ? |
+| ID | Overall | May, June, July, Aug, Sept | ? |
+| ID | East Idaho | April, May, June, Oct | ? |
+| ID | South Idaho | May, June, Sept | ? |
+| ID | Central Idaho | June, July, Aug | ? |
