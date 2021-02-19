@@ -44,3 +44,9 @@
 | WA | Seattle | May, June, July, Aug | ? |
 | WA | Olympic Ntl/Coast | June, July, Aug, Sept | ? |
 | WA | Cascades | May, June, July, Aug | ? |
+| WY | Grand Teton | July, Aug, Sept | ? |
+| WY | Vedauwoo | June, July, Aug, Sept | ? |
+| WY | Devils Tower | May, July, Aug, Sept | ? |
+| NY | Gunks | Anytime is ok, best is Oct | ? |
+| NY | Adirondacks | June, July, Aug, Sept | ? |
+| KY | RRG | Anytime except height summer, with Sept, October Peak | ? |
