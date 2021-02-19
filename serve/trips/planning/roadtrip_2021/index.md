@@ -25,3 +25,6 @@
 | ID | East Idaho | April, May, June, Oct | ? |
 | ID | South Idaho | May, June, Sept | ? |
 | ID | Central Idaho | June, July, Aug | ? |
+| NV | Red Rock Area | March, April, Nov, Dec | ? |
+| NM | Albuquerque | March, April, May, June, July, Aug, Sept, Oct, Nov, Dec | ? |
+| NM | Los Alamos | March, April, May, June, July, Aug, Sept, Oct, Nov, Dec | ? |
