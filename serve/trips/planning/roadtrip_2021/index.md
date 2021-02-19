@@ -17,3 +17,4 @@
 | CA | Yosemite | May, June, July, Aug | ? |
 | AZ | Central AZ | March, April, Oct, Nov | ? |
 | AZ | Northern AZ (Grand Canyon, Sedona) | March, April, May, June, July, Oct, Nov | ? |
+| AZ | Southern AZ | March, April, May, Nov, Dec | ? |
