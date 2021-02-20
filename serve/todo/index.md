@@ -8,8 +8,11 @@
   * Maybe the same for value, to see it accelerate
 * More Charts
   * Month over Month % gain
+    * In comparison to common indicies
+    * And maybe any stock
   * Chart all my stocks performance in %
     * Do the same but adjusted relative to my investment in them
+* Be able to remove stocks from portfolio
 * Podcast Record Audio
 * Remove dependency on `investments.txt` and infer from `.csv`
 * Static and Dynamic API Versioning
@@ -29,3 +32,9 @@
 * Daily based on my stream data (which eventually needs to be merged into Home, but maybe not all synced.)
 * Build filter for stream (filter out podcast lmao)
 * Build dev stream into `Streamable` library
+
+
+
+
+* Start a podcast just asking questions, posing questions, ideating
+* 
