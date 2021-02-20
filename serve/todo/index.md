@@ -32,7 +32,10 @@
 * Daily based on my stream data (which eventually needs to be merged into Home, but maybe not all synced.)
 * Build filter for stream (filter out podcast lmao)
 * Build dev stream into `Streamable` library
-
+* Need to work on basic ML tasks, even if just going through existing. 
+  * Just need to dip my toes in and get a feel. 
+  * I think after next week this is what we will need to do.
+  * Maybe also spend one day on podcast audio
 
 
 
