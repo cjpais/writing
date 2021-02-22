@@ -43,6 +43,7 @@
   * want photo backup on the server as well, run via the websocketsync
   * Basically more personal data infrastructure stuff
 * Thoughts should be able to be linked directly on twitter
+* Reminder system for thoughts.
 
 
 * Start a podcast just asking questions, posing questions, ideating
