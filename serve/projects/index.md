@@ -59,6 +59,8 @@ CBRS.
 Need to ensure security of traffic, make sure people operating base stations
 cannot snoop on traffic going through the network. Fink brought this up.
 
+Computer/Cell Tower should be able to run on solar. 
+
 ## [[My Design Language]]
 
 * maybe taking inspo from interior design
