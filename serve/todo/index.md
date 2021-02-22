@@ -36,7 +36,7 @@
   * Just need to dip my toes in and get a feel. 
   * I think after next week this is what we will need to do.
   * Maybe also spend one day on podcast audio
-
+* Daily gets generated from writing, stream, podcast, etc.
 
 
 * Start a podcast just asking questions, posing questions, ideating
