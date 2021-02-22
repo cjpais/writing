@@ -64,6 +64,23 @@ CBRS
 
 ## [[Edge Compute]]
 
+## [[Maker Space]]
+
+Wonder if it's possible to get something like this actually off the ground 
+in a post-covid world and who else would be interested.
+
+Would be interested to talk more to Austin (surfboard shaper) more about
+this potentially. How possible would it be to have this place open
+to the public? 
+
+Maybe can teach skills and stuff?
+
+* Shaping surfboards
+* Sewing machines
+* Building bikes
+* Tech stuff (server room!)
+  * lots of raspberry pi
+
 ## [[Young Futures]]
 
 1/26/21: After a lot of conversation the bigger problem that I am seeing is not

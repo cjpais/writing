@@ -71,3 +71,11 @@ farm of GPU/TPU so people can run their stuff on a giant cluster and get the GPU
 they need without having to fork out for the infrastructure and pay it to Amazon or 
 physically own it. We will maintain it all and put it all to use and when things get 
 old we will repurpose the hardware for better things.
+
+All of everything built needs to be sustainably sourced as well as run by sustainable
+energy.
+
+Some kind of maker space
+
+Different kind of tech company? maybe less focus specifically on other fields?
+then break into them later?
