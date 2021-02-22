@@ -12,6 +12,7 @@
     * And maybe any stock
   * Chart all my stocks performance in %
     * Do the same but adjusted relative to my investment in them
+  * Best and worst performers today
 * Be able to remove stocks from portfolio
 * Podcast Record Audio
 * Remove dependency on `investments.txt` and infer from `.csv`
