@@ -56,9 +56,23 @@
 
 So there will be a few trips
 
+# South West US (April)
+## Guessing around 3-4 weeks
+### 3 States. CA, NV, (maybe UT) AZ, NM
+
+TODO get more specific
+
+* CA
+* Red Rock
+* Maybe Zion
+* AZ
+* Grand Canyon
+* NM
+* Austin
 
 # Western Coast (Late May through Late July)
 ## Guessing around 8-10 Weeks Total
+### 3-5 States.. Maybe Montana (Glacier) and Idaho too.
 
 * SD
 * LA
@@ -72,6 +86,8 @@ So there will be a few trips
 * Smith Rock (1 week)
 * Trout Creek
 * Portland (1 week)
+* Yellowstone (1 week)
+* Glacier (1 week)
 * Seattle/Central W Cascades (1 week)
 * W/NW Cascades
 * Olmpic Ntl/Washington Coast
@@ -83,3 +99,31 @@ So there will be a few trips
 * SB
 * LA
 * SD
+
+# Mid-West (Aug - Oct)
+## Guessing 6-8 Weeks
+### 
+
+Could also extend this to do,
+
+--- Late Aug (3 weeksish) ---
+Gunks,
+New,
+Red,
+--- Sept ---
+Vedauwoo,
+CO,
+--- Oct ---
+UT,
+NV
+--- Mid Oct ---
+
+
+TODO get more specific
+
+* CA
+* Vedauwoo
+* Estes Park
+* Boulder
+* Grand Junction
+* 
