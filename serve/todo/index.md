@@ -37,6 +37,8 @@
   * I think after next week this is what we will need to do.
   * Maybe also spend one day on podcast audio
 * Daily gets generated from writing, stream, podcast, etc.
+  * Really we want a weekly and monthly too.
+  * Basically a really quick way to look at the past and digest it in a comic book like way. A story.
 
 
 * Start a podcast just asking questions, posing questions, ideating
