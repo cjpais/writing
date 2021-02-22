@@ -54,7 +54,10 @@ plaintext.
 
 ## [[Distributed Internet]] (LTE/5G)
 
-CBRS
+CBRS.
+
+Need to ensure security of traffic, make sure people operating base stations
+cannot snoop on traffic going through the network. Fink brought this up.
 
 ## [[My Design Language]]
 
