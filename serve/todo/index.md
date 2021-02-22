@@ -42,6 +42,7 @@
     * Should get WeiWei involved in this to see if she would have some interest.
   * want photo backup on the server as well, run via the websocketsync
   * Basically more personal data infrastructure stuff
+* Thoughts should be able to be linked directly on twitter
 
 
 * Start a podcast just asking questions, posing questions, ideating
