@@ -61,6 +61,13 @@ cannot snoop on traffic going through the network. Fink brought this up.
 
 Computer/Cell Tower should be able to run on solar. 
 
+One feature of this system at the most basic form could be giving everyone
+unlimited internet and data. Have people run base stations which are super
+speced out, and distributed across a large area to provide these kind of
+network benefits. Paying into the carrier is really paying into a larger 
+infrastructure that benefits everyone. Allows us to innovate a lot faster
+and take traffic away from companies like amazon, by running the edge
+
 ## [[My Design Language]]
 
 * maybe taking inspo from interior design
