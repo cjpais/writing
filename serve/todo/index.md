@@ -43,4 +43,4 @@
 
 
 * Start a podcast just asking questions, posing questions, ideating
-* 
+* Tag infrastructure, maybe similar to mymind but something i would actually use
