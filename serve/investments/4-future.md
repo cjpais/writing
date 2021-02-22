@@ -89,3 +89,5 @@ speced out, and distributed across a large area to provide these kind of
 network benefits. Paying into the carrier is really paying into a larger 
 infrastructure that benefits everyone. Allows us to innovate a lot faster
 and take traffic away from companies like amazon, by running the edge
+
+Want to bring together genuinely passionate people.
