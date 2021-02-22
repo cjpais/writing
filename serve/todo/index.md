@@ -40,6 +40,7 @@
   * Really we want a weekly and monthly too.
   * Basically a really quick way to look at the past and digest it in a comic book like way. A story.
     * Should get WeiWei involved in this to see if she would have some interest.
+  * want photo backup on the server as well, run via the websocketsync
 
 
 * Start a podcast just asking questions, posing questions, ideating
