@@ -79,3 +79,13 @@ Some kind of maker space
 
 Different kind of tech company? maybe less focus specifically on other fields?
 then break into them later?
+
+Creating common spaces.
+Want to provide infrastructure to people at 100x lower cost than current.
+
+One feature of this system at the most basic form could be giving everyone
+unlimited internet and data. Have people run base stations which are super
+speced out, and distributed across a large area to provide these kind of
+network benefits. Paying into the carrier is really paying into a larger 
+infrastructure that benefits everyone. Allows us to innovate a lot faster
+and take traffic away from companies like amazon, by running the edge
