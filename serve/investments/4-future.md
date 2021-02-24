@@ -91,3 +91,13 @@ infrastructure that benefits everyone. Allows us to innovate a lot faster
 and take traffic away from companies like amazon, by running the edge
 
 Want to bring together genuinely passionate people.
+
+In some sense this is really about, what is good? Or what can we as a society
+generally agree is good? Things that we know we want and shouldnt be hard 
+to actually implement or do. That is the big thing I think.
+
+Remember wealth dispairity is definitely on this list as well. Education
+and specifically the african american community. Not about complaining
+but about action and inspiring, picking up by the bootstraps and doing
+something. (this is not to sound harsh, after having conversation
+with Curtis, but something real)
