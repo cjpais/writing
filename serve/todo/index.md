@@ -49,6 +49,7 @@
   * scheduled
   * dependent on metadata
 * Add iCloud Sync Support for Podcasts and Notes for simplicity, same with books.
+* Streamable should handle multiple times (time synced, time recorded), but this can come with rest of WSS framework
 
 * Start a podcast just asking questions, posing questions, ideating
 * Tag infrastructure, maybe similar to mymind but something i would actually use
