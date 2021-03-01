@@ -14,7 +14,7 @@
     * Do the same but adjusted relative to my investment in them
   * Best and worst performers today
 * Be able to remove stocks from portfolio
-* Podcast Record Audio
+* ~~Podcast Record Audio~~
 * Remove dependency on `investments.txt` and infer from `.csv`
 * Static and Dynamic API Versioning
   * Static mainly for the site
@@ -50,6 +50,8 @@
   * dependent on metadata
 * Add iCloud Sync Support for Podcasts and Notes for simplicity, same with books.
 * Streamable should handle multiple times (time synced, time recorded), but this can come with rest of WSS framework
+* Mark ad boundary (just the start of the episode and a way to label data really)
+* Commonality between the current projects I have in my digital life
 
 * Start a podcast just asking questions, posing questions, ideating
 * Tag infrastructure, maybe similar to mymind but something i would actually use
