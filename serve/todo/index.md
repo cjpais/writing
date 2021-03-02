@@ -52,6 +52,7 @@
 * Streamable should handle multiple times (time synced, time recorded), but this can come with rest of WSS framework
 * Mark ad boundary (just the start of the episode and a way to label data really)
 * Commonality between the current projects I have in my digital life
+* Book modify notes section and make sure it can go to the stream (or WSS)
 
 * Start a podcast just asking questions, posing questions, ideating
 * Tag infrastructure, maybe similar to mymind but something i would actually use
