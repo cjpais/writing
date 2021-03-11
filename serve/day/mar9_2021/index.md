@@ -12,7 +12,7 @@ this means, but I am sure curious.
 
 ## Podcasts
 
-# Lex Fridman #161 w/Jason Calacanis
+# [Lex Fridman #161 w/Jason Calacanis](https://www.youtube.com/watch?v=d2bYwYxqJCM)
 
 Listening to this podcast was very interesting. Calacanis thinks quite differently than I do.
 This is certainly expected. There were a few interesting
@@ -29,7 +29,7 @@ incentivize this? Is this even healthy? To me it seems
 like it would be a lot healthier to have more balanced 
 people coming up with balanced long term solutions.
 
-# [Tim Ferris #270]https://tim.blog/2017/10/05/investing-wisdom/
+# [Tim Ferris #270](https://tim.blog/2017/10/05/investing-wisdom/)
 
 [Apple Podcast](https://itunes.apple.com/us/podcast/the-tim-ferriss-show/id863897795?mt=2)
 
