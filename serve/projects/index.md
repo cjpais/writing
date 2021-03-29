@@ -76,6 +76,8 @@ and take traffic away from companies like amazon, by running the edge
 
 ## [[Edge Compute]]
 
+## [[Notes/Tag Search Interface and Creation]]
+
 ## [[Maker Space]]
 
 Wonder if it's possible to get something like this actually off the ground 
@@ -92,6 +94,11 @@ Maybe can teach skills and stuff?
 * Building bikes
 * Tech stuff (server room!)
   * lots of raspberry pi
+
+How possible to have a MakerSpace and a Hacker House all in one? How many people
+can come together? A collective of creators with a large space to experiment with.
+
+On premise infra developed by the people there. Creation of a process together.
 
 ## [[Young Futures]]
 
