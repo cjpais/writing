@@ -76,6 +76,8 @@ and take traffic away from companies like amazon, by running the edge
 
 ## [[Edge Compute]]
 
+## [[Personal Relationship Manager]]
+
 ## [[Notes/Tag Search Interface and Creation]]
 
 ## [[Maker Space]]
