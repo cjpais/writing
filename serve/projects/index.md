@@ -78,6 +78,12 @@ and take traffic away from companies like amazon, by running the edge
 
 ## [[Personal Relationship Manager]]
 
+specifically be able to enter events simply
+
+"surfing with chandler 6:30 am pipes tuesday"
+
+after this would want to be able to add any notes, to the event, or person directly.
+
 ## [[Notes/Tag Search Interface and Creation]]
 
 ## [[Maker Space]]
