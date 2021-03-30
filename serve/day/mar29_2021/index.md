@@ -58,3 +58,7 @@ iex(4)> <<i1::integer-size(32)>> = <<124, 213, 20, 42>>
 iex(5)> i1
 2094339114
 ```
+
+Dealing with multiprocessing is much more challenging for me. I am not quite
+caught up with all the techniques in general. Plus I am still relatively
+unfamiliar with the syntax which is making it even more challenging.
