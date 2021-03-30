@@ -32,6 +32,30 @@ grasp.</p>
 <p>I am thinking about taking a break from this problem and instead moving
 to finish up the Elixir challenges on 1729.com. At the worst I learn
 more about Elixir and the best case I also win $100 of BTC.</p>
+<p>Hmmm okay.</p>
+<p>Well Elixir is proving to be more challenging than expected.
+Doing the Diffe-Hellman key exchange was trivial once I understood
+the syntax for dealing with <code>Binaries</code>.</p>
+<p>Basically a <code>Binary</code> is something in the format <code>&lt;&lt;&gt;&gt;</code>. Every element
+within the braces will be a uint8. So you might get <code>&lt;&lt;124, 213, 20, 42&gt;&gt;</code>.
+This would be a <code>Binary</code> containing 4 bytes.</p>
+<p>Suppose I wanted to interpret this as two uint16's. I can do the following.</p>
+<pre><code>iex(1)&gt; &lt;&lt;i1::integer-unsigned-size(16), i2::integer-unsigned-size(16)&gt;&gt; = &lt;&lt;124, 213, 20, 42&gt;&gt;
+&lt;&lt;124, 213, 20, 42&gt;&gt;
+
+iex(2)&gt; i1
+31957
+
+iex(3)&gt; i2
+5162
+</code></pre>
+<p>Similarly I could interpret this as an int32</p>
+<pre><code>iex(4)&gt; &lt;&lt;i1::integer-size(32)&gt;&gt; = &lt;&lt;124, 213, 20, 42&gt;&gt;
+&lt;&lt;124, 213, 20, 42&gt;&gt;
+
+iex(5)&gt; i1
+2094339114
+</code></pre>
 
   </body>
 

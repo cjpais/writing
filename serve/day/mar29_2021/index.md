@@ -26,3 +26,35 @@ grasp.
 I am thinking about taking a break from this problem and instead moving
 to finish up the Elixir challenges on 1729.com. At the worst I learn 
 more about Elixir and the best case I also win $100 of BTC.
+
+Hmmm okay.
+
+Well Elixir is proving to be more challenging than expected. 
+Doing the Diffe-Hellman key exchange was trivial once I understood
+the syntax for dealing with `Binaries`.
+
+Basically a `Binary` is something in the format `<<>>`. Every element
+within the braces will be a uint8. So you might get `<<124, 213, 20, 42>>`.
+This would be a `Binary` containing 4 bytes. 
+
+Suppose I wanted to interpret this as two uint16's. I can do the following.
+```
+iex(1)> <<i1::integer-unsigned-size(16), i2::integer-unsigned-size(16)>> = <<124, 213, 20, 42>>
+<<124, 213, 20, 42>>
+
+iex(2)> i1
+31957
+
+iex(3)> i2
+5162
+```
+
+Similarly I could interpret this as an int32
+
+```
+iex(4)> <<i1::integer-size(32)>> = <<124, 213, 20, 42>>
+<<124, 213, 20, 42>>
+
+iex(5)> i1
+2094339114
+```
