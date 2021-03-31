@@ -92,7 +92,7 @@ os.system("git push origin master")
 print("done")
 
 # ask the web server to please update git
-URL = "http://181.214.238.101:3001/update"                                                                                                                                  
+URL = "http://147.124.211.169:3001/update"                                                                                                                                  
 requests.get(URL)                                                                                                                                                           
 
 print("updated remote")
