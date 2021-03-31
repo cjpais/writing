@@ -4,7 +4,7 @@ Day started out a little slow, but quickly ramped up for me. Waking up this
 morning was a bit challenging. Slept in an extra 30 min.
 
 Got tea/smoothie/coffee with Kristen and Dave. Some great convo this morning,
-will probably be writing more about it on [buzzard.life](buzzard.life)
+will probably be writing more about it on [buzzard.life](https://buzzard.life)
 
 Also went back to Fink's house to work on the surfboard more. Was good to catch
 up with him. I worked mostly on getting the surface of the board ready for hot
