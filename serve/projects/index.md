@@ -134,7 +134,23 @@ affect change in some way.
   * What is the base knowledge needed for success in the next century?
 * Will there be more school from home? Similar to remote work? Remote schooling?
 
+## [[Calendar]]/[[Personal Relationship Manager]]
+
+Want a text calendar, but this should be deeply intertwined with a
+personal relationship manager. Basically being able to record
+information about people I interact with, what I am doing with
+them. What we talked about. Future questions. Other personal
+information about them.
+
 ## [[Natural Language Processing]]/[[Reflect]]
+
+Would love to have Otter but an API behind it. Something where I can 
+get information out.
+
+Maybe need to launch a projects site. Where I can add the projects I am
+thinking about as well as what they are (if they are finished)
+
+Or what I am thinking about in terms of that project. 
 
 ### TODO
 
