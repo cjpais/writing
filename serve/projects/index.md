@@ -56,6 +56,31 @@ plaintext.
 
 ## [[Meshtastic]]
 
+## [[Real Estate Rent Estimator]]
+
+* Yeah
+
+## [[Practical Computer Science]]
+
+## [[Computer Science Education]]
+
+Using Minecraft
+
+## [[Surfboard Shaping]]
+
+* Trying to find a new place to shape
+
+## [[Buzzard.life]]
+
+Experiments in the digital
+
+## [[Distributed File System]]/[[Shared Home Dir]]
+
+## [[Projects Website]]
+
+* Put this on a website
+  * some level of format. 
+
 ## [[Distributed Internet]] (LTE/5G)
 
 CBRS.
