@@ -1,4 +1,4 @@
-# Projects]]
+# Projects
 
 A collection of the things that are started/in-progress or abandoned.
 
@@ -6,7 +6,7 @@ This should serve as a directory to the projects.
 
 Each of which should have - last updated, and linked to why.
 
-## Podcast]]
+## Podcast
 
 Feature List TODO:
 
@@ -22,18 +22,18 @@ Features finished:
 * Re-Listen
 * Record Audio notes
 
-## Podcast Transcription]]
+## Podcast Transcription
 
-## Forum]]
+## Forum
 
 For ideas in a wide variety of sectors. Encourage discussion of the ideas 
 with the goal of them eventually to be funded.
 
-## World Peace]]
+## World Peace
 
-## Bitcoin]]
+## Bitcoin
 
-## Markdown Linter]]
+## Markdown Linter
 
 And markdown extension. Would love to be able to have a sidebar.
 Want width of lines capped at 100 chars or less (ideally 80). 
@@ -42,7 +42,7 @@ Basically starting to turn markdown into almost WYSIWYG by default.
 And have direct linking and commenting in the sidebar(s), but all in
 plaintext. 
 
-## Financials]]
+## Financials
 
 * Learn about the petro-dollar
 * See if I can capture transactions.
@@ -54,34 +54,34 @@ plaintext.
 * Post oil economy
 * Understanding 2008 crisis
 
-## Meshtastic]]
+## Meshtastic
 
-## Real Estate Rent Estimator]]
+## Real Estate Rent Estimator
 
 * Yeah
 
-## Practical Computer Science]]
+## Practical Computer Science
 
-## Computer Science Education]]/Ciriculum]]
+## Computer Science Education/Ciriculum
 
 Using Minecraft
 
-## Surfboard Shaping]]
+## Surfboard Shaping
 
 * Trying to find a new place to shape
 
-## Buzzard.life]]
+## Buzzard.life
 
 Experiments in the digital
 
-## Distributed File System]]/Shared Home Dir]]
+## Distributed File System/Shared Home Dir
 
-## Projects Website]]
+## Projects Website
 
 * Put this on a website
   * some level of format. 
 
-## Distributed Internet]] (LTE/5G)
+## Distributed Internet (LTE/5G)
 
 CBRS.
 
@@ -97,18 +97,18 @@ network benefits. Paying into the carrier is really paying into a larger
 infrastructure that benefits everyone. Allows us to innovate a lot faster
 and take traffic away from companies like amazon, by running the edge
 
-## My Design Language]]
+## My Design Language
 
 * maybe taking inspo from interior design
 * also from fashion, the colors i enjoy
   * this goodwill burgundy shirt, nice.
 
-## Edge Compute]]
+## Edge Compute
 
 
-## Notes/Tag Search Interface and Creation]]
+## Notes/Tag Search Interface and Creation
 
-## Maker Space]]
+## Maker Space
 
 Wonder if it's possible to get something like this actually off the ground 
 in a post-covid world and who else would be interested.
@@ -130,7 +130,7 @@ can come together? A collective of creators with a large space to experiment wit
 
 On premise infra developed by the people there. Creation of a process together.
 
-## Young Futures]]
+## Young Futures
 
 1/26/21: After a lot of conversation the bigger problem that I am seeing is not
 necessarily a lack of access to computers. But really the problem is lack
@@ -156,7 +156,7 @@ affect change in some way.
   * What is the base knowledge needed for success in the next century?
 * Will there be more school from home? Similar to remote work? Remote schooling?
 
-## Calendar]]/Personal Relationship Manager]]
+## Calendar/Personal Relationship Manager
 
 Want a text calendar, but this should be deeply intertwined with a
 personal relationship manager. Basically being able to record
@@ -170,7 +170,7 @@ specifically be able to enter events simply
 
 after this would want to be able to add any notes, to the event, or person directly.
 
-## Natural Language Processing]]/Reflect]]
+## Natural Language Processing/Reflect
 
 Would love to have Otter but an API behind it. Something where I can 
 get information out.
