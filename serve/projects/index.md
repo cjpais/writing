@@ -62,7 +62,7 @@ plaintext.
 
 ## [[Practical Computer Science]]
 
-## [[Computer Science Education]]
+## [[Computer Science Education]]/[[Ciriculum]]
 
 Using Minecraft
 
