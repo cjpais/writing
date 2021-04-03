@@ -10,13 +10,15 @@ Each of which should have - last updated, and linked to why.
 
 Feature List TODO:
 
-* Re-Listen
 * Share
 * Chapters (lex)
 * API (import from server)
 * Transcription (below)
-* Record Audio notes
 * Downloading player
+
+Features finished:
+* Re-Listen
+* Record Audio notes
 
 ## [[Podcast Transcription]]
 
