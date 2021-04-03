@@ -15,6 +15,8 @@ Feature List TODO:
 * API (import from server)
 * Transcription (below)
 * Downloading player
+* Shared voice notes.
+  * backend to support this
 
 Features finished:
 * Re-Listen
