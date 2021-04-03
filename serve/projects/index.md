@@ -76,13 +76,6 @@ and take traffic away from companies like amazon, by running the edge
 
 ## [[Edge Compute]]
 
-## [[Personal Relationship Manager]]
-
-specifically be able to enter events simply
-
-"surfing with chandler 6:30 am pipes tuesday"
-
-after this would want to be able to add any notes, to the event, or person directly.
 
 ## [[Notes/Tag Search Interface and Creation]]
 
@@ -141,6 +134,12 @@ personal relationship manager. Basically being able to record
 information about people I interact with, what I am doing with
 them. What we talked about. Future questions. Other personal
 information about them.
+
+specifically be able to enter events simply
+
+"surfing with chandler 6:30 am pipes tuesday"
+
+after this would want to be able to add any notes, to the event, or person directly.
 
 ## [[Natural Language Processing]]/[[Reflect]]
 
