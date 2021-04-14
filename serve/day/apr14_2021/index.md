@@ -42,5 +42,4 @@ A technique many of us use on a daily basis now.
 Rest of the paper was interesting, and I like his 
 economic incentives at the end. 
 
-My brain is struggling
-to focus for any period of time right now. 
+My brain is struggling to focus for any period of time right now. 
