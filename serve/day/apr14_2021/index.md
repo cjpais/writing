@@ -8,7 +8,9 @@ Really thankful to have Chiaki right now
 I guess I'm doing some reading to catch up on all my notes
 that I haven't taken a look at yet. 
 
-## First thing is Feynman's *Plenty of Room at the Bottom*
+First thing is:
+
+## Feynman's *Plenty of Room at the Bottom*
 
 One thing I find interesting about this reading so far is
 that to a large degree we have exactly what he is talking
@@ -43,3 +45,18 @@ Rest of the paper was interesting, and I like his
 economic incentives at the end. 
 
 My brain is struggling to focus for any period of time right now. 
+
+I guess now we can go read:
+
+## *Meditations on Moloch*
+
+So far enjoying the first 10 examples. However
+education resonates with me the most.
+
+> People ask why we can’t reform the education
+> system. But right now students’ incentive is
+> to go to the most prestigious college they can
+> get into so employers will hire them – whether
+> or not they learn anything
+
+This has been 
