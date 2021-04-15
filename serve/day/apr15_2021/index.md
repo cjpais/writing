@@ -1,5 +1,7 @@
 # Thursday, April 15, 2021
 
+![my view for the day](sick-setup.jpeg)
+
 One thing I just noticed. I've had ideas and let
 them go by without doing anything about them.
 Well in particular GitCoin, I think this
