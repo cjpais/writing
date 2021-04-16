@@ -43,6 +43,28 @@ It should handle</p>
 <li>Podcasts</li>
 </ul>
 <p>So let's get going.</p>
+<p>Okay thinking so far a simple DB structure in SQLite.</p>
+<p>The main queries I care about right now:</p>
+<ul>
+<li>list tags</li>
+<li>lists posts under a tag</li>
+</ul>
+<p>I think this should be relatively simple. One thing that I hate about DB's
+in general is I want to be able to have cascading data more easily.
+That is a feed really implies a feed post has the same type. Or initially
+that is the case, but may not be the same always. But here and now it
+would be convenient to cascade that data downwards on any query.</p>
+<p>Structure as follows:</p>
+<ul>
+<li>Feed</li>
+<li>FeedPost</li>
+<li>Tag</li>
+<li>FeedTag
+<ul>
+<li>Many-to-Many: Between Feed &amp; Tag</li>
+</ul>
+</li>
+</ul>
 
   </body>
 

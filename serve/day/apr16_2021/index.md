@@ -32,3 +32,25 @@ It should handle
 * Podcasts
 
 So let's get going.
+
+
+Okay thinking so far a simple DB structure in SQLite.
+
+The main queries I care about right now:
+
+* list tags
+* lists posts under a tag
+
+I think this should be relatively simple. One thing that I hate about DB's
+in general is I want to be able to have cascading data more easily.
+That is a feed really implies a feed post has the same type. Or initially
+that is the case, but may not be the same always. But here and now it 
+would be convenient to cascade that data downwards on any query.
+
+Structure as follows:
+
+* Feed
+* FeedPost
+* Tag
+* FeedTag
+  * Many-to-Many: Between Feed & Tag
