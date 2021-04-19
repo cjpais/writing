@@ -21,3 +21,9 @@ the sidebar. Sweet!
 So now before we take a break I want to fix the problems with YouTube feeds
 that I am having. 
 
+Nice the YouTube problems were super easy to fix. Just needed a slightly better
+print statement. Looks like I was returning an empty object in certain
+scenarios. An obvious oversight from me. However once identified everything
+worked beautifully. So that finishes up all the morning things so time
+to clean up a bit and have some lunch, woohoo!
+
