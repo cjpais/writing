@@ -31,9 +31,10 @@ Notes on [BUZZARD.life](https://buzzard.life).
 
 ### [Software Infra 2.0](https://erikbern.com/2021/04/19/software-infrastructure-2.0-a-wishlist.html)
 
+How do we most effectively use servers which are running?
 Something about architecture I believe in, and something that I'd 
-be pretty curious to work on. How do we most effectively use servers
-which are running? I think AWS Lambda gets closer. But not quite.
+be pretty curious to work on. I think AWS Lambda gets closer. 
+But not quite.
 Well maybe I need to understand more. I actually would be curious
 how much of my API's could be run in lambda?
 
