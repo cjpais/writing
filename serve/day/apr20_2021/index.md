@@ -18,5 +18,7 @@ I think https://www.rei.com/product/162868/black-diamond-momentum-harness-mens w
 
 Check if the gym you’re going to requires an assisted braking belay device, they might be more expensive, but I have some recs on both unassisted and assisted.
 
+(add detail here...)
+
 Unassisted: [Black Diamond ATC Guide](https://www.rei.com/product/149644/black-diamond-atc-guide-belay-device)
 Assisted: [Petzl Grigri](https://www.rei.com/product/151970/petzl-grigri-belay-device)
