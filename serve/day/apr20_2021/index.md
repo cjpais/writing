@@ -38,6 +38,12 @@ But not quite.
 Well maybe I need to understand more. I actually would be curious
 how much of my API's could be run in lambda?
 
+Can running on lambda and charging just above this get to some
+closer transparent API pricing scheme? Having users pay for 
+the true price instead of what I want to charge? Could lead
+closer to fully sustainable tech. This could be something
+to experiment with in wavy.
+
 What if AWS ran on lightning network? Or some other crypto L2?
 
 > Not just that, but multi-tenancy is actually truly a “free lunch” from a resource utilization point of view, so any opportunity to pool resources represents a true win-win bargain. At the scale data centers worldwide, it's big — it depends on who you are, but you could either get excited about the gigatons of CO2 saved, or the increased corporate net income margin (I guess I like both!)
