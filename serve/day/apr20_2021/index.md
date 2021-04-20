@@ -27,7 +27,7 @@ Assisted: [Petzl Grigri](https://www.rei.com/product/151970/petzl-grigri-belay-d
 
 ### [East Meets Tech (substack)](https://thetripreport.substack.com/p/east-meets-tech)
 
-Notes on [Buzzard.life](https://buzzard.life).
+Notes on [BUZZARD.life](https://buzzard.life).
 
 ### [Software Infra 2.0](https://erikbern.com/2021/04/19/software-infrastructure-2.0-a-wishlist.html)
 
