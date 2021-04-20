@@ -47,3 +47,8 @@ to experiment with in wavy.
 What if AWS ran on lightning network? Or some other crypto L2?
 
 > Not just that, but multi-tenancy is actually truly a “free lunch” from a resource utilization point of view, so any opportunity to pool resources represents a true win-win bargain. At the scale data centers worldwide, it's big — it depends on who you are, but you could either get excited about the gigatons of CO2 saved, or the increased corporate net income margin (I guess I like both!)
+
+A note about solid API's. Definitely something I care deeply about
+and will need to think more about the API organization going forward
+with wavy.
+
