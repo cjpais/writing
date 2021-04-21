@@ -52,3 +52,17 @@ A note about solid API's. Definitely something I care deeply about
 and will need to think more about the API organization going forward
 with wavy.
 
+## Surfing
+
+I SURFED MY BOARD
+
+
+<iframe
+    width="640"
+    height="480"
+    src="https://www.youtube.com/embed/YXpz0-qh3PM"
+    frameborder="0"
+    allow="autoplay; encrypted-media"
+    allowfullscreen
+>
+</iframe>
