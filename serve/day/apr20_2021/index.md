@@ -56,7 +56,6 @@ with wavy.
 
 I SURFED MY BOARD
 
-
 <iframe
     width="640"
     height="480"
@@ -66,3 +65,10 @@ I SURFED MY BOARD
     allowfullscreen
 >
 </iframe>
+
+Wow I can't say how stoked I am. I definitely do NOT shred, but
+hey it was a ton of fun. It goes fast and feels like it can
+manuever which is dope. I think I will take it to tourmo tomorrow
+and see if I can get some smaller waves. I think I need more 
+practice on the board to really get a better hang of it. But 
+so far so good. Enjoyed it a lot and it goes *FAST*
