@@ -15,7 +15,21 @@ I have some skills I would want to focus on.
 
 * UNIX
   * basics: cd, ls, cp, mv, nano/vim, ssh
-* 
+* Programming
+  * Variables
+  * Loops
+  * Conditional Logic/Boolean Logic
+  * Interfacing with API and Documentation
+
+### Initial Thoughts
+
+#### UNIX
+
+I think one way to learn UNIX would be to set up a minecraft server and have friends
+join. And then start to do more complicated things like add plugins to the server
+and things like this.
+
+#### Programming
 
 Explainations of:
 
@@ -23,5 +37,3 @@ Explainations of:
 
 
 ## unrelated
-
-I want to think about
