@@ -189,3 +189,7 @@ Or what I am thinking about in terms of that project.
       * Especially given input and former samples
   * Be able to label (aka tag) things coming from nearly any data source
     * Put this in some kind of super generic graph, maybe starts with some manually defined labels. Generated from podcast app, is a podcast etc
+
+## Personal History
+
+Something like a huge timeline of events. Mostly consisting of my own journey through computing.
