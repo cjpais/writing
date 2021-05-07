@@ -1,4 +1,4 @@
-# Serve Website on a Subdomain using Google Domains on IPFS
+# Serve Website on a Subdomain using Google Domains and IPFS
 
 This is a quick and dirty guide to help you serve a website on IPFS.
 Specifically from a domain where the DNS is controlled by Google.
