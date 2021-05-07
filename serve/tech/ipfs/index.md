@@ -56,8 +56,6 @@ For me everything put together in Google Domains looks like (you can ignore dail
 ![First part of Google Domains](gd-1.png)
 ![Second part of Google Domains](gd-2.png)
 
-
-
 #### References
 
 * https://lucaskohorst.com/posts/decentralizing-your-website/
