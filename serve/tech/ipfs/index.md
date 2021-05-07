@@ -41,6 +41,8 @@ So really all we need to do is add some DNS records on Google Domains.
 
 For me that looked like:
 
+![Pinata Hash](pinata.png)
+
 * A record with the IPv4 Address for `cloudflare-ipfs.com`
 * AAAA record with the IPv6 Address for `cloudflare-ipfs.com`
 * TXT record named `_dnslink.<subdomain>` with value `dnslink=/ipfs/<hash>`
@@ -48,6 +50,12 @@ For me that looked like:
 This differs from the Cloudflare instructions which say to use a CNAME record
 instead of A and AAAA. However the CNAME did not resolve for me. This worked
 out. [Thanks Lucas](https://lucaskohorst.com/posts/decentralizing-your-website/).
+
+For me everything put together in Google Domains looks like:
+
+![First part of Google Domains](gd-1.png)
+![Second part of Google Domains](gd-2.png)
+
 
 
 #### References
