@@ -51,7 +51,7 @@ This differs from the Cloudflare instructions which say to use a CNAME record
 instead of A and AAAA. However the CNAME did not resolve for me. This worked
 out. [Thanks Lucas](https://lucaskohorst.com/posts/decentralizing-your-website/).
 
-For me everything put together in Google Domains looks like:
+For me everything put together in Google Domains looks like (you can ignore daily):
 
 ![First part of Google Domains](gd-1.png)
 ![Second part of Google Domains](gd-2.png)
