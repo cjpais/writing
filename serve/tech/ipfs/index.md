@@ -58,6 +58,6 @@ For me everything put together in Google Domains looks like (you can ignore dail
 
 #### References
 
-* https://lucaskohorst.com/posts/decentralizing-your-website/
-* https://www.cloudflare.com/distributed-web-gateway/
-* https://developers.cloudflare.com/distributed-web/ipfs-gateway/connecting-website
+* <https://lucaskohorst.com/posts/decentralizing-your-website/>
+* <https://www.cloudflare.com/distributed-web-gateway/>
+* <https://developers.cloudflare.com/distributed-web/ipfs-gateway/connecting-website>
