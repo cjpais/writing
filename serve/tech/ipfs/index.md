@@ -45,6 +45,9 @@ For me that looked like:
 * AAAA record with the IPv6 Address for `cloudflare-ipfs.com`
 * TXT record named `_dnslink.<subdomain>` with value `dnslink=/ipfs/<hash>`
 
+This differs from the Cloudflare instructions which say to use a CNAME record
+instead of A and AAAA. However the CNAME did not resolve for me. This worked
+out. [Thanks Lucas](https://lucaskohorst.com/posts/decentralizing-your-website/).
 
 
 #### References
