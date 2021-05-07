@@ -20,6 +20,38 @@ or perhaps like me, just a pure HTML/JS/CSS page. In any case you
 will have some <code>index.html</code> which will be the root of what you serve.</p>
 <p><img src="gol-ss.png" alt="Directory I will serve on IPFS" />
 This is what my directory looks like.</p>
+<p>Without getting too much into the weeds of IPFS, it can allow you to
+serve any static content if you add it to the network. However, someone
+needs to host this content or it will not be accessible. That is where
+'pinning' services come in. I used <a href="pinata.cloud">Pinata</a>.</p>
+<p>After signing up under the <em>free</em> account you can upload your directory
+of files.</p>
+<p>After pinning, you can see my IPFS hash is
+<code>QmXM71jqL2RkJsajPWnGJxqNUDgPgbHu6HVFHRx1bMwAAZ</code>.
+A gateway to the regular internet is required to actually access this
+file. Fortunately Cloudflare hosts one. So you can see my website
+with a crude version of Conway's Game of Life at
+https://cloudflare-ipfs.com/ipfs/QmXM71jqL2RkJsajPWnGJxqNUDgPgbHu6HVFHRx1bMwAAZ/.</p>
+<p>Cool! So you have some content on IPFS and you can even see it, even if from
+an ugly URL. How do we connect a domain to it? For example since this is the
+Game of Life I want it to be on a subdomain of my actual domain. Let's call
+it <code>gol.cjpais.com</code>. Just replace <code>gol</code> and <code>cjpais.com</code> with your subdomain
+and domain respectively.</p>
+<p>To do this Cloudflare has some good <a href="https://developers.cloudflare.com/distributed-web/ipfs-gateway/connecting-website">instructions</a>, however they didn't quite
+work for me.</p>
+<p>So really all we need to do is add some DNS records on Google Domains.</p>
+<p>For me that looked like:</p>
+<ul>
+<li>A record with the IPv4 Address for <code>cloudflare-ipfs.com</code></li>
+<li>AAAA record with the IPv6 Address for <code>cloudflare-ipfs.com</code></li>
+<li>TXT record named <code>_dnslink.&lt;subdomain&gt;</code> with value <code>dnslink=/ipfs/&lt;hash&gt;</code></li>
+</ul>
+<h4>References</h4>
+<ul>
+<li>https://lucaskohorst.com/posts/decentralizing-your-website/</li>
+<li>https://www.cloudflare.com/distributed-web-gateway/</li>
+<li>https://developers.cloudflare.com/distributed-web/ipfs-gateway/connecting-website</li>
+</ul>
 
   </body>
 
