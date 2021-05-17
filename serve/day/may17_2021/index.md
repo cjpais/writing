@@ -19,4 +19,9 @@ This one requires more thought. Right now it is served from a Go webserver
 and updated periodically on commit. Fortunately all of this could be 
 migrated to IPFS relatively easily since it is all static content.
 
-I decided to use Fleek for this and it seems to work?
+I decided to use Fleek for this and it seems to work? One problem
+for me is the amount of build minutes is quite high.. Especially
+since this is just a static website. I'm not actually building
+anything so it should just be serving static files. It is also
+worth noting that their CDN seems quite slow. Or at the very
+least a lot slower than Pinata and Cloudflare.
