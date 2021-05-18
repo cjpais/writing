@@ -9,3 +9,9 @@ BUZZARD WORK
 * Play with Metamask
 * Play with Shahruz Bank @ https://factory.gimmix.org/
 * Read latest from TG
+
+Future: 
+
+* how do calendars fit in?
+* how to actually build annotator or collect a few into a system
+  * can use hypothesis for the web?
